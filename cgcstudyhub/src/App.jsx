@@ -16,9 +16,7 @@ function Home() {
       <Navbar />
       <HeroSection />
       <CoursesSection />
-      <div className="bg-test text-black bg-w p-6 rounded-lg">
-        Tailwind is working with custom test color!
-      </div>
+      
       <ContactSection />
       <BackToTopButton />
     </div>
