@@ -1,0 +1,45 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import HeroSection from "./components/Heropsection/Herosection";
+import CoursesSection from "./components/Courses/Course";
+import ContactSection from "./components/Contact/Contact";
+import Footer from "./components/footer/Footer";
+import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
+import BtechCourses from "./components/SubCourse/BtechCourse";
+import CSE from "./components/sub-subCourses/CSE";
+import FirstSemester from "./components/SemesterSubject/FirstSemester";
+import { ThemeProvider } from "./components/Comm.compontents/theme-context";
+
+function Home() {
+  return (
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
+      <Navbar />
+      <HeroSection />
+      <CoursesSection />
+      <div className="bg-test text-black bg-w p-6 rounded-lg">
+        Tailwind is working with custom test color!
+      </div>
+      <ContactSection />
+      <BackToTopButton />
+    </div>
+  );
+}
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <Router>
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/btech" element={<BtechCourses />} />
+            <Route path="/btech/cse" element={<CSE />} />
+            <Route path="/firstsemester" element={<FirstSemester />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
+  );
+}
