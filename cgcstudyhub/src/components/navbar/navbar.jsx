@@ -4,7 +4,6 @@ import { Home, BookOpen, Award, Briefcase, Phone, ChevronUp } from "lucide-react
 import { AnimatePresence, motion } from "framer-motion";
 import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../../assets/image/mainlogo.png";
-import ThemeToggle from "../Comm.compontents/theme.toggle";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -180,7 +179,7 @@ export default function Navbar() {
           >
             {darkMode ? <FiSun className="w-5 h-5 text-yellow-400" /> : <FiMoon className="w-5 h-5 text-gray-800" />}
           </button> */}
-           <ThemeToggle />
+           
           {/* Mobile Menu Icon */}
           <div className="md:hidden">
             <button

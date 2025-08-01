@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useCallback, useMemo } from "react";
 import { motion } from "framer-motion";
-import StudyIllustration from "../../assets/image/undraw_education_3vwh.svg"; // Add your image here
+import StudyIllustration from "../../assets/image/undraw_education_3vwh.svg";
 
 export default function HeroSection() {
+  const illustration = useMemo(() => StudyIllustration, []);
+
+  const scrollToCourses = useCallback(() => {
+    const section = document.getElementById("Courses");
+    if (section) section.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
   return (
     <section
       id="Home"
       className="relative flex flex-col md:flex-row items-center justify-center 
-      min-h-[80vh] md:min-h-screen 
-      pt-36 md:pt-24 px-4 md:px-6 
-      bg-gradient-to-br from-blue-50 via-white to-blue-100  
-      dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
-      transition-colors duration-700"
+        min-h-[80vh] md:min-h-screen 
+        pt-36 md:pt-24 px-4 md:px-6 
+        bg-gradient-to-br from-blue-50 via-white to-blue-100  
+        dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
+        transition-colors duration-700"
     >
-      {/* Left Content */}
+      {/* Left Text Section */}
       <div className="px-8 flex-1 text-center md:text-left space-y-4">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
@@ -23,7 +30,8 @@ export default function HeroSection() {
         >
           <span className="italic">Hey</span>{" "}
           <span className="text-blue-600 dark:text-blue-400">CGCians</span>,
-          <br /> Welcome to <span className="text-blue-500 dark:text-blue-300">CGCStudyHub</span>
+          <br /> Welcome to{" "}
+          <span className="text-blue-500 dark:text-blue-300">CGCStudyHub</span>
         </motion.h1>
 
         <motion.p
@@ -34,26 +42,21 @@ export default function HeroSection() {
         >
           "Your one-stop hub for free notes, courses, and growth."
         </motion.p>
-         
+
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.7 }}
-          onClick={() => {
-            const courseSection = document.getElementById("Courses");
-            if (courseSection) {
-              courseSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
+          onClick={scrollToCourses}
           className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-lg shadow-md transition-all duration-300"
         >
           Explore Courses
         </motion.button>
       </div>
 
-      {/* Right Illustration */}
+      {/* Right Animated Illustration */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -61,9 +64,10 @@ export default function HeroSection() {
         className="flex-1 flex justify-center mt-8 md:mt-0"
       >
         <motion.img
-          src={StudyIllustration}
+          src={illustration}
           alt="Study"
           className="w-64 sm:w-72 md:w-[400px] object-contain drop-shadow-xl"
+          loading="lazy"
           animate={{ y: [0, -10, 0] }}
           transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
         />

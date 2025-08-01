@@ -8,7 +8,6 @@ import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
 import BtechCourses from "./components/SubCourse/BtechCourse";
 import CSE from "./components/sub-subCourses/CSE";
 import FirstSemester from "./components/SemesterSubject/FirstSemester";
-import { ThemeProvider } from "./components/Comm.compontents/theme-context";
 
 function Home() {
   return (
@@ -25,7 +24,6 @@ function Home() {
 
 export default function App() {
   return (
-    <ThemeProvider>
       <Router>
         <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
           <Navbar />
@@ -38,6 +36,5 @@ export default function App() {
           <Footer />
         </div>
       </Router>
-    </ThemeProvider>
   );
 }
