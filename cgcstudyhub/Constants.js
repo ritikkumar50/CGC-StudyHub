@@ -129,3 +129,57 @@ export const semester1Subjects = [
     ],
   },
 ];
+//2nd sem files 
+import CHEMBOOK from "./src/assets/btech-cse/sem-2/CHEM/Book - Engineering chemistry SK Bhasin.pdf";
+import CHEMUNIT1 from "./src/assets/btech-cse/sem-2/CHEM/Atomic Structures(1) (1).pdf";
+import CHEMUNIT2 from "./src/assets/btech-cse/sem-2/CHEM/Spectroscopy-compressed.pdf";
+import CHEMUNIT3 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-3.pdf";
+import CHEMUNIT4  from "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
+import CHEMUNIT5  from "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
+import CHEMUNIT6  from "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
+import CHEMUNIT7 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-7.pdf";
+export const sem2Subjects = [
+
+  {
+    subject: "CHEMISTRY",
+    units: [
+      { name: "BOOK", file: CHEMBOOK },
+      // { name: "PYQ", file: CHEMISTRYPYQ },
+      {name :"Unit-1", file: CHEMUNIT1},
+      {name :"Unit-2", file: CHEMUNIT2},
+      {name :"Unit-3", file: CHEMUNIT3},
+      {name :"Unit-4", file: CHEMUNIT4},
+      {name :"Unit-5", file: CHEMUNIT5},
+      {name :"Unit-6", file: CHEMUNIT6},
+      {name :"Unit-7", file: CHEMUNIT7},
+
+    ]
+
+  },
+{ 
+  subject : "Math-2",
+   units:[
+
+   ]
+  },
+  { 
+  subject : "English",
+   units:[
+
+   ]
+  },
+   { 
+  subject : "PPS",
+   units:[
+
+   ]
+  },
+   { 
+  subject : "WorkShop",
+   units:[
+
+   ]
+  },
+
+
+]

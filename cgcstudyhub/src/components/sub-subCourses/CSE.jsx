@@ -61,13 +61,13 @@ export default function CSE() {
         </div>
 
         {/* Segmented Control */}
-        <div className="flex justify-center mb-10">
-          <div className="bg-gray-200 dark:bg-gray-800 p-1 rounded-xl flex space-x-7">
+        <div className="flex justify-center mb-10 py-8 md:py-0">
+          <div className="bg-gray-200 dark:bg-gray-800 p-1 rounded-xl flex space-x-7 ">
             {["COE", "CEC"].map((college) => (
               <button
                 key={college}
                 onClick={() => setSelectedCollege(college)}
-                className={`px-6 py-2 rounded-lg font-semibold transition-all duration-200 ${
+                className={`px-6 py-2 rounded-lg font-semibold transition-all duration-200  ${
                   selectedCollege === college
                     ? "bg-indigo-600 text-white w-32"
                     : "bg-transparent text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
@@ -107,7 +107,7 @@ const SemesterCard = React.memo(({ sem, navigate }) => {
       transition={{ duration: 0.4, ease: "easeOut" }}
       onClick={() => {
         if (sem.id === 1) navigate("/firstsemester");
-        // TODO: Add routing for other semesters
+        else if (sem.id === 2) navigate("/secondsemester");
       }}
       className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg text-center hover:scale-105 transition-all duration-300"
     >

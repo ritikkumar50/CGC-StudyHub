@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense ,useEffect } from "react";
 import { semester1Subjects } from "../../../Constants";
 import Navbar from "../navbar/navbar";
 import { motion } from "framer-motion";
@@ -7,6 +7,11 @@ import { useNavigate } from "react-router-dom";
 
 const SemesterNotesPage = () => {
   const navigate = useNavigate();
+
+
+   useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
   return (
     <>

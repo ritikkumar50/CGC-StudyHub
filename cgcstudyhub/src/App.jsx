@@ -8,6 +8,7 @@ import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
 import BtechCourses from "./components/SubCourse/BtechCourse";
 import CSE from "./components/sub-subCourses/CSE";
 import FirstSemester from "./components/SemesterSubject/FirstSemester";
+import SecondSemester from "./components/SemesterSubject/SecondSemester";
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
       <Navbar />
       <HeroSection />
       <CoursesSection />
-      
+
       <ContactSection />
       <BackToTopButton />
     </div>
@@ -24,17 +25,18 @@ function Home() {
 
 export default function App() {
   return (
-      <Router>
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/btech" element={<BtechCourses />} />
-            <Route path="/btech/cse" element={<CSE />} />
-            <Route path="/firstsemester" element={<FirstSemester />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
+    <Router>
+      <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/btech" element={<BtechCourses />} />
+          <Route path="/btech/cse" element={<CSE />} />
+          <Route path="/firstsemester" element={<FirstSemester />} />
+          <Route path="/secondsemester" element={<SecondSemester />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
