@@ -20,14 +20,15 @@ const SemesterNotesPage = () => {
 
             <div className="relative pt-32">
                 {/* Go Back button (fixed at top left) */}
-                <button
-                    onClick={() => navigate(-1)}
-                    className="flex items-center gap-2 text-sm md:text-base text-gray-700 dark:text-gray-200 hover:text-blue-500 transition-all p-2 rounded-md"
-                >
-                    <ArrowLeft className="w-5 h-5 md:w-6 md:h-6 cursor-pointer" />
-                    <span className="hidden sm:inline">Go Back</span>
-                </button>
-
+                <div className="hidden md:block">
+                    <button
+                        onClick={() => navigate(-1)}
+                        className="flex items-center gap-2 text-sm md:text-base text-gray-700 dark:text-gray-200 hover:text-blue-500 transition-all p-2 rounded-md"
+                    >
+                        <ArrowLeft className="w-5 h-5 md:w-6 md:h-6 cursor-pointer" />
+                        <span className="hidden sm:inline">Go Back</span>
+                    </button>
+                </div>
                 {/* Full screen heading centered */}
                 <motion.div
                     className="flex flex-col items-center justify-start min-h-screen px-6 pb-16"

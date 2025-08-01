@@ -36,7 +36,7 @@ export default function BtechCourses() {
       <Navbar />
 
       {/* Go Back Arrow */}
-      <div className="max-w-6xl mx-auto px-6 mt-26">
+      <div className=" hidden md:block max-w-6xl mx-auto px-6 mt-26">
         <button
           onClick={() => navigate(-1)}
           className="flex items-center text-gray-700 dark:text-gray-300 relative group transition"
@@ -83,8 +83,8 @@ export default function BtechCourses() {
 
 
       {/* B.Tech Sub-courses Grid */}
-      <div className="px-6 py-10">
-        <h2 className="text-3xl font-bold text-center text-gray-800 white mb-8">
+      <div className="px-6 py-5">
+        <h2 className="text-3xl font-bold text-center text-gray-200 white mb-8">
           Explore B.Tech <span className="text-blue-600">Branches</span>
         </h2>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">

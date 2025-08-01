@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../navbar/navbar";
+//COE images 
 import baby1 from "../../assets/babyimage/Gemini_Generated_Image_h9eg57h9eg57h9eg.png";
 import baby2 from "../../assets/babyimage/Gemini_Generated_Image_cooxa0cooxa0coox.png";
 import baby3 from "../../assets/babyimage/Gemini_Generated_Image_6wozfy6wozfy6woz.png";
@@ -7,24 +8,45 @@ import baby4 from "../../assets/babyimage/Gemini_Generated_Image_b0e5gbb0e5gbb0e
 import baby5 from "../../assets/babyimage/Gemini_Generated_Image_3hqczz3hqczz3hqc.png";
 import baby6 from "../../assets/babyimage/Gemini_Generated_Image_34578e34578e3457.png";
 import baby7 from "../../assets/babyimage/Gemini_Generated_Image_ipewvlipewvlipew.png";
+// CEC images
+
+import cec1 from "../../assets/babyimage/Gemini_Generated_Image_rcwsmmrcwsmmrcws.png";
+import cec2 from "../../assets/babyimage/Gemini_Generated_Image_cooxa0cooxa0coox.png";
+import cec3 from "../../assets/babyimage/Gemini_Generated_Image_6wozfy6wozfy6woz.png";
+import cec4 from "../../assets/babyimage/Gemini_Generated_Image_b0e5gbb0e5gbb0e5.png";
+import cec5 from "../../assets/babyimage/Gemini_Generated_Image_3hqczz3hqczz3hqc.png";
+import cec6 from "../../assets/babyimage/Gemini_Generated_Image_34578e34578e3457.png";
+import cec7 from "../../assets/babyimage/Gemini_Generated_Image_ipewvlipewvlipew.png";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 
-const semesterData = [
-    { id: 1, title: "Semester 1", image: baby1 },
-    { id: 2, title: "Semester 2", image: baby2 },
-    { id: 3, title: "Semester 3", image: baby3 },
-    { id: 4, title: "Semester 4", image: baby4 },
-    { id: 5, title: "Semester 5", image: baby5 },
-    { id: 6, title: "Semester 6", image: baby6 },
-    { id: 7, title: "Semester 7", image: baby7 },
-];
+const semesterData = {
+    COE: [
+        { id: 1, title: "Semester 1", image: baby1 },
+        { id: 2, title: "Semester 2", image: baby2 },
+        { id: 3, title: "Semester 3", image: baby3 },
+        { id: 4, title: "Semester 4", image: baby4 },
+        { id: 5, title: "Semester 5", image: baby5 },
+        { id: 6, title: "Semester 6", image: baby6 },
+        { id: 7, title: "Semester 7", image: baby7 },
+    ],
+    CEC: [
+        { id: 1, title: "Semester 1", image: cec1 },
+        { id: 2, title: "Semester 2", image: cec2 },
+        { id: 3, title: "Semester 3", image: cec3 },
+        { id: 4, title: "Semester 4", image: cec4 },
+        { id: 5, title: "Semester 5", image: cec5 },
+        { id: 6, title: "Semester 6", image: cec6 },
+        { id: 7, title: "Semester 7", image: cec7 },
+    ],
+};
 
 
 export default function CSE() {
 
     const navigate = useNavigate();
+    const [selectedCollege, setSelectedCollege] = useState("COE");
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -36,31 +58,52 @@ export default function CSE() {
 
             <div className="max-w-6xl mx-auto px-6 py-30 cursor-pointer">
                 {/* Go Back Arrow */}
-                <div className="max-w-6xl mx-auto px-6">
+                <div className="hidden md:block max-w-6xl mx-auto px-6">
                     <button
                         onClick={() => navigate(-1)}
                         className="flex items-center text-gray-700 dark:text-gray-300 relative group transition"
                     >
-                        <ArrowLeft className="w-6 h-6 mr-2 " />
-                        <span className="font-medium hover:text-blue-600 ">Go Back</span>
+                        <ArrowLeft className="w-6 h-6 mr-2" />
+                        <span className="font-medium hover:text-blue-600">Go Back</span>
                     </button>
                 </div>
-                <h1 className="text-4xl md:text-5xl font-bold text-center text-indigo-600 dark:text-white mb-12">
-                    CSE <span className="text-indigo-600">Journey</span>
 
+
+
+                {/* Segmented Control */}
+                <div className="flex justify-center mb-8">
+                    <div className="bg-gray-200 dark:bg-gray-800 p-1 rounded-xl flex space-x-7">
+                        {["COE", "CEC"].map((college) => (
+                            <button
+                                key={college}
+                                onClick={() => setSelectedCollege(college)}
+                                className={`px-6 py-2 rounded-lg font-semibold transition-all duration-200
+                  ${selectedCollege === college
+                                        ? "bg-indigo-600 text-white w-32"
+                                        : "bg-transparent text-gray-800 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
+                                    }`}
+                            >
+                                {college}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Heading */}
+                <h1 className="text-4xl md:text-5xl font-bold text-center text-indigo-600 dark:text-white mb-12">
+                    {selectedCollege} <span className="text-indigo-600">CSE Journey</span>
                 </h1>
 
-
+                {/* Semester Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {semesterData.map((sem) => (
+                    {semesterData[selectedCollege].map((sem) => (
                         <div
                             key={sem.id}
                             onClick={() => {
-                                // Route to different semester pages
                                 if (sem.id === 1) navigate("/firstsemester");
-                                // Add similar if statements for other semesters later
+                                // Add other routes later
                             }}
-                            className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg text-center hover:scale-105 transition-all duration-300 cursor-pointer"
+                            className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg text-center hover:scale-105 transition-all duration-300"
                         >
                             <img
                                 src={sem.image}
