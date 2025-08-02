@@ -134,10 +134,47 @@ import CHEMBOOK from "./src/assets/btech-cse/sem-2/CHEM/Book - Engineering chemi
 import CHEMUNIT1 from "./src/assets/btech-cse/sem-2/CHEM/Atomic Structures(1) (1).pdf";
 import CHEMUNIT2 from "./src/assets/btech-cse/sem-2/CHEM/Spectroscopy-compressed.pdf";
 import CHEMUNIT3 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-3.pdf";
-import CHEMUNIT4  from "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
-import CHEMUNIT5  from "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
-import CHEMUNIT6  from "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
+import CHEMUNIT4 from "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
+import CHEMUNIT5 from "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
+import CHEMUNIT6 from "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
 import CHEMUNIT7 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-7.pdf";
+import ORGANIC from "./src/assets/btech-cse/sem-2/CHEM/ORGANIC CHEMISTRY.pptx";
+// Question bank 
+import questionBank from "./src/assets/btech-cse/sem-2/CHEM/Question-bank.pdf";
+import questionBank2 from "./src/assets/btech-cse/sem-2/CHEM/Short-Answer.pdf";
+import questionBank3 from "./src/assets/btech-cse/sem-2/CHEM/Theories.pdf";
+//m-2
+// import Book from "./src/assets/btech-cse/sem-2/M-2/Book.pdf";
+//english
+import Article from "./src/assets/btech-cse/sem-2/ENG/Articles.pdf";
+import BussinessMail from "./src/assets/btech-cse/sem-2/ENG/Business Emails.pdf";
+import Cliches from "./src/assets/btech-cse/sem-2/ENG/Cliches.pdf";
+import ComplaintLetter from "./src/assets/btech-cse/sem-2/ENG/Complaint Letter.pdf";
+import Mechanism from "./src/assets/btech-cse/sem-2/ENG/Describing, Defining and Classifying.pdf";
+import Prefix from "./src/assets/btech-cse/sem-2/ENG/English Notes on Prefixes, Suffixes,Antonyms, synonyms, Homonyms, Abbreviations.pdf";
+import Notes from "./src/assets/btech-cse/sem-2/ENG/English_Notes.pdf";
+import Modifiers from "./src/assets/btech-cse/sem-2/ENG/Misplaced Modifiers- Notes & QA.pdf";
+import Noun from "./src/assets/btech-cse/sem-2/ENG/Noun Pronoun Agreement.pdf";
+import Precis from "./src/assets/btech-cse/sem-2/ENG/Precis writing.pdf";
+import PurcahseOrder from "./src/assets/btech-cse/sem-2/ENG/Purchase Order.pdf";
+import ReportWirtting from "./src/assets/btech-cse/sem-2/ENG/Report Writing.pdf";
+import SalesLetter from "./src/assets/btech-cse/sem-2/ENG/SALES LETTER.pdf";
+import Lab from "./src/assets/btech-cse/sem-2/ENG/English_File.pdf";
+import Lab2 from "./src/assets/btech-cse/sem-2/ENG/PRACTICAL Interviews.pdf";
+import questionbankeng from "./src/assets/btech-cse/sem-2/ENG/English_Question_Bank.pdf";
+//Workshop
+import labManual from "./src/assets/btech-cse/sem-2/Workshop/WorkshopFile.pdf";
+import labViva from "./src/assets/btech-cse/sem-2/Workshop/Workshop_Imp_Viva_Questions.pdf";
+//PPS
+import PPSUNIT1 from "./src/assets/btech-cse/sem-2/PPS/UNIT-1.pdf";
+import PPSUNIT3 from "./src/assets/btech-cse/sem-2/PPS/UNIT-3.pdf";
+import PPSUNIT4 from "./src/assets/btech-cse/sem-2/PPS/UNIT-4.pdf";
+import PPSUNIT6 from "./src/assets/btech-cse/sem-2/PPS/Unit-6.pdf";
+import PPSUNIT7 from "./src/assets/btech-cse/sem-2/PPS/UNIT-7.pdf";
+import PPSUNIT8 from "./src/assets/btech-cse/sem-2/PPS/UNIT-8.pdf";
+import PPSUNIT9 from "./src/assets/btech-cse/sem-2/PPS/UNIT-9.pdf";
+import BOOK from "./src/assets/btech-cse/sem-2/PPS/PpsBook.pdf";
+import LabManual from "./src/assets/btech-cse/sem-2/PPS/PpsFile.pdf";
 export const sem2Subjects = [
 
   {
@@ -145,40 +182,70 @@ export const sem2Subjects = [
     units: [
       { name: "BOOK", file: CHEMBOOK },
       // { name: "PYQ", file: CHEMISTRYPYQ },
-      {name :"Unit-1", file: CHEMUNIT1},
-      {name :"Unit-2", file: CHEMUNIT2},
-      {name :"Unit-3", file: CHEMUNIT3},
-      {name :"Unit-4", file: CHEMUNIT4},
-      {name :"Unit-5", file: CHEMUNIT5},
-      {name :"Unit-6", file: CHEMUNIT6},
-      {name :"Unit-7", file: CHEMUNIT7},
+      { name: "Unit-1", file: CHEMUNIT1 },
+      { name: "Unit-2", file: CHEMUNIT2 },
+      { name: "Unit-3", file: CHEMUNIT3 },
+      { name: "Unit-4", file: CHEMUNIT4 },
+      { name: "Unit-5", file: CHEMUNIT5 },
+      { name: "Unit-6", file: CHEMUNIT6 },
+      { name: "Unit-7", file: CHEMUNIT7 },
+      { name: "orgainic Chemistry (PPT)", file: ORGANIC },
+      { name: "Question Bank1", file: questionBank },
+      { name: "Short-Ans", file: questionBank2 },
+      { name: "Theories", file: questionBank3 },
+    ],
+
+  },
+  {
+    subject: "ENGLISH",
+    units: [
+      { name: "Article Notes", file: Article },
+      { name: "Bussiness Letter", file: BussinessMail },
+      { name: "Cliches Notes", file: Cliches },
+      { name: "Complaint Letter", file: ComplaintLetter },
+      { name: "Mechanism Notes", file: Mechanism },
+      { name: "Prefix Notes", file: Prefix },
+      { name: "Notes", file: Notes },
+      { name: "Modifiers Notes", file: Modifiers },
+      { name: "Noun Notes", file: Noun },
+      { name: "Precis Notes", file: Precis },
+      { name: "PurcahseOrder Letter", file: PurcahseOrder },
+      { name: "Report Wirtting Letter", file: ReportWirtting },
+      { name: "SalesLetter", file: SalesLetter },
+      { name: "LabManual", file: Lab },
+      { name: "LabManual2", file: Lab2 },
+      { name: "Question bank", file: questionbankeng },
 
     ]
-
   },
-{ 
-  subject : "Math-2",
-   units:[
+  {
+    subject: "M-2",
+    units: [
+      // {name:"BOOK", file: Book}
 
-   ]
+    ]
   },
-  { 
-  subject : "English",
-   units:[
+  {
+    subject: "PPS",
+    units: [
+       {name:"Unit-1", file:PPSUNIT1},
+       {name:"Unit-3", file:PPSUNIT3},
+       {name:"Unit-4", file:PPSUNIT4},
+       {name:"Unit-6", file:PPSUNIT6},
+       {name:"Unit-7", file:PPSUNIT7},
+       {name:"Unit-8", file:PPSUNIT8},
+       {name:"Unit-9", file:PPSUNIT9},
+       {name:"LabManual", file:LabManual},
+       {name:"BOOK", file:BOOK},
 
-   ]
+    ]
   },
-   { 
-  subject : "PPS",
-   units:[
-
-   ]
-  },
-   { 
-  subject : "WorkShop",
-   units:[
-
-   ]
+  {
+    subject: "WorkShop",
+    units: [
+       {name:"Lab Manual", file:labManual},
+       {name:"Lab (viva)" , file:labViva},
+    ]
   },
 
 

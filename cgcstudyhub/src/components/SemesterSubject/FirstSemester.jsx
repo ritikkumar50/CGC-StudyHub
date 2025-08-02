@@ -1,17 +1,17 @@
-import React, { Suspense ,useEffect } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { semester1Subjects } from "../../../Constants";
 import Navbar from "../navbar/navbar";
 import { motion } from "framer-motion";
-import { ArrowLeft, FileText } from "lucide-react";
+import { ArrowLeft, FileText, ChevronDown, ChevronUp } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const SemesterNotesPage = () => {
   const navigate = useNavigate();
 
 
-   useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -55,6 +55,17 @@ const SemesterNotesPage = () => {
 
 // ✅ Extracted block into a lazy-rendered component
 const SubjectBlock = ({ subject, delay }) => {
+
+  const [isNotesOpen, setIsNotesOpen] = useState(false);
+
+  const notes = subject.units.filter((unit) =>
+    unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
+  );
+  const others = subject.units.filter(
+    (unit) =>
+      !unit.name.toLowerCase().includes("unit") &&
+      !unit.name.toLowerCase().includes("notes")
+  );
   return (
     <motion.div
       className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 shadow-md"
@@ -67,11 +78,34 @@ const SubjectBlock = ({ subject, delay }) => {
         {subject.subject}
       </h2>
 
+
+      {/* Other Files (Books, PYQs, etc.) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ml-2">
-        {subject.units.map((unit, unitIndex) => (
+        {others.map((unit, unitIndex) => (
           <UnitLink key={unitIndex} unit={unit} delay={unitIndex * 0.05} />
         ))}
       </div>
+
+      {/* Notes Section */}
+      {notes.length > 0 && (
+        <div className="mt-6">
+          <button
+            onClick={() => setIsNotesOpen(!isNotesOpen)}
+            className="flex items-center justify-between  text-left text-white px-2 py-2  rounded-md hover:bg-white/20 transition"
+          >
+            <span className="text-lg font-semibold">Notes</span>
+            {isNotesOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+          </button>
+
+          {isNotesOpen && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 ml-2">
+              {notes.map((unit, unitIndex) => (
+                <UnitLink key={unitIndex} unit={unit} delay={unitIndex * 0.05} />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </motion.div>
   );
 };
