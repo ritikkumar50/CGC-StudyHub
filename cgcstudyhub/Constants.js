@@ -247,6 +247,114 @@ export const sem2Subjects = [
        {name:"Lab (viva)" , file:labViva},
     ]
   },
+]
+//3rd semester
+import OOPSUNIT1 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-1.pdf";
+import OOPSUNIT2 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-2.pdf";
+import OOPSUNIT3 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-3.pdf";
+import OOPSUNIT4 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-4.pdf";
+import OOPSUNIT5 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-5.pdf";
+import OOPSlabManual from "./src/assets/btech-cse/sem-3/OOPS/oops lab.pdf";
+//DE
+import Notes1 from "./src/assets/btech-cse/sem-3/DE/Class DE L3 1.9.2021.pdf";
+import Notes2 from "./src/assets/btech-cse/sem-3/DE/Class DE L3 3.9.2021.pdf";
+import Notes3 from "./src/assets/btech-cse/sem-3/DE/Class DE L4 4.9.2021.pdf";
+import Notes4 from "./src/assets/btech-cse/sem-3/DE/Class DE L6 9.9.2021.pdf";
+import Notes5 from "./src/assets/btech-cse/sem-3/DE/Class DE L7 10.9.2021.pdf";
+import Notes6 from "./src/assets/btech-cse/sem-3/DE/Class DE L8 13.9.2021.pdf";
+import Notes7 from "./src/assets/btech-cse/sem-3/DE/Class DE L9 16.9.2021.pdf";
+import Notes8 from "./src/assets/btech-cse/sem-3/DE/Class DE L9 17.9.2021.pdf";
+import Notes9 from "./src/assets/btech-cse/sem-3/DE/Class DE L11 20.9.2021.pdf";
+import Notes10 from "./src/assets/btech-cse/sem-3/DE/Class DE L12 23.9.2021.pdf";
+import Notes11 from "./src/assets/btech-cse/sem-3/DE/Class DE L14 28.9.2021.pdf";
+import Notes12 from "./src/assets/btech-cse/sem-3/DE/Class DE L15 30.9.2021 (1).pdf";
+import Notes13 from "./src/assets/btech-cse/sem-3/DE/Class DE L16 5.10.2021.pdf";
+import Notes14 from "./src/assets/btech-cse/sem-3/DE/L DE 31.8.2021.pdf";
+//DOS
+import IMP from "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
+import Topic1 from "./src/assets/btech-cse/sem-3/DOS/capitalism.pdf";
+import Topic2 from "./src/assets/btech-cse/sem-3/DOS/buddhist economist.pdf";
+import Topic3 from "./src/assets/btech-cse/sem-3/DOS/Economic Activities PDF.pdf";
+import Topic4 from "./src/assets/btech-cse/sem-3/DOS/economic development.pdf";
+import Topic5 from "./src/assets/btech-cse/sem-3/DOS/ECONOMIC INSTITUTION PDF.pdf";
+import Topic6 from "./src/assets/btech-cse/sem-3/DOS/socialism marxism.pdf";
+import Topic7 from "./src/assets/btech-cse/sem-3/DOS/TypesofGovernment.pdf";
+import Topic8 from "./src/assets/btech-cse/sem-3/DOS/What is Socialism.pdf";
+import question from "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
+import question2 from "./src/assets/btech-cse/sem-3/DOS/IMPORTANT QUESTION OF 3RD UNIT 4 MARKS.pdf";
+import DOSBOOK from  "./src/assets/btech-cse/sem-3/DOS/PDF_BOOK 1.pdf";
+//dsa
+import Module1 from "./src/assets/btech-cse/sem-3/DSA/DS MODULE 1_merged.pdf";
+import Module2 from "./src/assets/btech-cse/sem-3/DSA/Module2.pdf";
+import Module3 from "./src/assets/btech-cse/sem-3/DSA/Module3.pdf";
+import Module4 from "./src/assets/btech-cse/sem-3/DSA/Module4.pdf";
+import Module5 from "./src/assets/btech-cse/sem-3/DSA/Module5.pdf";
+import Question from "./src/assets/btech-cse/sem-3/DSA/DS JAN 2021.pdf";
+import Question2 from "./src/assets/btech-cse/sem-3/DSA/DS PTU SOLVED PAPERS.pdf";
+import DSALab from "./src/assets/btech-cse/sem-3/DSA/DS_File.pdf";
+
+export const sem3Subjects = [
+
+  {
+    subject : "OOPS",
+    units :[
+      {name:"Unit-1", file:OOPSUNIT1},
+      {name:"Unit-2", file:OOPSUNIT2},
+      {name:"Unit-3", file:OOPSUNIT3},
+      {name:"Unit-4", file:OOPSUNIT4},
+      {name:"Unit-5", file:OOPSUNIT5},
+      {name:"LabManual", file:OOPSlabManual},
+    ],
+  },
+ {
+  subject:"DE",
+  units:[
+     {name:"Notes-1", file:Notes1},
+     {name:"Notes-2", file:Notes2},
+     {name:"Notes-3", file:Notes3},
+     {name:"Notes-4", file:Notes4},
+     {name:"Notes-5", file:Notes5},
+     {name:"Notes-6", file:Notes6},
+     {name:"Notes-7", file:Notes7},
+     {name:"Notes-8", file:Notes8},
+     {name:"Notes-9", file:Notes9},
+     {name:"Notes-10", file:Notes10},
+     {name:"Notes-11", file:Notes11},
+     {name:"Notes-12", file:Notes12},
+     {name:"Notes-13", file:Notes13},
+     {name:"Notes-14", file:Notes14},
+  ],
+ },
+ {
+  subject:"DOS",
+  units:[
+     {name:"Imp Questions", file:IMP},
+     {name:"capitalism-Topic", file:Topic1},
+     {name:"buddhist economist-Topic", file:Topic2},
+     {name:"Economic Activities-Topic", file:Topic3},
+     {name:"economic development-Topic", file:Topic4},
+     {name:"ECONOMIC INSTITUTION-Topic", file:Topic5},
+     {name:"socialism marxism-Topic", file:Topic6},
+     {name:"TypesofGovernment-Topic", file:Topic7},
+     {name:"Socialism-topic", file:Topic8},
+     {name:"QuestionBank", file:question},
+     {name:"QuestionBank2", file:question2},
+     {name:"BOOK", file:DOSBOOK},
+  ],
+ },
+ {
+    subject:"DSA",
+    units:[
+       {name:"Unit-1", file:Module1},
+       {name:"Unit-2", file:Module2},
+       {name:"Unit-3", file:Module3},
+       {name:"Unit-4", file:Module4},
+       {name:"Unit-5", file:Module5},
+       {name:"PYQ", file:Question},
+       {name:"PYQ(solved)", file:Question2},
+       {name:"LabManual", file:DSALab}
+    ],
+ },
 
 
 ]

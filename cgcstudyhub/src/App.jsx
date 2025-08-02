@@ -9,7 +9,7 @@ import BtechCourses from "./components/SubCourse/BtechCourse";
 import CSE from "./components/sub-subCourses/CSE";
 import FirstSemester from "./components/SemesterSubject/FirstSemester";
 import SecondSemester from "./components/SemesterSubject/SecondSemester";
-
+import ThirdSemester from "./components/SemesterSubject/ThirdSemester";
 function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
@@ -34,6 +34,7 @@ export default function App() {
           <Route path="/btech/cse" element={<CSE />} />
           <Route path="/firstsemester" element={<FirstSemester />} />
           <Route path="/secondsemester" element={<SecondSemester />} />
+          <Route path="/thirdsemester" element={<ThirdSemester />} />
         </Routes>
         <Footer />
       </div>

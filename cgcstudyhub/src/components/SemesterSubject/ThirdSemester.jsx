@@ -1,11 +1,11 @@
 import React, { useEffect, Suspense, useState } from "react";
-import { sem2Subjects } from "../../../Constants";
+import { sem3Subjects } from "../../../Constants";
 import Navbar from "../navbar/navbar";
 import { ArrowLeft, FileText, ChevronUp, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
-const SecondSemester = () => {
+const ThirdSemester = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -33,12 +33,12 @@ const SecondSemester = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <h1 className="text-5xl font-bold text-center text-white mb-16">
-            Semester 2 Notes
+            Semester 3 Notes
           </h1>
 
           <div className="w-full max-w-4xl space-y-8">
             <Suspense fallback={<div className="text-white">Loading Notes...</div>}>
-              {sem2Subjects.map((subject, index) => (
+              {sem3Subjects.map((subject, index) => (
                 <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
               ))}
             </Suspense>
@@ -53,23 +53,21 @@ const SubjectBlock = ({ subject, delay }) => {
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isQBOpen, setIsQBOpen] = useState(false);
   const [islabOpen, setIslabOpen] = useState(false);
-  const [isLetOpen , setIsLetOpen] = useState(false);
+//   const [isLetOpen , setIsLetOpen] = useState(false);
+const [isTOpen , setIsTOpen]= useState(false);
 
   const notes = subject.units.filter((unit) =>
     unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
   );
 
   const questionBank = subject.units.filter((unit) =>
-    unit.name.toLowerCase().includes("theories") ||
-    unit.name.toLowerCase().includes("question") ||
-    unit.name.toLowerCase().includes("short-ans")
+    unit.name.toLowerCase().includes("question") 
   );
   const labManual = subject.units.filter((unit) =>
-    unit.name.toLowerCase().includes("labmanual") // Handles both "labManual" and "labManual2"
+    unit.name.toLowerCase().includes("labmanual") 
   );
-
-  const letter = subject.units.filter((unit) =>
-    unit.name.toLowerCase().includes("letter") // Handles both "labManual" and "labManual2"
+     const topic = subject.units.filter((unit) =>
+    unit.name.toLowerCase().includes("topic") 
   );
 
   const others = subject.units.filter(
@@ -80,7 +78,8 @@ const SubjectBlock = ({ subject, delay }) => {
       !unit.name.toLowerCase().includes("question") &&
       !unit.name.toLowerCase().includes("short-ans") &&
       !unit.name.toLowerCase().includes("labmanual") &&
-      !unit.name.toLowerCase().includes("letter") 
+      !unit.name.toLowerCase().includes("letter") &&
+      !unit.name.toLowerCase().includes("topic") 
   );
 
   return (
@@ -161,19 +160,19 @@ const SubjectBlock = ({ subject, delay }) => {
           )}
         </div>
       )}
-      {letter.length > 0 && (
+      {topic.length > 0 && (
         <div className="mt-6">
           <button
-            onClick={() => setIsLetOpen(!isLetOpen)}
+            onClick={() => setIsTOpen(!isTOpen)}
             className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
-            <span className="text-lg font-semibold">Letters</span>
-            {isLetOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+            <span className="text-lg font-semibold">TOPICS</span>
+            {isTOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </button>
 
-          {isLetOpen && (
+          {isTOpen && (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 ml-2">
-              {letter.map((unit, unitIndex) => (
+              {topic.map((unit, unitIndex) => (
                 <UnitLink key={unitIndex} unit={unit} delay={unitIndex * 0.05} />
               ))}
             </div>
@@ -195,6 +194,7 @@ const UnitLink = ({ unit, delay }) => {
     if (label.includes("book")) return "bg-purple-600";
     if (label.includes("notes") || label.includes("unit")) return "bg-green-600";
     if (label.includes("syllabus")) return "bg-blue-600";
+    if (label.includes("imp")) return "bg-red-600";
     return "bg-gray-600";
   };
 
@@ -221,6 +221,8 @@ const UnitLink = ({ unit, delay }) => {
               ? "PYQ"
               : label.includes("PPT")
                 ? "PPT"
+                :label.includes("imp")
+                ?"IMP"
                 : label.includes("book")
                   ? "Book"
                   : label.includes("notes") || label.includes("unit")
@@ -246,4 +248,4 @@ const UnitLink = ({ unit, delay }) => {
     </motion.div>
   );
 };
-export default SecondSemester;
+export default ThirdSemester;
