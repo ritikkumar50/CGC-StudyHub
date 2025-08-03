@@ -121,6 +121,8 @@ const UnitLink = ({ unit, delay }) => {
     if (label.includes("syllabus")) return "bg-blue-600";
     return "bg-gray-600";
   };
+   const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+
 
   return (
     <motion.div
@@ -132,27 +134,48 @@ const UnitLink = ({ unit, delay }) => {
     >
       <FileText className="w-5 h-5 text-red-500 shrink-0" />
 
-      <a
-        href={unit.file}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-600 text-lg transition-colors flex items-center space-x-2"
-      >
-        <span>{unit.name}</span>
-        <span
-          className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}
+     
+      {isMobile ? (
+        <a
+          href={unit.file}
+          download
+          className="text-blue-400 hover:text-blue-600 text-lg transition-colors flex items-center space-x-2"
         >
-          {label.includes("pyq")
-            ? "PYQ"
-            : label.includes("book")
-              ? "Book"
-              : label.includes("notes") || label.includes("unit")
-                ? "Notes"
-                : label.includes("syllabus")
-                  ? "Syllabus"
-                  : "PDF"}
-        </span>
-      </a>
+          <span>{unit.name}</span>
+          <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
+            {label.includes("pyq")
+              ? "PYQ"
+              : label.includes("book")
+                ? "Book"
+                : label.includes("notes") || label.includes("unit")
+                  ? "Notes"
+                  : label.includes("syllabus")
+                    ? "Syllabus"
+                    : "PDF"}
+          </span>
+        </a>
+      ) : (
+        <a
+          href={unit.file}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-600 text-lg transition-colors flex items-center space-x-2"
+        >
+          <span>{unit.name}</span>
+          <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
+            {label.includes("pyq")
+              ? "PYQ"
+              : label.includes("book")
+                ? "Book"
+                : label.includes("notes") || label.includes("unit")
+                  ? "Notes"
+                  : label.includes("syllabus")
+                    ? "Syllabus"
+                    : "PDF"}
+          </span>
+        </a>
+      )}
+
     </motion.div>
   );
 };
