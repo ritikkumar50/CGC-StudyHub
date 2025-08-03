@@ -80,8 +80,8 @@ import BEEPYQ from "./src/assets/btech-cse/sem-1/BEE/BEE-2022.pdf";
 //EGD
 // import EGDBOOK from "./src/assets/btech-cse/sem-1/EGD/EGD_Book.pdf";
 // import EGDPYQ from "./src/assets/btech-cse/sem-1/EGD/EGD-2022.pdf";
-const EGDBOOK = "/!st-Sem/EGD/EGD_Book.pdf";
-const EGDPYQ = "/!st-Sem/EGD/EGD-2022.pdf";
+const EGDBOOK = "/1st-Sem/EGD/EGD_Book.pdf";
+const EGDPYQ = "/1st-Sem/EGD/EGD-2022.pdf";
 
 export const semester1Subjects = [
   {
@@ -125,8 +125,8 @@ export const semester1Subjects = [
   }, {
     subject: "EGD",
     units: [
-      { name: "BOOK", file: /!st-Sem/EGD/EGD_Book.pdf },
-      { name: "PYQ", file: "/!st-Sem/EGD/EGD-2022.pdf "},
+      { name: "BOOK", file: "/1st-Sem/EGD/EGD_Book.pdf" },
+      { name: "PYQ", file: "/1st-Sem/EGD/EGD-2022.pdf "},
 
     ],
   },
