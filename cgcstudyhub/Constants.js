@@ -125,8 +125,8 @@ export const semester1Subjects = [
   }, {
     subject: "EGD",
     units: [
-      { name: "BOOK", file:EGDBOOK},
-      { name: "PYQ", file: "/1st-Sem/EGD/EGD-2022.pdf" },
+      { name: "BOOK", file:"public/1st-Sem/EGD/EGD_Book.pdf" },
+      { name: "PYQ", file: "public/1st-Sem/EGD/EGD_2022.pdf" },
 
     ],
   },
