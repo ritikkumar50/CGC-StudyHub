@@ -1,9 +1,10 @@
 import React, { useEffect, Suspense, useState } from "react";
-import { sem2Subjects } from "../../../Constants";
-import Navbar from "../navbar/navbar";
+
+import Navbar from "../../navbar/navbar";
 import { ArrowLeft, FileText, ChevronUp, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { sem2Subjects } from "../../../../Constants";
 
 const SecondSemester = () => {
   const navigate = useNavigate();
@@ -32,7 +33,7 @@ const SecondSemester = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h1 className="text-5xl font-bold text-center text-white mb-16">
+          <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
             Semester 2 Notes
           </h1>
 
@@ -91,7 +92,7 @@ const SubjectBlock = ({ subject, delay }) => {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.4, delay }}
     >
-      <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 border-b border-gray-500 pb-2">
+      <h2 className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4 border-b border-gray-500 pb-2">
         {subject.subject}
       </h2>
 
@@ -107,7 +108,7 @@ const SubjectBlock = ({ subject, delay }) => {
         <div className="mt-6">
           <button
             onClick={() => setIsNotesOpen(!isNotesOpen)}
-            className="flex items-center justify-between  text-left text-white px-2 py-2  rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between  text-left text-black dark:text-white px-2 py-2  rounded-md hover:bg-white/20 transition"
           >
             <span className="text-lg font-semibold">Notes</span>
             {isNotesOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
@@ -127,7 +128,7 @@ const SubjectBlock = ({ subject, delay }) => {
         <div className="mt-6">
           <button
             onClick={() => setIsQBOpen(!isQBOpen)}
-            className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
             <span className="text-lg font-semibold">Question Bank</span>
             {isQBOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
@@ -146,7 +147,7 @@ const SubjectBlock = ({ subject, delay }) => {
         <div className="mt-6">
           <button
             onClick={() => setIslabOpen(!islabOpen)}
-            className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
             <span className="text-lg font-semibold">Lab Manual</span>
             {islabOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}

@@ -7,11 +7,12 @@ import Footer from "./components/footer/Footer";
 import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
 import BtechCourses from "./components/SubCourse/BtechCourse";
 import CSE from "./components/sub-subCourses/CSE";
-import FirstSemester from "./components/SemesterSubject/FirstSemester";
-import SecondSemester from "./components/SemesterSubject/SecondSemester";
-import ThirdSemester from "./components/SemesterSubject/ThirdSemester";
+import FirstSemester from "./components/All-Semester/Btech-CSE/FirstSemester";
+import SecondSemester from "./components/All-Semester/Btech-CSE/SecondSemester";
+import ThirdSemester from "./components/All-Semester/Btech-Cse/ThirdSemester";
+
 function Home() {
-  return (
+  return (  
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
       <Navbar />
       <HeroSection />

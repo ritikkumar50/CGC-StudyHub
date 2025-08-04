@@ -1,6 +1,6 @@
 import React, { useEffect, Suspense, useState } from "react";
-import { sem3Subjects } from "../../../Constants";
-import Navbar from "../navbar/navbar";
+import { sem3Subjects } from "../../../../Constants";
+import Navbar from "../../navbar/navbar";
 import { ArrowLeft, FileText, ChevronUp, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -32,7 +32,7 @@ const ThirdSemester = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h1 className="text-5xl font-bold text-center text-white mb-16">
+          <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
             Semester 3 Notes
           </h1>
 
@@ -90,7 +90,7 @@ const [isTOpen , setIsTOpen]= useState(false);
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.4, delay }}
     >
-      <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 border-b border-gray-500 pb-2">
+      <h2 className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4 border-b border-gray-500 pb-2">
         {subject.subject}
       </h2>
 
@@ -106,9 +106,9 @@ const [isTOpen , setIsTOpen]= useState(false);
         <div className="mt-6">
           <button
             onClick={() => setIsNotesOpen(!isNotesOpen)}
-            className="flex items-center justify-between  text-left text-white px-2 py-2  rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between  text-left text-black dark:text-white px-2 py-2  rounded-md hover:bg-white/20 transition"
           >
-            <span className="text-lg font-semibold">Notes</span>
+            <span className="text-lg font-semibold text-black dark:text-white">Notes</span>
             {isNotesOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </button>
 
@@ -126,9 +126,9 @@ const [isTOpen , setIsTOpen]= useState(false);
         <div className="mt-6">
           <button
             onClick={() => setIsQBOpen(!isQBOpen)}
-            className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
-            <span className="text-lg font-semibold">Question Bank</span>
+            <span className="text-lg font-semibold text-black dark:text-white">Question Bank</span>
             {isQBOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </button>
 
@@ -147,12 +147,12 @@ const [isTOpen , setIsTOpen]= useState(false);
             onClick={() => setIslabOpen(!islabOpen)}
             className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
-            <span className="text-lg font-semibold">Lab Manual</span>
+            <span className="text-lg font-semibold text-black dark:text-white">Lab Manual</span>
             {islabOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </button>
 
           {islabOpen && (
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 ml-2">
+            <div className="grid grid-cols-1 sm:grid-cols-3    gap-4 mt-4 ml-2">
               {labManual.map((unit, unitIndex) => (
                 <UnitLink key={unitIndex} unit={unit} delay={unitIndex * 0.05} />
               ))}
@@ -164,9 +164,9 @@ const [isTOpen , setIsTOpen]= useState(false);
         <div className="mt-6">
           <button
             onClick={() => setIsTOpen(!isTOpen)}
-            className="flex items-center justify-between text-left text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
+            className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
           >
-            <span className="text-lg font-semibold">TOPICS</span>
+            <span className="text-lg font-semibold text-black dark:text-white">TOPICS</span>
             {isTOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </button>
 
