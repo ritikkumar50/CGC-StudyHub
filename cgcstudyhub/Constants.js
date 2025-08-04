@@ -125,7 +125,7 @@ export const semester1Subjects = [
   }, {
     subject: "EGD",
     units: [
-      { name: "BOOK", file:"/1st-Sem/EGD/EGD_Book.pdf" },
+      { name: "BOOK", file: "/1st-Sem/EGD/EGD_Book.pdf" },
       { name: "PYQ", file: "/1st-Sem/EGD/EGD_2022.pdf" },
 
     ],
@@ -230,23 +230,23 @@ export const sem2Subjects = [
   {
     subject: "PPS",
     units: [
-       {name:"Unit-1", file:PPSUNIT1},
-       {name:"Unit-3", file:PPSUNIT3},
-       {name:"Unit-4", file:PPSUNIT4},
-       {name:"Unit-6", file:PPSUNIT6},
-       {name:"Unit-7", file:PPSUNIT7},
-       {name:"Unit-8", file:PPSUNIT8},
-       {name:"Unit-9", file:PPSUNIT9},
-       {name:"LabManual", file:LabManual},
-       {name:"BOOK", file:BOOK},
+      { name: "Unit-1", file: PPSUNIT1 },
+      { name: "Unit-3", file: PPSUNIT3 },
+      { name: "Unit-4", file: PPSUNIT4 },
+      { name: "Unit-6", file: PPSUNIT6 },
+      { name: "Unit-7", file: PPSUNIT7 },
+      { name: "Unit-8", file: PPSUNIT8 },
+      { name: "Unit-9", file: PPSUNIT9 },
+      { name: "LabManual", file: LabManual },
+      { name: "BOOK", file: BOOK },
 
     ]
   },
   {
     subject: "WorkShop",
     units: [
-       {name:"Lab Manual", file:labManual},
-       {name:"Lab (viva)" , file:labViva},
+      { name: "Lab Manual", file: labManual },
+      { name: "Lab (viva)", file: labViva },
     ]
   },
 ]
@@ -284,7 +284,7 @@ const Topic7 = "https://drive.google.com/file/d/1tN1-2GylKe-4o9VwzXoT3nogPa5FmJr
 const Topic8 = "https://drive.google.com/file/d/1PGEpLobWdYQZSVicvX-cj0hB6Avnz5yf/view?usp=drive_link";
 const question = "https://drive.google.com/file/d/1ZKs6mmAnnf6ViXZUnje_ny41dnMqocSy/view?usp=drive_link";
 const question2 = "https://drive.google.com/file/d/16obYK-Ik_UGug819PvJvy5U5Azs9sdzS/view?usp=drive_link";
-const DOSBOOK =  "https://drive.google.com/file/d/1oIkhtdHsIS74NFDo63FRtOMQ6Hd5ItCp/view?usp=drive_link";
+const DOSBOOK = "https://drive.google.com/file/d/1oIkhtdHsIS74NFDo63FRtOMQ6Hd5ItCp/view?usp=drive_link";
 //dsa
 const Module1 = "https://drive.google.com/file/d/1DAXPC418AO9GMuKIMdMSBH3iiTvSkqQw/view?usp=drive_link";
 const Module2 = "https://drive.google.com/file/d/1_meXvhy2l98WRlr0Sp6kgvi4Ip5vjx1Y/view?usp=drive_link";
@@ -298,65 +298,114 @@ const DSALab = "https://drive.google.com/file/d/17ofBdo-49VNCiYvr_kFfzCZnjfDZEDx
 export const sem3Subjects = [
 
   {
-    subject : "OOPS",
-    units :[
-      {name:"Unit-1", file:OOPSUNIT1},
-      {name:"Unit-2", file:OOPSUNIT2},
-      {name:"Unit-3", file:OOPSUNIT3},
-      {name:"Unit-4", file:OOPSUNIT4},
-      {name:"Unit-5", file:OOPSUNIT5},
-      {name:"LabManual", file:OOPSlabManual},
+    subject: "OOPS",
+    units: [
+      { name: "Unit-1", file: OOPSUNIT1 },
+      { name: "Unit-2", file: OOPSUNIT2 },
+      { name: "Unit-3", file: OOPSUNIT3 },
+      { name: "Unit-4", file: OOPSUNIT4 },
+      { name: "Unit-5", file: OOPSUNIT5 },
+      { name: "LabManual", file: OOPSlabManual },
     ],
   },
- {
-  subject:"DE",
-  units:[
-     {name:"Notes-1", file:Notes1},
-     {name:"Notes-2", file:Notes2},
-     {name:"Notes-3", file:Notes3},
-     {name:"Notes-4", file:Notes4},
-     {name:"Notes-5", file:Notes5},
-     {name:"Notes-6", file:Notes6},
-     {name:"Notes-7", file:Notes7},
-     {name:"Notes-8", file:Notes8},
-     {name:"Notes-9", file:Notes9},
-     {name:"Notes-10", file:Notes10},
-     {name:"Notes-11", file:Notes11},
-     {name:"Notes-12", file:Notes12},
-     {name:"Notes-13", file:Notes13},
-     {name:"Notes-14", file:Notes14},
-  ],
- },
- {
-  subject:"DOS",
-  units:[
-     {name:"Imp Questions", file:IMP},
-     {name:"capitalism-Topic", file:Topic1},
-     {name:"buddhist economist-Topic", file:Topic2},
-     {name:"Economic Activities-Topic", file:Topic3},
-     {name:"economic development-Topic", file:Topic4},
-     {name:"ECONOMIC INSTITUTION-Topic", file:Topic5},
-     {name:"socialism marxism-Topic", file:Topic6},
-     {name:"TypesofGovernment-Topic", file:Topic7},
-     {name:"Socialism-topic", file:Topic8},
-     {name:"QuestionBank", file:question},
-     {name:"QuestionBank2", file:question2},
-     {name:"BOOK", file:DOSBOOK},
-  ],
- },
- {
-    subject:"DSA",
-    units:[
-       {name:"Unit-1", file:Module1},
-       {name:"Unit-2", file:Module2},
-       {name:"Unit-3", file:Module3},
-       {name:"Unit-4", file:Module4},
-       {name:"Unit-5", file:Module5},
-       {name:"PYQ", file:Question},
-       {name:"PYQ(solved)", file:Question2},
-       {name:"LabManual", file:DSALab}
+  {
+    subject: "DE",
+    units: [
+      { name: "Notes-1", file: Notes1 },
+      { name: "Notes-2", file: Notes2 },
+      { name: "Notes-3", file: Notes3 },
+      { name: "Notes-4", file: Notes4 },
+      { name: "Notes-5", file: Notes5 },
+      { name: "Notes-6", file: Notes6 },
+      { name: "Notes-7", file: Notes7 },
+      { name: "Notes-8", file: Notes8 },
+      { name: "Notes-9", file: Notes9 },
+      { name: "Notes-10", file: Notes10 },
+      { name: "Notes-11", file: Notes11 },
+      { name: "Notes-12", file: Notes12 },
+      { name: "Notes-13", file: Notes13 },
+      { name: "Notes-14", file: Notes14 },
     ],
- },
+  },
+  {
+    subject: "DOS",
+    units: [
+      { name: "Imp Questions", file: IMP },
+      { name: "capitalism-Topic", file: Topic1 },
+      { name: "buddhist economist-Topic", file: Topic2 },
+      { name: "Economic Activities-Topic", file: Topic3 },
+      { name: "economic development-Topic", file: Topic4 },
+      { name: "ECONOMIC INSTITUTION-Topic", file: Topic5 },
+      { name: "socialism marxism-Topic", file: Topic6 },
+      { name: "TypesofGovernment-Topic", file: Topic7 },
+      { name: "Socialism-topic", file: Topic8 },
+      { name: "QuestionBank", file: question },
+      { name: "QuestionBank2", file: question2 },
+      { name: "BOOK", file: DOSBOOK },
+    ],
+  },
+  {
+    subject: "DSA",
+    units: [
+      { name: "Unit-1", file: Module1 },
+      { name: "Unit-2", file: Module2 },
+      { name: "Unit-3", file: Module3 },
+      { name: "Unit-4", file: Module4 },
+      { name: "Unit-5", file: Module5 },
+      { name: "PYQ", file: Question },
+      { name: "PYQ(solved)", file: Question2 },
+      { name: "LabManual", file: DSALab }
+    ],
+  },
 
 
+]
+//4th semester
+//LORDS
+const LORDS = "https://drive.google.com/file/d/1b2g0d3j4k5l6m7n8o9p0q1r2s3t4u5v6/view?usp=drive_link";
+//Handwritten module1
+const MModule1_1 = "https://drive.google.com/file/d/1il5GeCwQ_FAr0Omur2EcNS3J9bCX-vr5/view?usp=sharing";
+const MModule1_2 = "https://drive.google.com/file/d/1pfNZWUEwyVofXi0e_QF4hduiLUUqmCT2/view?usp=sharing";
+const MModule1_3 = "https://drive.google.com/file/d/1QVVjR3ywlk8oAGsCNZTyDsap9qqSBBo5/view?usp=sharing";
+const MModule1_4 = "https://drive.google.com/file/d/1QVVjR3ywlk8oAGsCNZTyDsap9qqSBBo5/view?usp=sharing";
+//handwritten module2
+const MModule2_1 = "https://drive.google.com/file/d/1mtfq0J_ixHS3cgTOgiNChQffsmRBy7dh/view?usp=sharing";
+const MModule2_2 = "https://drive.google.com/file/d/1741a4DomQvTucKP59oPyvzhf9HNwsnqm/view?usp=sharing";
+//handwritten module3
+const MModule3_1 = "https://drive.google.com/file/d/1DlgWS9zKB43HqNXTUQlgjN9Ns9ovC5td/view?usp=sharing";
+//handwritten module4
+const MModule4_1 = "https://drive.google.com/file/d/14ifn0i0haZaYEydlCwEz7xl3RIHJVoSq/view?usp=sharing";
+const MModule4_2 = "https://drive.google.com/file/d/1MPFHE1eBCeBecoLwD4p7TojPstOsFvHH/view?usp=sharing";
+//handwritten module5
+const MModule5_1 = "https://drive.google.com/file/d/1zi63oxSSDefwNpjbNTdAQ1DcUBy2m77-/view?usp=sharing";
+const MModule5_2 = "https://drive.google.com/file/d/15g9l86x_h_1hAewhAOzql_y4aXNQ4yj1/view?usp=sharing";
+//Question Bank
+const QuestionBank1 = "https://drive.google.com/file/d/1cf_gFscCS9_nrEgdiILWKDcAupLH9uHz/view?usp=sharing";
+const QuestionBank2 = "https://drive.google.com/file/d/1gau3CSq9lUXVF-ssZCJKlnagPRp7-8wB/view?usp=sharing";
+const QuestionBank3 = "https://drive.google.com/file/d/1LT26E_lU-hxdcusunw0Oyxf7jZ0t18Rx/view?usp=sharing";
+const QuestionBank4 = "https://drive.google.com/file/d/11O2B9pDwnsUcR8sBzNtduwL8q4jucQmu/view?usp=sharing";
+const QuestionBank5 = "https://drive.google.com/file/d/1g-AdyHXz9u5xDxoJhVqcf_Lae5I6fA9s/view?usp=sharing";
+export const sem4Subjects = [
+  {
+    subject: "M-4",
+    units: [
+      { name: "Module-1", file: MModule1_1, displayName: "Functions" },
+      { name: "Module-1", file: MModule1_2, displayName: "Principle of Mathematical Induction" },
+      { name: "Module-1", file: MModule1_3, displayName: "Relations" },
+      { name: "Module-1", file: MModule1_4, displayName: "Sets" },
+      { name: "Module-2", file: MModule2_1, displayName: "Combination Mathematics" },
+      { name: "Module-2", file: MModule2_2, displayName: "Inclusion Exclusion" },
+      { name: "Module-3", file: MModule3_1, displayName: "Propostional Logic" },
+      { name: "Module-4", file: MModule4_1, displayName: "Group Therory" },
+      { name: "Module-4", file: MModule4_2, displayName: "Rings and Fields" },
+      { name: "Module-5", file: MModule5_1, displayName: "Graph Theory" },
+      { name: "Module-5", file: MModule5_2, displayName: "Trees Algorithms" },
+      { name: "Question Bank-1", file: QuestionBank1 },
+      { name: "Question Bank-2", file: QuestionBank2 },
+      { name: "Question Bank-3", file: QuestionBank3 },
+      { name: "Question Bank-4", file: QuestionBank4 },
+      { name: "Question Bank-5", file: QuestionBank5 },
+      { name: "LORDS", file: LORDS },
+    ]
+  }
 ]

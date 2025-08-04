@@ -15,7 +15,7 @@ export default function HeroSection() {
       id="Home"
       className="relative flex flex-col md:flex-row items-center justify-center 
         min-h-[80vh] md:min-h-screen 
-        pt-36 md:pt-24 px-4 md:px-6 
+        pt-28 md:pt-18 px-4 md:px-6 
         bg-gradient-to-br from-blue-50 via-white to-blue-300  
         dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 
         transition-colors duration-700"

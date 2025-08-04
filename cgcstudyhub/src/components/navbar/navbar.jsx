@@ -116,7 +116,7 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed bg-blue-200 w-full top-0 z-50 transition-all  sm:py-1 duration-300 ${scrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm" : "bg-white dark:bg-gray-900"}`}>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="container mx-auto px-4 pt-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
@@ -172,7 +172,7 @@ export default function Navbar() {
                           animate="visible"
                           exit="exit"
                           variants={dropdownVariants}
-                          className="absolute left-0 mt-2 w-56 origin-top-right rounded-md bg-white dark:bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50"
+                          className="font-bold absolute left-0 mt-2 w-56 origin-top-right rounded-md bg-white dark:bg-gray-800 shadow-lg ring-opacity-5 focus:outline-none z-50"
                         >
                           <div className="py-1">
                             {item.submenu.map((sub, subIdx) => (
@@ -212,7 +212,7 @@ export default function Navbar() {
                                         animate="visible"
                                         exit="exit"
                                         variants={dropdownVariants}
-                                        className="absolute left-full top-0 ml-1 w-56 rounded-md bg-white dark:bg-gray-800 shadow-lg ring-1 ring-black ring-opacity-5 z-50"
+                                        className="absolute font-bold left-full top-0 ml-1 w-56 rounded-md bg-white dark:bg-gray-800 shadow-lg ring-opacity-5 z-50"
                                       >
                                         {sub.submenu.map((nested, nIdx) => (
                                           <motion.div 

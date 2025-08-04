@@ -10,6 +10,7 @@ import CSE from "./components/sub-subCourses/CSE";
 import FirstSemester from "./components/All-Semester/Btech-CSE/FirstSemester";
 import SecondSemester from "./components/All-Semester/Btech-CSE/SecondSemester";
 import ThirdSemester from "./components/All-Semester/Btech-CSE/ThirdSemester";
+import FourthSemester from "./components/All-Semester/Btech-CSE/FourthSem";
 
 function Home() {
   return (  
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/btech/cse/firstsemester" element={<FirstSemester />} />
           <Route path="/btech/cse/secondsemester" element={<SecondSemester />} />
           <Route path="/btech/cse/thirdsemester" element={<ThirdSemester />} />
+          <Route path="/btech/cse/fourthsemester" element={<FourthSemester />} />
         </Routes>
         <Footer />
       </div>
