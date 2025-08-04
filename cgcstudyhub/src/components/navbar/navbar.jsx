@@ -115,7 +115,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className={`fixed bg-blue-200 w-full top-0 z-50 transition-all py-1 duration-300 ${scrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm" : "bg-white dark:bg-gray-900"}`}>
+    <nav className={`fixed bg-blue-200 w-full top-0 z-50 transition-all  sm:py-1 duration-300 ${scrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm" : "bg-white dark:bg-gray-900"}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -127,7 +127,7 @@ export default function Navbar() {
               <img 
                 src={Logo} 
                 alt="Logo" 
-                className="w-12 h-12 sm:w-16 sm:h-16 object-contain" 
+                className="w-12 h-12 mt-2  sm:w-16 sm:h-16 object-contain" 
               />
               <span className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">
                 CGCStudyHub
