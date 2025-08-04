@@ -32,9 +32,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/btech" element={<BtechCourses />} />
           <Route path="/btech/cse" element={<CSE />} />
-          <Route path="/firstsemester" element={<FirstSemester />} />
-          <Route path="/secondsemester" element={<SecondSemester />} />
-          <Route path="/thirdsemester" element={<ThirdSemester />} />
+          <Route path="/btech/cse/firstsemester" element={<FirstSemester />} />
+          <Route path="/btech/cse/secondsemester" element={<SecondSemester />} />
+          <Route path="/btech/cse/thirdsemester" element={<ThirdSemester />} />
         </Routes>
         <Footer />
       </div>
