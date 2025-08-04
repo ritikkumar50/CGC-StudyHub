@@ -60,13 +60,13 @@ export const btechCourses = [
 
 // first semester notes
 
-const math1 = "./src/assets/btech-cse/sem-1/math-1/unit1.pdf";
+const math1 = "https://drive.google.com/file/d/1HqcfI6nsrG2qSzsMsZdNeLoZIHzGMu_k/view?usp=sharing";
 const CSE = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech ai ml syllabus.pdf";
 const AIML = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech cse syllabus.pdf";
 const AIDS = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech it syllabus.pdf";
 const CD = "./src/assets/btech-cse/sem-1/PTU-Examination/2024 CD EXAM.pdf";
-const pyq = "./src/assets/btech-cse/sem-1/math-1/M-1-2022.pdf";
-const PYQ = "./src/assets/btech-cse/sem-1/math-1/MATH-1-2022.pdf";
+const pyq = "https://drive.google.com/file/d/1m20ru7TXOWdkoVvhw6EEwu3vee7gw-qU/view?usp=sharing";
+const PYQ = "https://drive.google.com/file/d/14Ng-lHIemC5QX3g4lGDlElq5sIs4paIU/view?usp=sharing";
 // PHYSICS
 const unit1 = "https://drive.google.com/file/d/1CITsUZ-WCd3VL9c--On7BcOMOZXSYHYM/view?usp=sharing";
 const unit2 = "https://drive.google.com/file/d/1OcYLaBqQ7YDfCIvoYRem9uDuVNCTyZQs/view?usp=sharing";
@@ -132,51 +132,51 @@ export const semester1Subjects = [
   },
 ];
 //2nd sem files 
-const CHEMBOOK = "./src/assets/btech-cse/sem-2/CHEM/Book - Engineering chemistry SK Bhasin.pdf";
-const CHEMUNIT1 = "./src/assets/btech-cse/sem-2/CHEM/Atomic Structures(1) (1).pdf";
-const CHEMUNIT2 = "./src/assets/btech-cse/sem-2/CHEM/Spectroscopy-compressed.pdf";
-const CHEMUNIT3 = "./src/assets/btech-cse/sem-2/CHEM/UNIT-3.pdf";
-const CHEMUNIT4 = "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
-const CHEMUNIT5 = "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
-const CHEMUNIT6 = "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
-const CHEMUNIT7 = "./src/assets/btech-cse/sem-2/CHEM/UNIT-7.pdf";
-const ORGANIC = "./src/assets/btech-cse/sem-2/CHEM/ORGANIC CHEMISTRY.pptx";
+const CHEMBOOK = "https://drive.google.com/file/d/1DHA63mqcVeiM8b9uu5_Y87tBtSGhnWgG/view?usp=sharing";
+const CHEMUNIT1 = "https://drive.google.com/file/d/1jdcJFeW9GHSdGRAyqY7Zx22G6lgeiq6l/view?usp=sharing";
+const CHEMUNIT2 = "https://drive.google.com/file/d/1zc58g-nqbvcoUk1sPkRBrUsXHsS00c9R/view?usp=sharing";
+const CHEMUNIT3 = "https://drive.google.com/file/d/1xu6NyImEfe5M8ZqgC6DcQM_jKJyF1Jct/view?usp=sharing";
+const CHEMUNIT4 = "https://drive.google.com/file/d/1Vtmlx1Kyp0e9kEDaFmVrWUXE_7lfEX1L/view?usp=sharing";
+const CHEMUNIT5 = "https://drive.google.com/file/d/1myQa8KCAFPT8f3gUpVOfUB814XYRL6Fq/view?usp=sharing";
+const CHEMUNIT6 = "https://drive.google.com/file/d/1wlf0I-rbUUjcAxmc8e0dSdshszIU6txL/view?usp=sharing";
+const CHEMUNIT7 = "https://drive.google.com/file/d/1pCHlGwJM2jZHrU6amUhCNq9N7U6KzD4D/view?usp=sharing";
+const ORGANIC = "https://docs.google.com/presentation/d/1e6knn_VVT9zbW8XS2rnEwuzZwv6S6rRK/edit?usp=sharing&ouid=109230584634916341705&rtpof=true&sd=true";
 // Question bank 
-const questionBank = "./src/assets/btech-cse/sem-2/CHEM/Question-bank.pdf";
-const questionBank2 = "./src/assets/btech-cse/sem-2/CHEM/Short-Answer.pdf";
-const questionBank3 = "./src/assets/btech-cse/sem-2/CHEM/Theories.pdf";
+const questionBank = "https://drive.google.com/file/d/1CCZ1Pc0yWhOgcgyljd95q1DurUrDwbIk/view?usp=sharing";
+const questionBank2 = "https://drive.google.com/file/d/1fvyfxLxKdmOxvSr3V1rmGZcAdRMeHaws/view?usp=sharing";
+const questionBank3 = "https://drive.google.com/file/d/1basYG18W5aE0gJowKoKi0Tys-Y8Bl0EC/view?usp=sharing";
 //m-2
 // const Book = "./src/assets/btech-cse/sem-2/M-2/Book.pdf";
 //english
-const Article = "./src/assets/btech-cse/sem-2/ENG/Articles.pdf";
-const BussinessMail = "./src/assets/btech-cse/sem-2/ENG/Business Emails.pdf";
-const Cliches = "./src/assets/btech-cse/sem-2/ENG/Cliches.pdf";
-const ComplaintLetter = "./src/assets/btech-cse/sem-2/ENG/Complaint Letter.pdf";
-const Mechanism = "./src/assets/btech-cse/sem-2/ENG/Describing, Defining and Classifying.pdf";
-const Prefix = "./src/assets/btech-cse/sem-2/ENG/English Notes on Prefixes, Suffixes,Antonyms, synonyms, Homonyms, Abbreviations.pdf";
-const Notes = "./src/assets/btech-cse/sem-2/ENG/English_Notes.pdf";
-const Modifiers = "./src/assets/btech-cse/sem-2/ENG/Misplaced Modifiers- Notes & QA.pdf";
-const Noun = "./src/assets/btech-cse/sem-2/ENG/Noun Pronoun Agreement.pdf";
-const Precis = "./src/assets/btech-cse/sem-2/ENG/Precis writing.pdf";
-const PurcahseOrder = "./src/assets/btech-cse/sem-2/ENG/Purchase Order.pdf";
-const ReportWirtting = "./src/assets/btech-cse/sem-2/ENG/Report Writing.pdf";
-const SalesLetter = "./src/assets/btech-cse/sem-2/ENG/SALES LETTER.pdf";
-const Lab = "./src/assets/btech-cse/sem-2/ENG/English_File.pdf";
-const Lab2 = "./src/assets/btech-cse/sem-2/ENG/PRACTICAL Interviews.pdf";
-const questionbankeng = "./src/assets/btech-cse/sem-2/ENG/English_Question_Bank.pdf";
+const Article = "https://drive.google.com/file/d/1a-pamHmXVryPmvYgkBhfRQVh-3815HRY/view?usp=sharing";
+const BussinessMail = "https://drive.google.com/file/d/1h7P2FYfjVOkg1OW2zhEyw1p7I910_-Hy/view?usp=sharing";
+const Cliches = "https://drive.google.com/file/d/1O49pPJeWFLStl4jNFH6qCJeQcWo_eZD6/view?usp=sharing";
+const ComplaintLetter = "https://drive.google.com/file/d/1Az9LrN63L6YIqknZIqXwOaqVhdqXnSf8/view?usp=sharing";
+const Mechanism = "https://drive.google.com/file/d/1XOmkIZ3TNHDAwI0rcIhBZjXHGRkfT6Ek/view?usp=drive_linkā";
+const Prefix = "https://drive.google.com/file/d/1p-TpguUJni7NI3bF0SDT0aAm8gD0pB78/view?usp=drive_link";
+const Notes = "https://drive.google.com/file/d/1S8ncLDXQ3UKz8hSMGVtcgo3OwpVYSS2t/view?usp=drive_link";
+const Modifiers = "https://drive.google.com/file/d/1iUUulUEjyzXyw54Jr5-dopNubcExGmsW/view?usp=drive_link";
+const Noun = "https://drive.google.com/file/d/13AF-M_aheAXXiLjdJN4wyBBE3lGt7xp3/view?usp=drive_link";
+const Precis = "https://drive.google.com/file/d/1FRuZNkbaQhx3gySXcN65nirxKQquptEQ/view?usp=drive_link";
+const PurcahseOrder = "https://drive.google.com/file/d/1AUHV2OBay1eO6blUV6SoRWaT-PTVbHE6/view?usp=drive_link";
+const ReportWirtting = "https://drive.google.com/file/d/156LnEdBdETcGZsfJeYO8i8sezkSzof-F/view?usp=drive_link";
+const SalesLetter = "https://drive.google.com/file/d/1_l019X7XY3tgKU_ON8vMWKQMfF_lpAri/view?usp=drive_link";
+const Lab = "https://drive.google.com/file/d/1n4WbnsSCSxSibXz-vJTyp4JYb0731nlI/view?usp=drive_link";
+const Lab2 = "https://drive.google.com/file/d/16Sa8wD5IWJr-KquU5cuojTW90Zvm2vpA/view?usp=drive_link";
+const questionbankeng = "https://drive.google.com/file/d/1Pip1V9IbW9cOTYzQN2E-7t7dYGgRbrtA/view?usp=drive_link";
 //Workshop
-const labManual = "./src/assets/btech-cse/sem-2/Workshop/WorkshopFile.pdf";
-const labViva = "./src/assets/btech-cse/sem-2/Workshop/Workshop_Imp_Viva_Questions.pdf";
+const labManual = "https://drive.google.com/file/d/1fjjWz9m5GGixVwFnLSoHOXul1SGQCsyu/view?usp=sharing";
+const labViva = "https://drive.google.com/file/d/1Rn9ZC7zgw1OtKkez0fs2gnYcvK1gzLUt/view?usp=sharing";
 //PPS
-const PPSUNIT1 = "./src/assets/btech-cse/sem-2/PPS/UNIT-1.pdf";
-const PPSUNIT3 = "./src/assets/btech-cse/sem-2/PPS/UNIT-3.pdf";
-const PPSUNIT4 = "./src/assets/btech-cse/sem-2/PPS/UNIT-4.pdf";
-const PPSUNIT6 = "./src/assets/btech-cse/sem-2/PPS/Unit-6.pdf";
-const PPSUNIT7 = "./src/assets/btech-cse/sem-2/PPS/UNIT-7.pdf";
-const PPSUNIT8 = "./src/assets/btech-cse/sem-2/PPS/UNIT-8.pdf";
-const PPSUNIT9 = "./src/assets/btech-cse/sem-2/PPS/UNIT-9.pdf";
-const BOOK = "./src/assets/btech-cse/sem-2/PPS/PpsBook.pdf";
-const LabManual = "./src/assets/btech-cse/sem-2/PPS/PpsFile.pdf";
+const PPSUNIT1 = "https://drive.google.com/file/d/1fvn_BSg7UFROXhUz01Ol_DKUDmXse7Zi/view?usp=drive_link";
+const PPSUNIT3 = "https://drive.google.com/file/d/1Z22LTb1wqGO5nlSbNzKaUglho5vFTEav/view?usp=drive_link";
+const PPSUNIT4 = "https://drive.google.com/file/d/1xZgfi6IiRizCtjXn8cWDqKYtyuEiexNE/view?usp=drive_link";
+const PPSUNIT6 = "https://drive.google.com/file/d/1KZxlG3AewCy7WMrt0KxQMFOB6hMDE91-/view?usp=drive_link";
+const PPSUNIT7 = "https://drive.google.com/file/d/1PUdJ02bpKzeHy_HciheQntZwD18-7Gr3/view?usp=drive_link";
+const PPSUNIT8 = "https://drive.google.com/file/d/1hRvLNd8Zq9AZAJCsHVHLPa5s8nXFAE3y/view?usp=drive_link";
+const PPSUNIT9 = "https://drive.google.com/file/d/1I3qzICJq3zqioq1xaNpppg7VR7g7KS3Z/view?usp=drive_link";
+const BOOK = "https://drive.google.com/file/d/1ALVxiWqzHT0ePIUHRWljwxo9cr_42s5J/view?usp=drive_link";
+const LabManual = "https://drive.google.com/file/d/1dwKDVxjTZ6R5tKG5_fJgjifm5PWEZl5_/view?usp=drive_link";
 export const sem2Subjects = [
 
   {
@@ -251,49 +251,49 @@ export const sem2Subjects = [
   },
 ]
 //3rd semester
-const OOPSUNIT1 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-1.pdf";
-const OOPSUNIT2 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-2.pdf";
-const OOPSUNIT3 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-3.pdf";
-const OOPSUNIT4 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-4.pdf";
-const OOPSUNIT5 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-5.pdf";
-const OOPSlabManual = "./src/assets/btech-cse/sem-3/OOPS/oops lab.pdf";
+const OOPSUNIT1 = "https://drive.google.com/file/d/1I5FVooLBatoWosXtJH75LUzPYE5d2Nkv/view?usp=drive_link";
+const OOPSUNIT2 = "https://drive.google.com/file/d/10U2foDhD1VRZ-p5-3TSzNUd7flUfsFT_/view?usp=drive_link";
+const OOPSUNIT3 = "https://drive.google.com/file/d/1LGhQ2zh5n1SUx1YCXcxdpRigyJZpvZca/view?usp=drive_link";
+const OOPSUNIT4 = "https://drive.google.com/file/d/1ruB82HBydALVlt07xpN0ln1-UGbtmIrw/view?usp=drive_link";
+const OOPSUNIT5 = "https://drive.google.com/file/d/1D4MWeWRpmbse5cfEb9oxBxSr0Q8OjPhr/view?usp=drive_link";
+const OOPSlabManual = "https://drive.google.com/file/d/119umK-fh7HXykxlhkMSKeIG2M-7wPox9/view?usp=drive_link";
 //DE
-const Notes1 = "./src/assets/btech-cse/sem-3/DE/Class DE L3 1.9.2021.pdf";
-const Notes2 = "./src/assets/btech-cse/sem-3/DE/Class DE L3 3.9.2021.pdf";
-const Notes3 = "./src/assets/btech-cse/sem-3/DE/Class DE L4 4.9.2021.pdf";
-const Notes4 = "./src/assets/btech-cse/sem-3/DE/Class DE L6 9.9.2021.pdf";
-const Notes5 = "./src/assets/btech-cse/sem-3/DE/Class DE L7 10.9.2021.pdf";
-const Notes6 = "./src/assets/btech-cse/sem-3/DE/Class DE L8 13.9.2021.pdf";
-const Notes7 = "./src/assets/btech-cse/sem-3/DE/Class DE L9 16.9.2021.pdf";
-const Notes8 = "./src/assets/btech-cse/sem-3/DE/Class DE L9 17.9.2021.pdf";
-const Notes9 = "./src/assets/btech-cse/sem-3/DE/Class DE L11 20.9.2021.pdf";
-const Notes10 = "./src/assets/btech-cse/sem-3/DE/Class DE L12 23.9.2021.pdf";
-const Notes11 = "./src/assets/btech-cse/sem-3/DE/Class DE L14 28.9.2021.pdf";
-const Notes12 = "./src/assets/btech-cse/sem-3/DE/Class DE L15 30.9.2021 (1).pdf";
-const Notes13 = "./src/assets/btech-cse/sem-3/DE/Class DE L16 5.10.2021.pdf";
-const Notes14 = "./src/assets/btech-cse/sem-3/DE/L DE 31.8.2021.pdf";
+const Notes1 = "https://drive.google.com/file/d/1ZQ2ms75FeMSm_ES9hDsIhwxM6PgIwvdz/view?usp=drive_link";
+const Notes2 = "https://drive.google.com/file/d/1UiHvPo6oCEltOcfPrwS70u7N8pkFN3zB/view?usp=drive_link";
+const Notes3 = "https://drive.google.com/file/d/1h2MsntHsPZch14JrtQGda5nQxEfnVvRb/view?usp=drive_link";
+const Notes4 = "https://drive.google.com/file/d/19tIUQ2oWGTNPp1SOrot0goHqJjuIpOP-/view?usp=drive_link";
+const Notes5 = "https://drive.google.com/file/d/1UJIdAbwLDy_TmHCCX-1nG3-3OC0dmIwB/view?usp=drive_link";
+const Notes6 = "https://drive.google.com/file/d/1n7TkOKy9bSx0RErZ0YOqsxaIIUtpF28Z/view?usp=drive_link";
+const Notes7 = "https://drive.google.com/file/d/1Jrkdzr_GGcP1QEwqNjcvwzoQY0OZ5Raz/view?usp=drive_link";
+const Notes8 = "https://drive.google.com/file/d/1rD3qsG7Hc_K2MP8x70mR-R6xcr1j6oEA/view?usp=drive_link";
+const Notes9 = "https://drive.google.com/file/d/1cIyzofyx4YofUId9UaZ7CaApEAiJC1t2/view?usp=drive_link";
+const Notes10 = "https://drive.google.com/file/d/1rPcFHh9fGFzCAuVtx_fR17JyiXqry0OD/view?usp=drive_link";
+const Notes11 = "https://drive.google.com/file/d/1QKka_p7_r-i1O3ALgWQovLpaV2pRRDoY/view?usp=drive_link";
+const Notes12 = "https://drive.google.com/file/d/130zlq7DRBTod0fWPiZoPmtxifRUWJDEe/view?usp=drive_link";
+const Notes13 = "https://drive.google.com/file/d/1f5sclhCjPwjwa_JmlmIRRIfKCbz6ipr5/view?usp=drive_link";
+const Notes14 = "https://drive.google.com/file/d/1UxD5QVQYt9oZr4VGqwLJUbgnTngjd-Ez/view?usp=drive_link";
 //DOS
-const IMP = "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
-const Topic1 = "./src/assets/btech-cse/sem-3/DOS/capitalism.pdf";
-const Topic2 = "./src/assets/btech-cse/sem-3/DOS/buddhist economist.pdf";
-const Topic3 = "./src/assets/btech-cse/sem-3/DOS/Economic Activities PDF.pdf";
-const Topic4 = "./src/assets/btech-cse/sem-3/DOS/economic development.pdf";
-const Topic5 = "./src/assets/btech-cse/sem-3/DOS/ECONOMIC INSTITUTION PDF.pdf";
-const Topic6 = "./src/assets/btech-cse/sem-3/DOS/socialism marxism.pdf";
-const Topic7 = "./src/assets/btech-cse/sem-3/DOS/TypesofGovernment.pdf";
-const Topic8 = "./src/assets/btech-cse/sem-3/DOS/What is Socialism.pdf";
-const question = "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
-const question2 = "./src/assets/btech-cse/sem-3/DOS/IMPORTANT QUESTION OF 3RD UNIT 4 MARKS.pdf";
-const DOSBOOK =  "./src/assets/btech-cse/sem-3/DOS/PDF_BOOK 1.pdf";
+const IMP = "https://drive.google.com/file/d/1ZKs6mmAnnf6ViXZUnje_ny41dnMqocSy/view?usp=drive_link";
+const Topic1 = "https://drive.google.com/file/d/1dd_pJwo_fWd3hft4urp8aluvs_HawOuM/view?usp=drive_link";
+const Topic2 = "https://drive.google.com/file/d/1fOTA6GNbsKz2D-h04iOMm08bMHonUEqK/view?usp=drive_link";
+const Topic3 = "https://drive.google.com/file/d/1DZoDIwu5OecQHUo1_7JNFvUk6bka5jdA/view?usp=drive_link";
+const Topic4 = "https://drive.google.com/file/d/1s7iLWCeo0-gLJXu_tOloxmsMNqD3y8-k/view?usp=drive_link";
+const Topic5 = "https://drive.google.com/file/d/1wMojx_9RKUTxVbdZqjuJmHm-1SLGgxIk/view?usp=drive_link";
+const Topic6 = "https://drive.google.com/file/d/125dNXThD9xhYthCIk08jnO5wcR_Bqmy_/view?usp=drive_link";
+const Topic7 = "https://drive.google.com/file/d/1tN1-2GylKe-4o9VwzXoT3nogPa5FmJrI/view?usp=drive_link";
+const Topic8 = "https://drive.google.com/file/d/1PGEpLobWdYQZSVicvX-cj0hB6Avnz5yf/view?usp=drive_link";
+const question = "https://drive.google.com/file/d/1ZKs6mmAnnf6ViXZUnje_ny41dnMqocSy/view?usp=drive_link";
+const question2 = "https://drive.google.com/file/d/16obYK-Ik_UGug819PvJvy5U5Azs9sdzS/view?usp=drive_link";
+const DOSBOOK =  "https://drive.google.com/file/d/1oIkhtdHsIS74NFDo63FRtOMQ6Hd5ItCp/view?usp=drive_link";
 //dsa
-const Module1 = "./src/assets/btech-cse/sem-3/DSA/DS MODULE 1_merged.pdf";
-const Module2 = "./src/assets/btech-cse/sem-3/DSA/Module2.pdf";
-const Module3 = "./src/assets/btech-cse/sem-3/DSA/Module3.pdf";
-const Module4 = "./src/assets/btech-cse/sem-3/DSA/Module4.pdf";
-const Module5 = "./src/assets/btech-cse/sem-3/DSA/Module5.pdf";
-const Question = "./src/assets/btech-cse/sem-3/DSA/DS JAN 2021.pdf";
-const Question2 = "./src/assets/btech-cse/sem-3/DSA/DS PTU SOLVED PAPERS.pdf";
-const DSALab = "./src/assets/btech-cse/sem-3/DSA/DS_File.pdf";
+const Module1 = "https://drive.google.com/file/d/1DAXPC418AO9GMuKIMdMSBH3iiTvSkqQw/view?usp=drive_link";
+const Module2 = "https://drive.google.com/file/d/1_meXvhy2l98WRlr0Sp6kgvi4Ip5vjx1Y/view?usp=drive_link";
+const Module3 = "https://drive.google.com/file/d/1zVmwzAjFyvVg0fxC2vq7uVyOmXtX-Lja/view?usp=drive_link";
+const Module4 = "https://drive.google.com/file/d/1M_kO6PRq1ADkYZifJmN-Rts27Nh7rKcJ/view?usp=drive_link";
+const Module5 = "https://drive.google.com/file/d/1P7Onz5poFvAZEesR5_pUpEj9EvW6fVWh/view?usp=drive_link";
+const Question = "https://drive.google.com/file/d/1BRkiK8IrMiP9M3kyaqp-r3JFUdRuuknh/view?usp=drive_link";
+const Question2 = "https://drive.google.com/file/d/1Ir6XRbw6q9pt6vT4gHsFUr7Eiunn8_se/view?usp=drive_link";
+const DSALab = "https://drive.google.com/file/d/17ofBdo-49VNCiYvr_kFfzCZnjfDZEDxI/view?usp=drive_link";
 
 export const sem3Subjects = [
 
