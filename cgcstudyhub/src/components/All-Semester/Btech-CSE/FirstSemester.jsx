@@ -36,12 +36,15 @@ const SemesterNotesPage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
+
+
           <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
+
             Semester 1 Notes
           </h1>
 
-          <div className="w-full max-w-4xl space-y-8">
-            <Suspense fallback={<div className="text-white">Loading notes...</div>}>
+          <div className="w-full max-w-4xl space-y-8 text-">
+            <Suspense fallback={<div className="text-blue-300">Loading notes...</div>}>
               {semester1Subjects.map((subject, subjectIndex) => (
                 <SubjectBlock key={subjectIndex} subject={subject} delay={subjectIndex * 0.1} />
               ))}
@@ -53,7 +56,7 @@ const SemesterNotesPage = () => {
   );
 };
 
-// ✅ Extracted block into a lazy-rendered component
+{/* // ✅ Extracted block into a lazy-rendered component */}
 const SubjectBlock = ({ subject, delay }) => {
 
   const [isNotesOpen, setIsNotesOpen] = useState(false);
@@ -74,6 +77,7 @@ const SubjectBlock = ({ subject, delay }) => {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.4, delay }}
     >
+
       <h2 className="text-2xl sm:text-3xl font-bold text-black dark:text-white mb-4 border-b border-gray-500 pb-2">
         {subject.subject}
       </h2>
