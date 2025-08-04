@@ -82,7 +82,7 @@ export default function Navbar() {
   const toggleDarkMode = () => setDarkMode((prev) => !prev);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md fixed w-full top-0 z-50 transition-colors duration-500">
+    <nav className="bg-blue-200 dark:bg-gray-900 shadow-md fixed w-full top-0 z-50 transition-colors duration-500">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <a onClick={(e) => handleNavigation(e, "#Home")} className="flex items-center gap-2 cursor-pointer">
