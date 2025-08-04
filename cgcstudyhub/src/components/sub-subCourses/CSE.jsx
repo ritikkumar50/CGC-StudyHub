@@ -106,9 +106,9 @@ const SemesterCard = React.memo(({ sem, navigate }) => {
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.4, ease: "easeOut" }}
       onClick={() => {
-        if (sem.id === 1) navigate("/firstsemester");
-        else if (sem.id === 2) navigate("/secondsemester");
-        else if (sem.id === 3) navigate("/thirdsemester");
+        if (sem.id === 1) navigate("/btech/cse/firstsemester");
+        else if (sem.id === 2) navigate("/btech/cse/secondsemester");
+        else if (sem.id === 3) navigate("/btech/cse/thirdsemester");
       }}
       className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg text-center hover:scale-105 transition-all duration-300"
     >
