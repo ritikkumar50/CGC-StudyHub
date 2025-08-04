@@ -9,7 +9,7 @@ import BtechCourses from "./components/SubCourse/BtechCourse";
 import CSE from "./components/sub-subCourses/CSE";
 import FirstSemester from "./components/All-Semester/Btech-CSE/FirstSemester";
 import SecondSemester from "./components/All-Semester/Btech-CSE/SecondSemester";
-import ThirdSemester from "./components/All-Semester/Btech-Cse/ThirdSemester";
+import ThirdSemester from "./components/All-Semester/Btech-CSE/ThirdSemester";
 
 function Home() {
   return (  
