@@ -74,9 +74,9 @@ import unit3 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_3.pdf";
 import unit4 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_4.pdf";
 import PhyPYQ from "./src/assets/btech-cse/sem-1/PHYSICS/PHY-2022.pdf";
 // BEE
-import BEEunit1 from "./src/assets/btech-cse/sem-1/BEE/BEE_Notes-1-104.pdf";
-import BEEunit2 from "./src/assets/btech-cse/sem-1/BEE/BEE_Notes-104-154.pdf";
-import BEEPYQ from "./src/assets/btech-cse/sem-1/BEE/BEE-2022.pdf";
+const BEEunit1 = "https://drive.google.com/file/d/1n2sJETxIk7pKG1ZNWYmd8YOr9UYn5BoL/view?usp=sharing";
+const BEEunit2 = "https://drive.google.com/file/d/1HUCYekgyVyBoeuDTcVhtDaZMPtCsWVKa/view?usp=sharing";
+const BEEPYQ = "https://drive.google.com/file/d/1FyTsKjPjyq2DDGPY5v5e_g0nygXUgvCR/view?usp=sharing";
 //EGD
 // import EGDBOOK from "./src/assets/btech-cse/sem-1/EGD/EGD_Book.pdf";
 // import EGDPYQ from "./src/assets/btech-cse/sem-1/EGD/EGD-2022.pdf";
