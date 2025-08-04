@@ -7,7 +7,7 @@ import Logo from "../../assets/image/mainlogo.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  // const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [openSubmenu, setOpenSubmenu] = useState(null);
   const [mobileOpenMenu, setMobileOpenMenu] = useState(null);
@@ -74,12 +74,12 @@ export default function Navbar() {
     setIsOpen(false);
   };
 
-  // useEffect(() => {
-  //   document.documentElement.classList.toggle("dark", darkMode);
-  //   localStorage.setItem("darkMode", darkMode);
-  // }, [darkMode]);
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", darkMode);
+    localStorage.setItem("darkMode", darkMode);
+  }, [darkMode]);
 
-  // const toggleDarkMode = () => setDarkMode((prev) => !prev);
+  const toggleDarkMode = () => setDarkMode((prev) => !prev);
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow-md fixed w-full top-0 z-50 transition-colors duration-500">
@@ -173,12 +173,12 @@ export default function Navbar() {
 
         {/* Dark mode + mobile menu button */}
         <div className="flex items-center gap-4">
-          {/* <button
+          <button
             onClick={toggleDarkMode}
             className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition hover:scale-110"
           >
             {darkMode ? <FiSun className="w-5 h-5 text-yellow-400" /> : <FiMoon className="w-5 h-5 text-gray-800" />}
-          </button> */}
+          </button>
            
           {/* Mobile Menu Icon */}
           <div className="md:hidden">
