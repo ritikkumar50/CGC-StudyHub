@@ -60,28 +60,28 @@ export const btechCourses = [
 
 // first semester notes
 
-import math1 from "./src/assets/btech-cse/sem-1/math-1/unit1.pdf";
-import CSE from "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech ai ml syllabus.pdf";
-import AIML from "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech cse syllabus.pdf";
-import AIDS from "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech it syllabus.pdf";
-import CD from "./src/assets/btech-cse/sem-1/PTU-Examination/2024 CD EXAM.pdf";
-import pyq from "./src/assets/btech-cse/sem-1/math-1/M-1-2022.pdf";
-import PYQ from "./src/assets/btech-cse/sem-1/math-1/MATH-1-2022.pdf";
+const math1 = "./src/assets/btech-cse/sem-1/math-1/unit1.pdf";
+const CSE = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech ai ml syllabus.pdf";
+const AIML = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech cse syllabus.pdf";
+const AIDS = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech it syllabus.pdf";
+const CD = "./src/assets/btech-cse/sem-1/PTU-Examination/2024 CD EXAM.pdf";
+const pyq = "./src/assets/btech-cse/sem-1/math-1/M-1-2022.pdf";
+const PYQ = "./src/assets/btech-cse/sem-1/math-1/MATH-1-2022.pdf";
 // PHYSICS
-import unit1 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_1.pdf";
-import unit2 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_2.pdf";
-import unit3 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_3.pdf";
-import unit4 from "./src/assets/btech-cse/sem-1/PHYSICS/Sem1_PHY_4.pdf";
-import PhyPYQ from "./src/assets/btech-cse/sem-1/PHYSICS/PHY-2022.pdf";
+const unit1 = "https://drive.google.com/file/d/1CITsUZ-WCd3VL9c--On7BcOMOZXSYHYM/view?usp=sharing";
+const unit2 = "https://drive.google.com/file/d/1OcYLaBqQ7YDfCIvoYRem9uDuVNCTyZQs/view?usp=sharing";
+const unit3 = "https://drive.google.com/file/d/1VHAJLvGQcf4GeJ5XDi17Bxhszoz-KVqB/view?usp=sharing";
+const unit4 = "https://drive.google.com/file/d/1aHVqaLOoKJyPtWTsOlppWhlU-gqwrQrT/view?usp=sharing";
+const PhyPYQ = "https://drive.google.com/file/d/1ROVq_jQpQ2FYUekuhb0NmQqLfhu_nkpB/view?usp=sharing";
 // BEE
-const BEEunit1 = "https://drive.google.com/file/d/1n2sJETxIk7pKG1ZNWYmd8YOr9UYn5BoL/view?usp=sharing";
-const BEEunit2 = "https://drive.google.com/file/d/1HUCYekgyVyBoeuDTcVhtDaZMPtCsWVKa/view?usp=sharing";
-const BEEPYQ = "https://drive.google.com/file/d/1FyTsKjPjyq2DDGPY5v5e_g0nygXUgvCR/view?usp=sharing";
+const BEEunit1 = "https://drive.google.com/file/d/1t_fXA3029mFoPeRgaKJ0wuuzoHeLqfBZ/view?usp=sharing";
+const BEEunit2 = "https://drive.google.com/file/d/1YgrAjfZl5-yE3m9uK55jLCrtTt_Q2qJj/view?usp=sharing";
+const BEEPYQ = "https://drive.google.com/file/d/1kO2fQTsr2NYxofyaPaLHnDFYgVUfNyeb/view?usp=sharing";
 //EGD
-// import EGDBOOK from "./src/assets/btech-cse/sem-1/EGD/EGD_Book.pdf";
-// import EGDPYQ from "./src/assets/btech-cse/sem-1/EGD/EGD-2022.pdf";
-const EGDBOOK = "/1st-Sem/EGD/EGD_Book.pdf";
-const EGDPYQ = "/1st-Sem/EGD/EGD_2022.pdf";
+// const EGDBOOK = "./src/assets/btech-cse/sem-1/EGD/EGD_Book.pdf";
+// const EGDPYQ = "./src/assets/btech-cse/sem-1/EGD/EGD-2022.pdf";
+const EGDBOOK = "https://drive.google.com/file/d/1FyYMKOWy4YQ39az4mKYigVuzpJ6uIJve/view?usp=sharing";
+const EGDPYQ = "https://drive.google.com/file/d/1WDZcenY3hAy3gck2A1-0JPyFHN3JUx-z/view?usp=sharing";
 
 export const semester1Subjects = [
   {
@@ -132,51 +132,51 @@ export const semester1Subjects = [
   },
 ];
 //2nd sem files 
-import CHEMBOOK from "./src/assets/btech-cse/sem-2/CHEM/Book - Engineering chemistry SK Bhasin.pdf";
-import CHEMUNIT1 from "./src/assets/btech-cse/sem-2/CHEM/Atomic Structures(1) (1).pdf";
-import CHEMUNIT2 from "./src/assets/btech-cse/sem-2/CHEM/Spectroscopy-compressed.pdf";
-import CHEMUNIT3 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-3.pdf";
-import CHEMUNIT4 from "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
-import CHEMUNIT5 from "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
-import CHEMUNIT6 from "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
-import CHEMUNIT7 from "./src/assets/btech-cse/sem-2/CHEM/UNIT-7.pdf";
-import ORGANIC from "./src/assets/btech-cse/sem-2/CHEM/ORGANIC CHEMISTRY.pptx";
+const CHEMBOOK = "./src/assets/btech-cse/sem-2/CHEM/Book - Engineering chemistry SK Bhasin.pdf";
+const CHEMUNIT1 = "./src/assets/btech-cse/sem-2/CHEM/Atomic Structures(1) (1).pdf";
+const CHEMUNIT2 = "./src/assets/btech-cse/sem-2/CHEM/Spectroscopy-compressed.pdf";
+const CHEMUNIT3 = "./src/assets/btech-cse/sem-2/CHEM/UNIT-3.pdf";
+const CHEMUNIT4 = "./src/assets/btech-cse/sem-2/CHEM/FREE ENERGY ,WATER CHEMISTRY, CORROSION.pdf";
+const CHEMUNIT5 = "./src/assets/btech-cse/sem-2/CHEM/Periodicity.pdf";
+const CHEMUNIT6 = "./src/assets/btech-cse/sem-2/CHEM/Stereochemistry.pdf";
+const CHEMUNIT7 = "./src/assets/btech-cse/sem-2/CHEM/UNIT-7.pdf";
+const ORGANIC = "./src/assets/btech-cse/sem-2/CHEM/ORGANIC CHEMISTRY.pptx";
 // Question bank 
-import questionBank from "./src/assets/btech-cse/sem-2/CHEM/Question-bank.pdf";
-import questionBank2 from "./src/assets/btech-cse/sem-2/CHEM/Short-Answer.pdf";
-import questionBank3 from "./src/assets/btech-cse/sem-2/CHEM/Theories.pdf";
+const questionBank = "./src/assets/btech-cse/sem-2/CHEM/Question-bank.pdf";
+const questionBank2 = "./src/assets/btech-cse/sem-2/CHEM/Short-Answer.pdf";
+const questionBank3 = "./src/assets/btech-cse/sem-2/CHEM/Theories.pdf";
 //m-2
-// import Book from "./src/assets/btech-cse/sem-2/M-2/Book.pdf";
+// const Book = "./src/assets/btech-cse/sem-2/M-2/Book.pdf";
 //english
-import Article from "./src/assets/btech-cse/sem-2/ENG/Articles.pdf";
-import BussinessMail from "./src/assets/btech-cse/sem-2/ENG/Business Emails.pdf";
-import Cliches from "./src/assets/btech-cse/sem-2/ENG/Cliches.pdf";
-import ComplaintLetter from "./src/assets/btech-cse/sem-2/ENG/Complaint Letter.pdf";
-import Mechanism from "./src/assets/btech-cse/sem-2/ENG/Describing, Defining and Classifying.pdf";
-import Prefix from "./src/assets/btech-cse/sem-2/ENG/English Notes on Prefixes, Suffixes,Antonyms, synonyms, Homonyms, Abbreviations.pdf";
-import Notes from "./src/assets/btech-cse/sem-2/ENG/English_Notes.pdf";
-import Modifiers from "./src/assets/btech-cse/sem-2/ENG/Misplaced Modifiers- Notes & QA.pdf";
-import Noun from "./src/assets/btech-cse/sem-2/ENG/Noun Pronoun Agreement.pdf";
-import Precis from "./src/assets/btech-cse/sem-2/ENG/Precis writing.pdf";
-import PurcahseOrder from "./src/assets/btech-cse/sem-2/ENG/Purchase Order.pdf";
-import ReportWirtting from "./src/assets/btech-cse/sem-2/ENG/Report Writing.pdf";
-import SalesLetter from "./src/assets/btech-cse/sem-2/ENG/SALES LETTER.pdf";
-import Lab from "./src/assets/btech-cse/sem-2/ENG/English_File.pdf";
-import Lab2 from "./src/assets/btech-cse/sem-2/ENG/PRACTICAL Interviews.pdf";
-import questionbankeng from "./src/assets/btech-cse/sem-2/ENG/English_Question_Bank.pdf";
+const Article = "./src/assets/btech-cse/sem-2/ENG/Articles.pdf";
+const BussinessMail = "./src/assets/btech-cse/sem-2/ENG/Business Emails.pdf";
+const Cliches = "./src/assets/btech-cse/sem-2/ENG/Cliches.pdf";
+const ComplaintLetter = "./src/assets/btech-cse/sem-2/ENG/Complaint Letter.pdf";
+const Mechanism = "./src/assets/btech-cse/sem-2/ENG/Describing, Defining and Classifying.pdf";
+const Prefix = "./src/assets/btech-cse/sem-2/ENG/English Notes on Prefixes, Suffixes,Antonyms, synonyms, Homonyms, Abbreviations.pdf";
+const Notes = "./src/assets/btech-cse/sem-2/ENG/English_Notes.pdf";
+const Modifiers = "./src/assets/btech-cse/sem-2/ENG/Misplaced Modifiers- Notes & QA.pdf";
+const Noun = "./src/assets/btech-cse/sem-2/ENG/Noun Pronoun Agreement.pdf";
+const Precis = "./src/assets/btech-cse/sem-2/ENG/Precis writing.pdf";
+const PurcahseOrder = "./src/assets/btech-cse/sem-2/ENG/Purchase Order.pdf";
+const ReportWirtting = "./src/assets/btech-cse/sem-2/ENG/Report Writing.pdf";
+const SalesLetter = "./src/assets/btech-cse/sem-2/ENG/SALES LETTER.pdf";
+const Lab = "./src/assets/btech-cse/sem-2/ENG/English_File.pdf";
+const Lab2 = "./src/assets/btech-cse/sem-2/ENG/PRACTICAL Interviews.pdf";
+const questionbankeng = "./src/assets/btech-cse/sem-2/ENG/English_Question_Bank.pdf";
 //Workshop
-import labManual from "./src/assets/btech-cse/sem-2/Workshop/WorkshopFile.pdf";
-import labViva from "./src/assets/btech-cse/sem-2/Workshop/Workshop_Imp_Viva_Questions.pdf";
+const labManual = "./src/assets/btech-cse/sem-2/Workshop/WorkshopFile.pdf";
+const labViva = "./src/assets/btech-cse/sem-2/Workshop/Workshop_Imp_Viva_Questions.pdf";
 //PPS
-import PPSUNIT1 from "./src/assets/btech-cse/sem-2/PPS/UNIT-1.pdf";
-import PPSUNIT3 from "./src/assets/btech-cse/sem-2/PPS/UNIT-3.pdf";
-import PPSUNIT4 from "./src/assets/btech-cse/sem-2/PPS/UNIT-4.pdf";
-import PPSUNIT6 from "./src/assets/btech-cse/sem-2/PPS/Unit-6.pdf";
-import PPSUNIT7 from "./src/assets/btech-cse/sem-2/PPS/UNIT-7.pdf";
-import PPSUNIT8 from "./src/assets/btech-cse/sem-2/PPS/UNIT-8.pdf";
-import PPSUNIT9 from "./src/assets/btech-cse/sem-2/PPS/UNIT-9.pdf";
-import BOOK from "./src/assets/btech-cse/sem-2/PPS/PpsBook.pdf";
-import LabManual from "./src/assets/btech-cse/sem-2/PPS/PpsFile.pdf";
+const PPSUNIT1 = "./src/assets/btech-cse/sem-2/PPS/UNIT-1.pdf";
+const PPSUNIT3 = "./src/assets/btech-cse/sem-2/PPS/UNIT-3.pdf";
+const PPSUNIT4 = "./src/assets/btech-cse/sem-2/PPS/UNIT-4.pdf";
+const PPSUNIT6 = "./src/assets/btech-cse/sem-2/PPS/Unit-6.pdf";
+const PPSUNIT7 = "./src/assets/btech-cse/sem-2/PPS/UNIT-7.pdf";
+const PPSUNIT8 = "./src/assets/btech-cse/sem-2/PPS/UNIT-8.pdf";
+const PPSUNIT9 = "./src/assets/btech-cse/sem-2/PPS/UNIT-9.pdf";
+const BOOK = "./src/assets/btech-cse/sem-2/PPS/PpsBook.pdf";
+const LabManual = "./src/assets/btech-cse/sem-2/PPS/PpsFile.pdf";
 export const sem2Subjects = [
 
   {
@@ -251,49 +251,49 @@ export const sem2Subjects = [
   },
 ]
 //3rd semester
-import OOPSUNIT1 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-1.pdf";
-import OOPSUNIT2 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-2.pdf";
-import OOPSUNIT3 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-3.pdf";
-import OOPSUNIT4 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-4.pdf";
-import OOPSUNIT5 from "./src/assets/btech-cse/sem-3/OOPS/UNIT-5.pdf";
-import OOPSlabManual from "./src/assets/btech-cse/sem-3/OOPS/oops lab.pdf";
+const OOPSUNIT1 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-1.pdf";
+const OOPSUNIT2 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-2.pdf";
+const OOPSUNIT3 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-3.pdf";
+const OOPSUNIT4 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-4.pdf";
+const OOPSUNIT5 = "./src/assets/btech-cse/sem-3/OOPS/UNIT-5.pdf";
+const OOPSlabManual = "./src/assets/btech-cse/sem-3/OOPS/oops lab.pdf";
 //DE
-import Notes1 from "./src/assets/btech-cse/sem-3/DE/Class DE L3 1.9.2021.pdf";
-import Notes2 from "./src/assets/btech-cse/sem-3/DE/Class DE L3 3.9.2021.pdf";
-import Notes3 from "./src/assets/btech-cse/sem-3/DE/Class DE L4 4.9.2021.pdf";
-import Notes4 from "./src/assets/btech-cse/sem-3/DE/Class DE L6 9.9.2021.pdf";
-import Notes5 from "./src/assets/btech-cse/sem-3/DE/Class DE L7 10.9.2021.pdf";
-import Notes6 from "./src/assets/btech-cse/sem-3/DE/Class DE L8 13.9.2021.pdf";
-import Notes7 from "./src/assets/btech-cse/sem-3/DE/Class DE L9 16.9.2021.pdf";
-import Notes8 from "./src/assets/btech-cse/sem-3/DE/Class DE L9 17.9.2021.pdf";
-import Notes9 from "./src/assets/btech-cse/sem-3/DE/Class DE L11 20.9.2021.pdf";
-import Notes10 from "./src/assets/btech-cse/sem-3/DE/Class DE L12 23.9.2021.pdf";
-import Notes11 from "./src/assets/btech-cse/sem-3/DE/Class DE L14 28.9.2021.pdf";
-import Notes12 from "./src/assets/btech-cse/sem-3/DE/Class DE L15 30.9.2021 (1).pdf";
-import Notes13 from "./src/assets/btech-cse/sem-3/DE/Class DE L16 5.10.2021.pdf";
-import Notes14 from "./src/assets/btech-cse/sem-3/DE/L DE 31.8.2021.pdf";
+const Notes1 = "./src/assets/btech-cse/sem-3/DE/Class DE L3 1.9.2021.pdf";
+const Notes2 = "./src/assets/btech-cse/sem-3/DE/Class DE L3 3.9.2021.pdf";
+const Notes3 = "./src/assets/btech-cse/sem-3/DE/Class DE L4 4.9.2021.pdf";
+const Notes4 = "./src/assets/btech-cse/sem-3/DE/Class DE L6 9.9.2021.pdf";
+const Notes5 = "./src/assets/btech-cse/sem-3/DE/Class DE L7 10.9.2021.pdf";
+const Notes6 = "./src/assets/btech-cse/sem-3/DE/Class DE L8 13.9.2021.pdf";
+const Notes7 = "./src/assets/btech-cse/sem-3/DE/Class DE L9 16.9.2021.pdf";
+const Notes8 = "./src/assets/btech-cse/sem-3/DE/Class DE L9 17.9.2021.pdf";
+const Notes9 = "./src/assets/btech-cse/sem-3/DE/Class DE L11 20.9.2021.pdf";
+const Notes10 = "./src/assets/btech-cse/sem-3/DE/Class DE L12 23.9.2021.pdf";
+const Notes11 = "./src/assets/btech-cse/sem-3/DE/Class DE L14 28.9.2021.pdf";
+const Notes12 = "./src/assets/btech-cse/sem-3/DE/Class DE L15 30.9.2021 (1).pdf";
+const Notes13 = "./src/assets/btech-cse/sem-3/DE/Class DE L16 5.10.2021.pdf";
+const Notes14 = "./src/assets/btech-cse/sem-3/DE/L DE 31.8.2021.pdf";
 //DOS
-import IMP from "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
-import Topic1 from "./src/assets/btech-cse/sem-3/DOS/capitalism.pdf";
-import Topic2 from "./src/assets/btech-cse/sem-3/DOS/buddhist economist.pdf";
-import Topic3 from "./src/assets/btech-cse/sem-3/DOS/Economic Activities PDF.pdf";
-import Topic4 from "./src/assets/btech-cse/sem-3/DOS/economic development.pdf";
-import Topic5 from "./src/assets/btech-cse/sem-3/DOS/ECONOMIC INSTITUTION PDF.pdf";
-import Topic6 from "./src/assets/btech-cse/sem-3/DOS/socialism marxism.pdf";
-import Topic7 from "./src/assets/btech-cse/sem-3/DOS/TypesofGovernment.pdf";
-import Topic8 from "./src/assets/btech-cse/sem-3/DOS/What is Socialism.pdf";
-import question from "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
-import question2 from "./src/assets/btech-cse/sem-3/DOS/IMPORTANT QUESTION OF 3RD UNIT 4 MARKS.pdf";
-import DOSBOOK from  "./src/assets/btech-cse/sem-3/DOS/PDF_BOOK 1.pdf";
+const IMP = "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
+const Topic1 = "./src/assets/btech-cse/sem-3/DOS/capitalism.pdf";
+const Topic2 = "./src/assets/btech-cse/sem-3/DOS/buddhist economist.pdf";
+const Topic3 = "./src/assets/btech-cse/sem-3/DOS/Economic Activities PDF.pdf";
+const Topic4 = "./src/assets/btech-cse/sem-3/DOS/economic development.pdf";
+const Topic5 = "./src/assets/btech-cse/sem-3/DOS/ECONOMIC INSTITUTION PDF.pdf";
+const Topic6 = "./src/assets/btech-cse/sem-3/DOS/socialism marxism.pdf";
+const Topic7 = "./src/assets/btech-cse/sem-3/DOS/TypesofGovernment.pdf";
+const Topic8 = "./src/assets/btech-cse/sem-3/DOS/What is Socialism.pdf";
+const question = "./src/assets/btech-cse/sem-3/DOS/IMP_question.pdf";
+const question2 = "./src/assets/btech-cse/sem-3/DOS/IMPORTANT QUESTION OF 3RD UNIT 4 MARKS.pdf";
+const DOSBOOK =  "./src/assets/btech-cse/sem-3/DOS/PDF_BOOK 1.pdf";
 //dsa
-import Module1 from "./src/assets/btech-cse/sem-3/DSA/DS MODULE 1_merged.pdf";
-import Module2 from "./src/assets/btech-cse/sem-3/DSA/Module2.pdf";
-import Module3 from "./src/assets/btech-cse/sem-3/DSA/Module3.pdf";
-import Module4 from "./src/assets/btech-cse/sem-3/DSA/Module4.pdf";
-import Module5 from "./src/assets/btech-cse/sem-3/DSA/Module5.pdf";
-import Question from "./src/assets/btech-cse/sem-3/DSA/DS JAN 2021.pdf";
-import Question2 from "./src/assets/btech-cse/sem-3/DSA/DS PTU SOLVED PAPERS.pdf";
-import DSALab from "./src/assets/btech-cse/sem-3/DSA/DS_File.pdf";
+const Module1 = "./src/assets/btech-cse/sem-3/DSA/DS MODULE 1_merged.pdf";
+const Module2 = "./src/assets/btech-cse/sem-3/DSA/Module2.pdf";
+const Module3 = "./src/assets/btech-cse/sem-3/DSA/Module3.pdf";
+const Module4 = "./src/assets/btech-cse/sem-3/DSA/Module4.pdf";
+const Module5 = "./src/assets/btech-cse/sem-3/DSA/Module5.pdf";
+const Question = "./src/assets/btech-cse/sem-3/DSA/DS JAN 2021.pdf";
+const Question2 = "./src/assets/btech-cse/sem-3/DSA/DS PTU SOLVED PAPERS.pdf";
+const DSALab = "./src/assets/btech-cse/sem-3/DSA/DS_File.pdf";
 
 export const sem3Subjects = [
 
