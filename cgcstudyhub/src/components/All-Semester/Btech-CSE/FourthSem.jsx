@@ -57,16 +57,14 @@ const SubjectBlock = ({ subject, delay }) => {
     const [isModuleOpen, setIsModuleOpen] = useState(false);
     const [openModuleUnits, setOpenModuleUnits] = useState({});
 
-
-
-    const notes = subject.units.filter((unit) =>
+    const notes = subject?.units?.filter((unit) =>
         unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
-    );
+    ) || [];
 
-    const Module = subject.units.filter((unit) =>
-        unit.name.toLowerCase().includes("module") 
-    );
-    // Group modules like { "Module-1": [...], "Module-2": [...] }
+    const Module = subject?.units?.filter((unit) =>
+        unit.name.toLowerCase().includes("module")
+    ) || [];
+
     const moduleGroups = Module.reduce((acc, unit) => {
         const name = unit.name.trim(); // e.g., "Module-1"
         if (!acc[name]) acc[name] = [];
@@ -74,30 +72,33 @@ const SubjectBlock = ({ subject, delay }) => {
         return acc;
     }, {});
 
-    const questionBank = subject.units.filter((unit) =>
+    const questionBank = subject?.units?.filter((unit) =>
         unit.name.toLowerCase().includes("theories") ||
         unit.name.toLowerCase().includes("question") ||
         unit.name.toLowerCase().includes("short-ans")
-    );
-    const labManual = subject.units.filter((unit) =>
-        unit.name.toLowerCase().includes("labmanual") // Handles both "labManual" and "labManual2"
-    );
+    ) || [];
 
-    const letter = subject.units.filter((unit) =>
-        unit.name.toLowerCase().includes("letter") // Handles both "labManual" and "labManual2"
-    );
+    const labManual = subject?.units?.filter((unit) =>
+        unit.name.toLowerCase().includes("labmanual")
+    ) || [];
 
-    const others = subject.units.filter(
-        (unit) =>
-            !unit.name.toLowerCase().includes("unit") &&
-            !unit.name.toLowerCase().includes("notes") &&
-            !unit.name.toLowerCase().includes("theories") &&
-            !unit.name.toLowerCase().includes("question") &&
-            !unit.name.toLowerCase().includes("short-ans") &&
-            !unit.name.toLowerCase().includes("labmanual") &&
-            !unit.name.toLowerCase().includes("letter") &&
-            !unit.name.toLowerCase().includes("module")
-    );
+    const letter = subject?.units?.filter((unit) =>
+        unit.name.toLowerCase().includes("letter")
+    ) || [];
+
+
+ const others = subject?.units?.filter(
+    (unit) =>
+        !unit.name.toLowerCase().includes("unit") &&
+        !unit.name.toLowerCase().includes("notes") &&
+        !unit.name.toLowerCase().includes("theories") &&
+        !unit.name.toLowerCase().includes("question") &&
+        !unit.name.toLowerCase().includes("short-ans") &&
+        !unit.name.toLowerCase().includes("labmanual") &&
+        !unit.name.toLowerCase().includes("letter") &&
+        !unit.name.toLowerCase().includes("module")
+) || [];
+
 
     return (
         <motion.div
@@ -270,6 +271,7 @@ const UnitLink = ({ unit, delay }) => {
         if (label.includes("notes") || label.includes("unit")) return "bg-green-600";
         if (label.includes("syllabus")) return "bg-blue-600";
         if (label.includes("lords")) return "bg-purple-400";
+        if (label.includes("imp")) return "bg-red-600";
         return "bg-gray-600";
     };
 
@@ -294,6 +296,18 @@ const UnitLink = ({ unit, delay }) => {
                     <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
                         {label.includes("pyq")
                             ? "PYQ"
+                            : label.includes("imp")
+                                ? "IMP"
+                                : label.includes("book")
+                                    ? "Book"
+                                    : label.includes("lords")
+                                        ? "Lords"
+                                        : label.includes("theories") || label.includes("short-ans")
+                                            ? "Theory"
+                                            : label.includes("notes") || label.includes("unit")
+                                                ? "Notes"
+                                                : label.includes("syllabus")
+                                                    ? "Syllabus"
                             : label.includes("PPT")
                                 ? "PPT"
                                 : label.includes("book")

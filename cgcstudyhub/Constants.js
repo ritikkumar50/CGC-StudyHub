@@ -385,6 +385,71 @@ const QuestionBank2 = "https://drive.google.com/file/d/1gau3CSq9lUXVF-ssZCJKlnag
 const QuestionBank3 = "https://drive.google.com/file/d/1LT26E_lU-hxdcusunw0Oyxf7jZ0t18Rx/view?usp=sharing";
 const QuestionBank4 = "https://drive.google.com/file/d/11O2B9pDwnsUcR8sBzNtduwL8q4jucQmu/view?usp=sharing";
 const QuestionBank5 = "https://drive.google.com/file/d/1g-AdyHXz9u5xDxoJhVqcf_Lae5I6fA9s/view?usp=sharing";
+//DAA 
+const DAAUnit1 = "https://drive.google.com/file/d/1FoQRUQzxz9Wzb9puZOB3l_Ui6ARwyxDN/view?usp=sharing";
+const DAAUnit2 = "https://drive.google.com/file/d/1-oU_trZdQVAwr-KIoqcViTVHcL0FyWHC/view?usp=sharing";
+const DAAUnit3 = "https://drive.google.com/file/d/17eluh2nf5UhoJzOwjdT5iILd1QLDPMve/view?usp=sharing";
+const DAAUnit4 = "https://drive.google.com/file/d/1g8jULaPbk6-08FfoKOSmodohJpjODHjr/view?usp=sharing";
+const DAAUnit5 = "https://drive.google.com/file/d/1KjLFm7kwksvgl-4fkSDHidXP36QXbyC-/view?usp=sharing";
+//DAA FILE
+const DAAFile = "https://drive.google.com/file/d/1zb0llrVxeOxbMeFbRXglZhSP1p02NA6I/view?usp=sharing";
+//DAA LORDS
+const DAALORDS = "https://drive.google.com/file/d/17E1puB0luc7dvy9jXgK14bmiLajfnUVW/view?usp=sharing";
+//DAA BOOK
+const DAABook = "https://drive.google.com/file/d/145Q8S0ol0GwfBQ9mRtytg8G14MOda42e/view?usp=sharing";
+
+//OS BOOK
+const OsBook ="https://drive.google.com/file/d/1T4tuCYi-oKV_y6ZDLD7OKp9Mla0XRm72/view?usp=sharing";
+//lab file
+const LabFile = "https://drive.google.com/file/d/1H4_70X9Zp7OqYWrEpWEQ5oahyqhq21JY/view?usp=sharing";
+//lords
+const LordsFile = "https://drive.google.com/file/d/1pvmA3gChlnxLPjaQ4hkGEsk-_3a-jpIN/view?usp=sharing";
+//module
+const OSModule1 = "https://drive.google.com/file/d/1dGPL0XDAgd1JBCjcofdTZM6ZyR_BZ7jh/view?usp=sharing";
+const OSModule1_2 = "https://docs.google.com/presentation/d/1vlgbttFGVKOoNIx1rZOnWC3PtFgrryci/edit?usp=sharing&rtpof=true&sd=true";
+const OSModule1_3 = "https://drive.google.com/file/d/1D6MfOhPWqNRfp4dI_kqlpgf8SIdVCImr/view?usp=sharing";
+const OSModule1_4 = "https://drive.google.com/file/d/176c9In4jz3QDpwFfOHxCGLWUJpVU5wkt/view?usp=sharing";
+const OSModule2 = "https://drive.google.com/file/d/1dnJGLnHozhwa5BjCbxdCfIzRp58J-v89/view?usp=sharing";
+const OSModule2_2 = "https://drive.google.com/file/d/1jfSacsFRMm7azn5md6LLEnYjwZkXeUnI/view?usp=sharing";
+const OSModule2_3 = "https://drive.google.com/file/d/1Sd9ES4PSwNwftZSfgdzSTH78cUinUQad/view?usp=sharing";
+const OSModule2_4 = "https://drive.google.com/file/d/17LycQ1O1Ap0ZRSSuPsthF1hiqmSq2F22/view?usp=sharing";
+const OSModule3 = "https://drive.google.com/file/d/18y4IrTkx43gPJk9a-8CqsiZskA_VJRUE/view?usp=sharing";
+const OSModule4 = "https://drive.google.com/file/d/15Nd9cmqEZ3co4jdtE542PHpzkDHZ7ie7/view?usp=sharing";
+const OSModule5 = "https://drive.google.com/file/d/1DY0cAb8uxCC5yWXPEHEhWOx8Y4jrKjmc/view?usp=sharing";
+const OSModule6_1 = "https://drive.google.com/file/d/1HVsxMqZf2mxGcu7mrA-O_UpadASMlKvI/view?usp=sharing";
+const OSModule6_2 = "https://drive.google.com/file/d/1p8F9fqoxjSdvXYz849gSsnkBajUSSOKX/view?usp=sharing";
+const OSModule6_3 = "https://drive.google.com/file/d/1l4HJ1RqLErP60KaN-jwrJLn67mC7jASS/view?usp=sharing";
+//COA 
+const COAUnit1 = "https://drive.google.com/file/d/1QVTQD6gla8vYcO_jtRizGb970xh0rGu9/view?usp=sharing";
+const COAUnit1_1 = "https://drive.google.com/file/d/1WOZI-rMWEJCGPxN4XelKdFv7lYAgPuZp/view?usp=sharing";
+const COAUnit1_3 = "https://drive.google.com/file/d/1DeCwIAg3X_auV3gNDjF77hqNZe-9NZmM/view?usp=sharing";
+const COAUnit1_4 = "https://drive.google.com/file/d/1pTnEHGueuEH8dXU7kiCU-sKdW2ewOFzw/view?usp=sharing";
+const COAUnit1_5 = "https://drive.google.com/file/d/1Bg8q5Bi_3V_2iizzphxpdCsRPrjkaNtd/view?usp=sharing";
+const COAIMP ="https://drive.google.com/file/d/1LYrdpkEtox45T1HgqM9Gzf5ufgTSW20B/view?usp=sharing";
+const COAUnit2 = "https://drive.google.com/file/d/1zPkwFZaKlThyhxAvgAj0jQ722o5gfACs/view?usp=sharing";
+const COAUnit2_1 = "https://drive.google.com/file/d/1T9RdkdFSRpu_Nqr42S0uC9R3G2g0jQgy/view?usp=sharing";
+const COAUnit2_2 = "https://drive.google.com/file/d/1zGt_9Fx6JZ5sIPJjRw9pfuFKbPYoiZxu/view?usp=sharing";
+const COAUnit2_3 = "https://drive.google.com/file/d/14NcBdNm67sfjDMk_7Ow2_IFQ5p8lU88X/view?usp=sharing";
+const COAUnit2_4 = "https://drive.google.com/file/d/1HPbM1zMdpvIyFCoPHIHZnIVkdfeGYWWm/view?usp=sharing";
+const COAUnit2_5 = "https://drive.google.com/file/d/1YuLIKyrjvRYEIsOieRiVYsdQgF-0KQ-E/view?usp=sharing";
+const COAUnit3 = "https://drive.google.com/file/d/1Da0LNZ9JeLp2zpXyfbgDkcmIIHidzdwy/view?usp=sharing";
+const COAUnit3_1 = "https://drive.google.com/file/d/1eYoafvdU65EYUwDO6p3aHcNUdFHKnaOz/view?usp=sharing";
+const COAUnit3_2 = "https://drive.google.com/file/d/1ES_3t_lu5CEK6oDR334XB3L8ufucH009/view?usp=sharing";
+const COAUnit3_4 = "https://drive.google.com/file/d/1Fs4t9MvB8bX6A6o9ZleFy-T9DQMT1IgW/view?usp=sharing";
+const COAUnit4 = "https://drive.google.com/file/d/1RU_fIVlPXUpPqPhxiSstRgMjwrWdg-Ti/view?usp=sharing";
+const COAUnit4_1 = "https://drive.google.com/file/d/1ysUbdXQO9XJY3y5C23ZBF51arbiTEvMj/view?usp=sharing";
+const COAUnit4_2 = "https://drive.google.com/file/d/111pOsFLSCvhXcalkucRaMqhJTH30JXS9/view?usp=sharing";
+const COAUnit4_3 = "https://drive.google.com/file/d/1yXf-ePXx6l_jnD6jKmaRcnp0ZNkC68A0/view?usp=sharing";
+const COAUnit4_4 = "https://drive.google.com/file/d/1j4K9OHeXpej6BQR-mY6M5Y3VXBUjepdN/view?usp=sharing";
+const COAIMP2 ="https://drive.google.com/file/d/13uABiP02sY5kGLMzWn7PycNK4O4XG4EI/view?usp=sharing";
+//EVS
+const EVSUnit1 = "https://drive.google.com/file/d/1vMq49fDSvuXoWB1U_rikbYLb_Cjh4CnT/view?usp=sharing";
+const EVSUnit2 = "https://drive.google.com/file/d/1QEHVnpAj3DnLt5Rdua_Z5LzEgJ8sXCg3/view?usp=sharing";
+const EVSUnit3 = "https://drive.google.com/file/d/19YvPYpTKo6KJCoMnkukcXx4qZ3DjCr6w/view?usp=sharing";
+const EVSUnit4 = "https://drive.google.com/file/d/1HRuJ5saCgE6TosfzLbbHchfGmbkVOcBe/view?usp=sharing";
+//uhv
+const UHVUnit1 = "https://drive.google.com/file/d/14fbo1AmeUbUXhbJU5X-DOZWZOsd3Ywfi/view?usp=sharing";
+const UHVBOOK = "https://drive.google.com/file/d/1EuT6MrSgA2x-sEgTna7dMlWYlwYlCgjI/view?usp=sharing";
 export const sem4Subjects = [
   {
     subject: "M-4",
@@ -400,12 +465,92 @@ export const sem4Subjects = [
       { name: "Module-4", file: MModule4_2, displayName: "Rings and Fields" },
       { name: "Module-5", file: MModule5_1, displayName: "Graph Theory" },
       { name: "Module-5", file: MModule5_2, displayName: "Trees Algorithms" },
-      { name: "Question Bank-1", file: QuestionBank1 },
-      { name: "Question Bank-2", file: QuestionBank2 },
-      { name: "Question Bank-3", file: QuestionBank3 },
-      { name: "Question Bank-4", file: QuestionBank4 },
-      { name: "Question Bank-5", file: QuestionBank5 },
+      { name: "Question Bank-1", file: QuestionBank1, displayName: "Question Bank unit-1" },
+      { name: "Question Bank-2", file: QuestionBank2, displayName: "Question Bank unit-2" },
+      { name: "Question Bank-3", file: QuestionBank3, displayName: "Question Bank unit-3" },
+      { name: "Question Bank-4", file: QuestionBank4 , displayName: "Question Bank unit-4" },
+      { name: "Question Bank-5", file: QuestionBank5, displayName: "Question Bank unit-5" },
       { name: "LORDS", file: LORDS },
-    ]
-  }
+    ],
+  },
+  {
+  subject: "OS",
+    units:[
+      {name:"BOOK", file:OsBook, displayName:"BOOK"},
+      {name:"Labmanual", file:LabFile, displayName:"Lab Manual"},
+      {name:"LORDS", file:LORDS, displayName:"LORDS"},
+      {name:"Module-1", file:OSModule1, displayName:"Introduction"},
+      {name:"Module-1", file:OSModule1_2, displayName:"OS Services"},
+      {name:"Module-1", file:OSModule1_3, displayName:"OS Design and Implementation"},
+      {name:"Module-1", file:OSModule1_4, displayName:"Structure of OS"},
+      {name:"Module-2", file:OSModule2, displayName:"Processes"},
+      {name:"Module-2", file:OSModule2_2, displayName:"Threads"},
+      {name:"Module-2", file:OSModule2_3, displayName:"Process Scheduling"},
+      {name:"Module-2", file:OSModule2_4, displayName:"Real-Time Scheduling"},
+      {name:"Module-3", file:OSModule3, displayName:"Inter-process Communication"},
+      {name:"Module-4", file:OSModule4, displayName:"Deadlocks"},
+      {name:"Module-5", file:OSModule5, displayName:"Memory Management"},
+      {name:"Module-6", file:OSModule6_1, displayName:"I/O Hardware"},
+      {name:"Module-6", file:OSModule6_2, displayName:"File Management"},
+      {name:"Module-6", file:OSModule6_3, displayName:"Disk Management"},
+    ],
+},
+{
+  subject :"DAA",
+  units: [
+    { name: "Unit-1", file: DAAUnit1, displayName: "Introduction to DAA" },
+    { name: "Unit-2", file: DAAUnit2, displayName: "Divide and Conquer" },
+    { name: "Unit-3", file: DAAUnit3, displayName: "Greedy Method" },
+    { name: "Unit-4", file: DAAUnit4, displayName: "Dynamic Programming" },
+    { name: "Unit-5", file: DAAUnit5, displayName: "Backtracking" },
+    { name: "Labmanual", file: DAAFile, displayName: " Lab Manual" },
+    { name: "DAA LORDS", file: DAALORDS, displayName: "LORDS" },
+    { name: "DAA Book", file: DAABook , displayName: "Book" },
+  ],
+},
+
+
+{
+  subject : "COA",
+  units: [
+    { name: "Module-1", file: COAUnit1, displayName: "Introduction to COA" },
+    { name: "Module-1", file: COAUnit1_1, displayName: "ADDRESSING MODELS" },
+    { name: "Module-1", file: COAUnit1_3, displayName: "8085 Microprocessor" },
+    { name: "Module-1", file: COAUnit1_4, displayName: "SIGNED NUMBERS" },
+    { name: "Module-1", file: COAUnit1_5, displayName: "Microprocessor" },
+    { name: "Module-1", file: COAIMP , displayName: "IMP TOPICS" }, 
+    { name: "Module-2", file: COAUnit2, displayName: "Process and Process States" },
+    { name: "Module-2", file: COAUnit2_1, displayName: "PERIPHERAL DEVICES" },
+    { name: "Module-2", file: COAUnit2_2, displayName: "X86 architecture" },
+    { name: "Module-2", file: COAUnit2_3, displayName: "Memory Organization" },
+    { name: "Module-2", file: COAUnit2_4, displayName: "Previlieged Instructions" },
+    { name: "Module-2", file: COAUnit2_5, displayName: "I/O Organizations " },
+    { name: "Module-3", file: COAUnit3, displayName: "Pipeline Hazards" },
+    { name: "Module-3", file: COAUnit3_1, displayName: "Pipelining" },
+    { name: "Module-3", file: COAUnit3_2, displayName: "Parallel Processing" },
+    { name: "Module-3", file: COAUnit3_4, displayName: "Pipeline Types" },
+    { name: "Module-4", file: COAUnit4, displayName: "Cache Mapping" },
+    { name: "Module-4", file: COAUnit4_1, displayName: "Memory Interleaving" },
+    { name: "Module-4", file: COAUnit4_2, displayName: "Cache Memory" },
+    { name: "Module-4", file: COAUnit4_3, displayName: "Replacement algorithm" },
+    { name: "Module-4", file: COAUnit4_4, displayName: "Memory Organization" },
+    { name: "IMP", file: COAIMP2, displayName: "IMP TOPICS" },
+  ],
+},
+{
+  subject : "EVS",
+  units: [
+    { name: "Unit-1", file: EVSUnit1, displayName: "Natural Resources" },
+    { name: "Unit-2", file: EVSUnit2, displayName: "Ecosystem" },
+    { name: "Unit-3", file: EVSUnit3, displayName: "Biodiversity and its types " },
+    { name: "Unit-4", file: EVSUnit4, displayName: "Social Issues" },
+  ],
+},
+{
+  subject : "UHV",
+  units: [
+    { name: "Unit-1", file: UHVUnit1, displayName: "Understanding Human Values" },
+    { name: "BOOK", file: UHVBOOK, displayName: "UHV Book" },
+  ],
+},
 ]
