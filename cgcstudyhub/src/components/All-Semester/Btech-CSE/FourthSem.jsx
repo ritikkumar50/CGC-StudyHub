@@ -33,7 +33,7 @@ const FourthSemester = () => {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                 >
                     <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
-                        Semester 2 Notes
+                        Semester 4 Notes
                     </h1>
 
                     <div className="w-full max-w-4xl space-y-8">
