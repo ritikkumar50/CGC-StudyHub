@@ -554,3 +554,189 @@ export const sem4Subjects = [
   ],
 },
 ]
+//5th semester
+//FLAT
+const FLATUNIT1 = "https://drive.google.com/file/d/1fywV0eVHGR9eF0GWNcTHBFUI9a9udR2s/view?usp=sharing";
+const FLATUNIT2 = "https://drive.google.com/file/d/1sm1qrjWrHPh7Q5KIlhRMFpfQioUbUtZ7/view?usp=sharing";
+const FLATUNIT3 = "https://drive.google.com/file/d/1dy45w3HgQ6XPqRQw6j8TN-s951rbs-_z/view?usp=sharing";
+const FLATUNIT4 = "https://drive.google.com/file/d/1dQSzSNQ_OyfJu6BfpfAaQVSqMywTZNuO/view?usp=sharing";
+const FLATUNIT5 = "https://drive.google.com/file/d/1myX-kM_oqPXxPyskMKy6ipv6vu1TXjTm/view?usp=sharing";
+const FLATUNIT6 = "https://drive.google.com/file/d/1hwJuFhSnCNeqeygdcMTG4Hjuyrf-xJmP/view?usp=sharing";
+//FLAT_Topics
+const FLATTopics = "https://drive.google.com/file/d/1XhpQEJUl1W3ZCFVXuiFFhn2nuMDONR-X/view?usp=sharing";
+const FLATTopics2 = "https://drive.google.com/file/d/1HvnXppVDm0P88k67LizA-lxx79BxNEaK/view?usp=sharing";
+const FLATTopics3 = "https://drive.google.com/file/d/1uJYI7boWgjmUS3-KYWPmnyNzT7ZgX9GD/view?usp=sharing";
+const FLATTopics4 = "https://drive.google.com/file/d/1zfvWshO-eEn28oQJnUb4Z7O6zpnAszJV/view?usp=sharing"; 
+const FLATTopics5 = "https://drive.google.com/file/d/1oMNjq1vS4pMYAiChAsdpF2ysKjuMdVas/view?usp=sharing";
+//SE
+const SEUNIT1 = "https://drive.google.com/file/d/10-k_On6AZNXwgjvX3SqBb434NHPoTE6l/view?usp=sharing";
+const SEUNIT2 = "https://drive.google.com/file/d/1iahRjnTfcT6p4XTEfa7x_dN_EQIPjg8J/view?usp=sharing";
+const SEUNIT3 = "https://drive.google.com/file/d/1_wiyas9x7ICptGj8cEtaBzLZNoSOeKx_/view?usp=sharing";
+const SEUNIT4 = "https://drive.google.com/file/d/1IzjVNxBayAvkkapgLQGOX5Jrto685g_x/view?usp=sharing";
+const SEUNIT5 = "https://drive.google.com/file/d/1pLvP9cogZ_5oYSuVhgtOzJHvDwQ8cjjW/view?usp=sharing";
+const SELab1 = "https://drive.google.com/file/d/1FXjxXU9rRCT_seZNpQrumBXMask2Hlj1/view?usp=sharing";  
+const SELab2 = "https://drive.google.com/file/d/1etk86eR7sYYmiqNu5d34YivFbXtl1PEO/view?usp=sharing";
+//DBMS
+const DBMSUNIT1 = "https://drive.google.com/file/d/1oU1maHgbALHd9VusTW2_8m2tGFQpu5Rf/view?usp=sharing";
+const DBMSUNIT2 = "https://drive.google.com/file/d/1lOpkcmo-tqDcnr7nFpn6YbuwG8tNpZRS/view?usp=sharing";
+const DBMSUNIT3 = "https://drive.google.com/file/d/198YjLawXsgr9Ai9aeMi_0Ls_y2LClCrf/view?usp=sharing";
+const DBMSUNIT4 = "https://drive.google.com/file/d/1nCijz_MQm-wevhpLRofMW_W0CZHb8flG/view?usp=sharing";
+const DBMSUNIT5 = "https://drive.google.com/file/d/1bdzgBe-E18QmdFzXbdhkN0wpOwQsH7vR/view?usp=sharing";
+const DBMSUNIT6 = "https://drive.google.com/file/d/1LEhMMhb9a6FgDBjO8PYmanOE0zR4kNIJ/view?usp=sharing"
+const DBMSLAB = "https://drive.google.com/file/d/1ACXXx20L9yA_kfkdLyEHDhcT2kIYCNjl/view?usp=sharing";
+const DBMSLAB2 = "https://drive.google.com/file/d/174VrEXKt4nWbc5-5qiW8D1Rycr5Ketos/view?usp=sharing";
+//CN
+const CNUNIT1 = "https://drive.google.com/file/d/1vDqiNAZHNDnE2qY7eP6dloH8tDeM9qO1/view?usp=sharing";
+const CNUNIT2 = "https://drive.google.com/file/d/1r4unW_UL2DO5QFsqROcTKPMvQThcyFS9/view?usp=sharing";
+const CNUNIT3 = "https://drive.google.com/file/d/194EEyYoV6cJUbd87ROXBIMM5E4DALi4g/view?usp=sharing";
+const CNUNIT4 = "https://drive.google.com/file/d/1CyDhdNAHTvWd0YZc2eHOF0aVcIEonqxP/view?usp=sharing";
+const CNLAB = "https://drive.google.com/file/d/1mtfq0J_ixHS3cgTOgiNChQffsmRBy7dh/view?usp=sharing";
+//ERP
+const ERPUNIT1 = "https://drive.google.com/file/d/1yXY1IhJ8PmvYwpMiKUG2xZAAUSMMHlu3/view?usp=sharing";
+const ERPUNIT2 = "https://drive.google.com/file/d/1gCO05nSb_zLtUbWhxtCPOTTQ9GB6kNro/view?usp=sharing";
+const ERPUNIT3 = "https://drive.google.com/file/d/16s-7MgwGCR4eVrp7qeDcySQjUz-QGrUM/view?usp=sharing";
+const ERPUNIT4 = "https://drive.google.com/file/d/12uN6hCL-c58kxX0zWnf54_I74wGp8tPB/view?usp=sharing";
+const ERPUNIT5 = "https://drive.google.com/file/d/1HZm-GF5lc4NM3SV7LtQWZqKDcD6mK_mM/view?usp=sharing";
+const ERPSYLLABUS = "https://drive.google.com/file/d/1sDTa72WmVL1dgZphBLvCaHkcndskS2TG/view?usp=sharing";
+const ERPIMP = "https://drive.google.com/file/d/1nOTLFMCFI2FS11V9Q88hlpRgaoY5FKUD/view?usp=sharing";
+//WT
+const WTUNIT1 = "https://drive.google.com/file/d/1zBQurkkLHUMoyZTZGppddFlK8YM__xZz/view?usp=sharing";
+const WTUNIT2 = "https://drive.google.com/file/d/1VIra6NDVQqJh3LfFgfs6oTk2ijchf_Ru/view?usp=sharing";
+const WTUNIT3 = "https://drive.google.com/file/d/1Y1vWmFhwgWcoDalpmLmn3hfKLY5M4XJh/view?usp=sharing";
+const WTUNIT4 = "https://drive.google.com/file/d/1MGQmbvKCLS3WoXfVCd3kc8F1nerL94it/view?usp=sharing";
+const WTUNIT5 = "https://drive.google.com/file/d/1NtU4Bd_vTaYvIlSCJ8BrV49y3EXQDuFF/view?usp=sharing";
+const WTUNIT6 = "https://drive.google.com/file/d/1UkjD9sicdj0YvmzdVkDGwjOp5sLzn0ow/view?usp=sharing";
+//COI
+const COIUNIT1 = "https://drive.google.com/file/d/1gq9bqu676GYXui_h7Trx_Z_0lwGA66kp/view?usp=sharing";
+const COIUNIT2 = "https://drive.google.com/file/d/1KfdM31AagmqszsfvGcoT4P3I4Wv9DA3y/view?usp=sharing";
+const COIUNIT3 = "https://drive.google.com/file/d/1ecY6_ZjjckPtLt0KqZKg2dLiuZ8_2trt/view?usp=sharing";
+const COIUNIT4 = "https://drive.google.com/file/d/1QcGFZK45Lxsk_AcWNCDcNdsLN6aQeOrs/view?usp=sharing";
+const COIUNIT5 = "https://drive.google.com/file/d/1XrdWh2zua07gl6ZGCVhNxLBrrZPioANh/view?usp=sharing";
+const COIUNIT6 = "https://drive.google.com/file/d/1jsbIRMyaVPXZxFSyvqq5sWWPTqYAfyTJ/view?usp=sharing";
+const COIUNIT7 = "https://drive.google.com/file/d/1xrwSvkKVH4cFRmixlJO_5a3AjlfWJHui/view?usp=sharing";
+const COIUNIT8 = "https://drive.google.com/file/d/1ySnqROR8faUIuwoH7SzGp0-f007df7YS/view?usp=sharing";
+const COIUNIT9 = "https://drive.google.com/file/d/14yRlHZMgEdguXsc2e23iaGx2NW__L_0r/view?usp=sharing";
+const COIUNIT10 = "https://drive.google.com/file/d/1vmTDoAYJf88yvhVFIMMIgdxb9c63-nVr/view?usp=sharing";
+const COIUNIT11 = "https://drive.google.com/file/d/1Qj5Ve-zEiZoDOZc5AMQ-qxst6iCunWN6/view?usp=sharing";
+const COIUNIT12= "https://drive.google.com/file/d/1ou4n0SOfCwAvuQvZmCO9L1nfkI3s-4Po/view?usp=sharing";
+const COIUNIT13 = "https://drive.google.com/file/d/1Wtka0lt7X6QBdrcLK6M-QCriDOvE5gi6/view?usp=sharing";
+const COIUNIT14= "https://drive.google.com/file/d/1GPP5eG7J9UlOSCIISJnnrkFp8aUMblUx/view?usp=sharing";
+
+export const sem5Subjects = [
+  {
+   subject: "FLAT",
+    units: [
+     { name: "Unit-1", file: FLATUNIT1, displayName: "Introduction to FLAT" },
+      { name: "Unit-2", file: FLATUNIT2, displayName: "Regular Languages" },
+      { name: "Unit-3", file: FLATUNIT3, displayName: "Context-free languages" },
+      { name: "Unit-4", file: FLATUNIT4, displayName: "Context-sensitive languages " }, 
+      { name: "Unit-5", file: FLATUNIT5, displayName: "Turing Machines" },
+      { name: "Unit-6", file: FLATUNIT6, displayName: "Undecidability & Intractablity: " },
+      { name: "IMP-Topics", file: FLATTopics, displayName: "DFA-NFA Conversion" },
+      { name: "IMP-Topics", file: FLATTopics2, displayName: "Minimisation DFA" },
+      { name: "IMP-Topics", file: FLATTopics3, displayName: "Properties of RE" },
+      { name: "IMP-Topics", file: FLATTopics4, displayName: "Pumping Lemma CFL" },
+      { name: "IMP-Topics", file: FLATTopics5, displayName: "Turing Machines" },  
+    ],
+    },
+    {
+      subject:"SE",
+      units:[
+      { name: "Unit-1", file: SEUNIT1,  },
+      { name: "Unit-2", file: SEUNIT2, },
+      { name: "Unit-3", file: SEUNIT3, },
+      { name: "Unit-4", file: SEUNIT4,displayName: "Unit 4-5" },
+      { name: "Unit-5", file: SEUNIT5, },
+      { name: "LabManual", file: SELab1, displayName: "Front-Page" },
+      { name: "LabManual", file: SELab2, displayName: "File" },
+      ],
+    },
+    {
+      subject: "DBMS",
+      units: [
+        { name: "Unit-1", file: DBMSUNIT1, },
+        { name: "Unit-2", file: DBMSUNIT2,  },
+        { name: "Unit-3", file: DBMSUNIT3,  },
+        { name: "Unit-4", file: DBMSUNIT4, },
+        { name: "Unit-5", file: DBMSUNIT5,  },
+        { name: "Unit-6", file: DBMSUNIT6,},
+        { name: "LabManual", file: DBMSLAB, displayName:"FRONT-PAGE"},
+        { name: "LabManual", file: DBMSLAB2, displayName:"FILE"},
+      ],
+    }
+    ,
+    {
+      subject: "CN",
+      units: [
+        { name: "Unit-1", file: CNUNIT1, },
+        { name: "Unit-2", file: CNUNIT2, },
+        { name: "Unit-3", file: CNUNIT3,  },
+        { name: "Unit-4", file: CNUNIT4,},
+        { name: "LabManual", file: CNLAB, displayName:"FILE"},
+      ],
+    },
+    {
+      subject: "ERP",
+      units: [
+        { name: "Unit-1", file: ERPUNIT1, },
+        { name: "Unit-2", file: ERPUNIT2, },
+        { name: "Unit-3", file: ERPUNIT3,  },
+        { name: "Unit-4", file: ERPUNIT4,  },
+        { name: "Unit-5", file: ERPUNIT5, },
+        { name: "Syllabus", file: ERPSYLLABUS, displayName: "Syllabus" },
+        { name: "IMP", file: ERPIMP, displayName:"IMP TOPICS"},
+      ],
+    },
+    {
+      subject: "WT (Elective)",
+      units: [
+        { name: "Unit-1", file: WTUNIT1, },
+        { name: "Unit-2", file: WTUNIT2, },
+        { name: "Unit-3", file: WTUNIT3,  },
+        { name: "Unit-4", file: WTUNIT4,  },
+        { name: "Unit-5", file: WTUNIT5,  },
+        { name: "Unit-6", file: WTUNIT6,  },
+      ],
+    },
+    {
+      subject: "COI (Elective)",
+      units: [
+        { name: "IMP-Topics-1", file: COIUNIT1,   displayName: "Introduction to COI" },
+        { name: "IMP-Topics-2", file: COIUNIT2,   displayName: "Fundamental RIGHTS" },
+        { name: "IMP-Topics-4", file: COIUNIT4,   displayName: "State-Policy" },
+        { name: "IMP-Topics-5", file: COIUNIT5,   displayName: "CITIZENSHIP" },
+        { name: "IMP-Topics-6", file: COIUNIT6,   displayName: "THE UNION" },
+        { name: "IMP-Topics-7", file: COIUNIT7,   displayName: "ARTICLES" },
+        { name: "IMP-Topics-8", file: COIUNIT8,   displayName: "ARTICLES-2" },
+        { name: "IMP-Topics-9", file: COIUNIT9,   displayName: "SUPREME-COURT" },
+        { name: "IMP-Topics-10", file: COIUNIT10 ,displayName: "THE STATES" }, 
+        { name: "IMP-Topics-11", file: COIUNIT11 ,displayName: "ARTCILE INFO" }, 
+        { name: "IMP-Topics-12", file: COIUNIT12 ,displayName: "HIGH-COURTS" }, 
+        { name: "IMP-Topics-13", file: COIUNIT13 ,displayName: "43rd AMENDMENT" }, 
+        { name: "IMP-Topics-14", file: COIUNIT14 ,displayName: "Union Territories" }, 
+      ],
+    }
+]
+
+//Wc
+const WCUNIT1 = "https://drive.google.com/file/d/1GVqxGxioMgukq4UUeFB5-gfMmRhI2EwF/view?usp=sharing";
+const WCUNIT2 = "https://drive.google.com/file/d/1QZKS8OWZkpvFeSFpZbc0o2qQpmZ_22Rt/view?usp=sharing";
+const WCUNIT3 = "https://drive.google.com/file/d/1Ffba_ZIfWreQaQ069VWd7mjD30qp1B1S/view?usp=sharing";
+const WCUNIT4 = "https://drive.google.com/file/d/1WCzrBVf4Khwaxqho2y5VyjrN-NTgVc8k/view?usp=sharing";
+const WCUNIT5 = "https://drive.google.com/file/d/1desD87np8VuTEPAjQ-RkXvpK8CDWHghZ/view?usp=sharing";
+
+export const sem6Subjects = [
+  {
+
+  
+  subject: "WC (Web Technologies)",
+  units: [
+    { name: "Unit-1", file: WCUNIT1, },
+    { name: "Unit-2", file: WCUNIT2, },
+    { name: "Unit-3", file: WCUNIT3, },
+    { name: "Unit-4", file: WCUNIT4,},
+    { name: "Unit-5", file: WCUNIT5,},
+
+  ]
+},
+]

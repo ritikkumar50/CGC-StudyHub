@@ -11,7 +11,8 @@ import FirstSemester from "./components/All-Semester/Btech-CSE/FirstSemester";
 import SecondSemester from "./components/All-Semester/Btech-CSE/SecondSemester";
 import ThirdSemester from "./components/All-Semester/Btech-CSE/ThirdSemester";
 import FourthSemester from "./components/All-Semester/Btech-CSE/FourthSem";
-
+import FifthSemester from "./components/All-Semester/Btech-CSE/FifthSem";
+import SixthSemester from "./components/All-Semester/Btech-CSE/SixthSem";
 function Home() {
   return (  
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
@@ -38,6 +39,9 @@ export default function App() {
           <Route path="/btech/cse/secondsemester" element={<SecondSemester />} />
           <Route path="/btech/cse/thirdsemester" element={<ThirdSemester />} />
           <Route path="/btech/cse/fourthsemester" element={<FourthSemester />} />
+          <Route path="/btech/cse/fifthsemester" element={<FifthSemester />} />
+          <Route path="/btech/cse/sixthsemester" element={<SixthSemester />} />
+
         </Routes>
         <Footer />
       </div>
