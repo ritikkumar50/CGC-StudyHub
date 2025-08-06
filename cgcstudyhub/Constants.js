@@ -751,7 +751,49 @@ const AIUNIT5 ="https://drive.google.com/file/d/1waZ8x2gcynJNYzc96JMNxk1vYHiMYxk
 const AIUNIT5_1 ="https://drive.google.com/file/d/1DMPaqvULyvdlpdPh20GG02cfTyN8xB2H/view?usp=sharing";
 const AIUNIT5_2 ="https://drive.google.com/file/d/1BtlmP_hVhamzHhZeVJXiIfWwv--qCFp4/view?usp=sharing";
 const AIUNIT5_3 ="https://drive.google.com/file/d/1SM1HPdcAVHDHr9tPnagzsdQjSFM1zaaX/view?usp=sharing";
-
+const AILAB1 = "https://drive.google.com/file/d/1bTlhav1ki3nPearOu7QuNkzRpQAYixwR/view?usp=sharing";
+const AILAB2 = "https://drive.google.com/file/d/1FHdRDpveuJHN6xxkdVyw4BEdeq-WHNPU/view?usp=sharing";
+//CD
+const CDNOTES1 = "https://drive.google.com/file/d/1Hyq1RsvUcg5eeVYf3ym7rGKLb8mLcMkH/view?usp=sharing";
+const CDNOTES2 = "https://drive.google.com/file/d/1Oz3uzBTcUC5o3Sc6kOaNlxQ19W3Nm0hz/view?usp=sharing";
+const CDNOTES3 = "https://drive.google.com/file/d/1tv4qanywYew2LNHHdPyrpjrTCqB5W5tj/view?usp=sharing";
+const CDNOTES4 = "https://drive.google.com/file/d/1xRnQUfGiuvQxij_99gVqpwBUWT_NFZ3p/view?usp=sharing";
+const CDNOTES5 = "https://drive.google.com/file/d/1iGExOBpcL33junT6JIxy7Nc9CZOi7XUM/view?usp=sharing";
+const CDNOTES6 = "https://drive.google.com/file/d/14p2PGZwnKSEG45Gf6srMjmFdZq9i7uRv/view?usp=sharing";
+const CDLAB = "https://drive.google.com/file/d/1u9ZL4ehbTuvrtg13vOTNi6JJUrn4pFp8/view?usp=sharing";
+const CDLAB2 = "https://drive.google.com/file/d/1f6yDteaXnsfxt-DsordphKHC_gIcdmEs/view?usp=sharing";
+//CC
+const CCUNIT1 = "https://drive.google.com/file/d/1nNVJYsJ77McC_g6mKzqlpYZUeUdeEg4B/view?usp=sharing";
+const CCUNIT2 = "https://drive.google.com/file/d/1ycn0gCI-CDyr26ARvUdJ7fCVzGmTBggK/view?usp=sharing";
+const CCUNIT3 = "https://drive.google.com/file/d/1dUtT6bMY4KMafWoyBOcpL1DkJ9ohOcUQ/view?usp=sharing";
+const CCUNIT4 = "https://drive.google.com/file/d/1pMeZnuGb6uCQ420kihK2jJd5VDZu7Qqy/view?usp=sharing";
+const CCUNIT5 = "https://drive.google.com/file/d/1tQ-X0ceojX3_eJWnY18zxjk1J9Wn8lZ4/view?usp=sharing";
+const CCLAB = "https://drive.google.com/file/d/1ialQ6eHCRzIBbyFxPaBRbATcnImRIQ2W/view?usp=sharing";
+const CCLAB1 = "https://drive.google.com/file/d/1UCGNsVNWfMmlMTqK93OQ_q9r5BiflYfv/view?usp=sharing";
+//MAD
+const MADUNIT1 = "https://drive.google.com/file/d/1mQixoBVs6xtuxJK5M9MiaI8f4H65yTB0/view?usp=sharing";
+const MADUNIT2 = "https://drive.google.com/file/d/1PMsUi2j9N2varUePAWkGB2MdpUnWyGQm/view?usp=sharing";
+const MADUNIT3 = "https://drive.google.com/file/d/1nhr6vHvacIhBSaBqB0tdtlEkz4J5ZBl0/view?usp=sharing";
+const MADUNIT4 = "https://drive.google.com/file/d/161mzT0pxFHRIO2hDyujevy49SZye_eDk/view?usp=sharing";
+const MADUNIT5 = "https://drive.google.com/file/d/1nJ9SBwPcxKPpU8Rd4xxAn-sp62XKIIOx/view?usp=sharing"; 
+const MADLAB = "https://drive.google.com/file/d/1RxNi2aM18qwO5AKsh0NjIzsNlTnAkhxz/view?usp=sharing";
+const MADLAB1 = "https://drive.google.com/file/d/1yY2LdnYjk9jwFgvNrwQhAoPvyG-koCbq/view?usp=sharing";
+const MADLAB2 = "https://drive.google.com/file/d/1DUW4a-COGhm4PQ5f1RBVV0GsCFp_1SXW/view?usp=sharing";
+//ML
+const MLUNIT1 = "https://drive.google.com/file/d/1XrHbBj-LaXE8ZfwNq4uDeNxsqmZUZroo/view?usp=sharing";
+const MLUNIT2 = "https://drive.google.com/file/d/1F72Zv-QG3qJDzFpzRCmHTQOSrA13gSCH/view?usp=sharing";
+const MLUNIT3 = "https://drive.google.com/file/d/1_F0Vm5Osi38bBRVhR6FkbzH9uqc0hVLp/view?usp=sharing";
+const MLUNIT4 = "https://drive.google.com/file/d/1bnQ0AwCLnv2whyIkH5lTmov2GpQ5tJhy/view?usp=sharing";
+const MLUNIT5 = "https://drive.google.com/file/d/1oDNqOLRo231wOuWzL7Xozk3e37-J2Tb8/view?usp=sharing";
+const MLUNIT6 = "https://drive.google.com/file/d/1XPC5vveh_wiv3o7aKL8xynaxoRaMG68k/view?usp=sharing";
+const MLUNIT7 = "https://drive.google.com/file/d/1hz0NuS4s3Np0K28cquD6bnhZO9uzO45O/view?usp=sharing";
+const MLUNIT8 = "https://drive.google.com/file/d/1JWFIOEaZ8F3W7fGtSaycVgMEt5pSA6Ud/view?usp=sharing";
+const MLUNIT9 = "https://drive.google.com/file/d/1TouQeR1MAqhEz67qoj4eQ_T6oyYPsagN/view?usp=sharing";
+const MLUNIT10 = "https://drive.google.com/file/d/1JtFCsEb3GlbK4Jp96HRqU-UxID3Sl3lp/view?usp=sharing";
+const MLUNIT11 = "https://drive.google.com/file/d/1sKw3amv07d9e6pMRdRBhWN0DYIlmAgeY/view?usp=sharing";
+const MLUNIT12 = "https://drive.google.com/file/d/16hIGo-zr1BQ07X3WZVPbiR8pde49vY-0/view?usp=sharing";
+const MLUNIT13 = "https://drive.google.com/file/d/1SjKbk6uLoDYeBfFlymDidPt0e-bDMVLF/view?usp=sharing";
+const MLUNIT14 = "https://drive.google.com/file/d/1sOrBw-4D1omr5qn9LvI9LCYoYuxicfN_/view?usp=sharing";
 
 export const sem6Subjects = [
   {
@@ -781,21 +823,80 @@ export const sem6Subjects = [
     { name: "Module-2", file: AIUNIT2_1, displayName:"Uninformed Search Strategies" },
     { name: "Module-2", file: AIUNIT2_2, displayName:"Informed Search Strategies" },
     { name: "Module-2", file: AIUNIT2_3, displayName:"Adversarial Search" },
-    { name: "Module-2", file: AIUNIT2_4, displayName:"Neural Networks" },
-    { name: "Module-2", file: AIUNIT2_5, displayName:"Deep Learning" },
-    { name: "Module-2", file: AIUNIT2_6, displayName:"Natural Language Processing" },
-    { name: "Module-3", file: AIUNIT3, displayName:"Computer Vision" },
-    { name: "Module-3", file: AIUNIT3_1, displayName:"Image Processing" },
-    { name: "Module-3", file: AIUNIT3_2, displayName:"Object Detection" },
-    { name: "Module-3", file: AIUNIT3_3, displayName:"Face Recognition" },
-    { name: "Module-3", file: AIUNIT3_4, displayName:"AI Ethics and Challenges" },
-    { name: "Module-4", file: AIUNIT4, displayName:"AI"},
-    { name: "Module-4", file: AIUNIT4_1, displayName:"AI in Industry" },
-    { name: "Module-4", file: AIUNIT4_2, displayName: "AI in Healthcare" },
-    { name: "Module-5", file: AIUNIT5, displayName:"AI Applications" },
-    { name: "Module-5", file: AIUNIT5_1, displayName: "AI in Finance" },
-    { name: "Module-5", file: AIUNIT5_2, displayName: "AI in Robotics" },
-    { name: "Module-5", file: AIUNIT5_3, displayName: "AI in Autonomous Systems" },
-     ]
+    { name: "Module-2", file: AIUNIT2_4, displayName:"Alpha Beta Pruning" },
+    { name: "Module-2", file: AIUNIT2_5, displayName:"Recursive Best first search" },
+    { name: "Module-2", file: AIUNIT2_6, displayName:"AO* Search Strategy" },
+    { name: "Module-3", file: AIUNIT3, displayName:"Probabilistic Reasoning" },
+    { name: "Module-3", file: AIUNIT3_1, displayName:"Probabilistic reasoning in AI" },
+    { name: "Module-3", file: AIUNIT3_2, displayName:"Bayesian networks" },
+    { name: "Module-3", file: AIUNIT3_3, displayName:"Temporal Model" },
+    { name: "Module-3", file: AIUNIT3_4, displayName:"Hidden Markov Models" },
+    { name: "Module-4", file: AIUNIT4, displayName:"Markov Decision Process"},
+    { name: "Module-4", file: AIUNIT4_1, displayName:"Decision Theory" },
+    { name: "Module-4", file: AIUNIT4_2, displayName: "Utility theory and function" },
+    { name: "Module-5", file: AIUNIT5, displayName:"Reinforcement Learning" },
+    { name: "Module-5", file: AIUNIT5_1, displayName: "Types of Reinforcement" },
+    { name: "Module-5", file: AIUNIT5_2, displayName: "Adaptive Dynamic Programming" },
+    { name: "Module-5", file: AIUNIT5_3, displayName: "Active Reinforcement Learning" },
+    { name: "LabManual", file: AILAB1, displayName: "FILE" },
+    { name: "LabManual", file: AILAB2, displayName: "INDEX" },   
+  ]
 },
+{
+  subject: "CD (Compiler Design)",
+  units: [
+    { name: "Unit-1", file: CDNOTES1, displayName: "Introduction to Compiler" },
+    { name: "Unit-2", file: CDNOTES2, displayName: "Syntax Analysis" },
+    { name: "Unit-3", file: CDNOTES3, displayName: "Code Generation" },
+    { name: "Unit-4", file: CDNOTES4, displayName: "Bottom-Up-Parser" },
+    { name: "Unit-5", file: CDNOTES5, displayName: "LR Parser" },
+    { name: "Unit-6", file: CDNOTES6, displayName: "Parsers" },
+    { name: "LabManual", file: CDLAB, displayName:"INDEX"},
+    { name: "LabManual", file: CDLAB2, displayName:"FILE"},
+  ]
+},
+{
+  subject: "CC (Cloud Computing)",
+  units: [
+    { name: "Unit-1", file: CCUNIT1, },
+    { name: "Unit-2", file: CCUNIT2,  },
+    { name: "Unit-3", file: CCUNIT3,  },
+    { name: "Unit-4", file: CCUNIT4,  },
+    { name: "Unit-5", file: CCUNIT5,},
+    { name: "LabManual", file: CCLAB, displayName:"FILE"},
+    { name: "LabManual", file: CCLAB1, displayName:"INDEX"},
+  ]
+},
+{
+  subject: "MAD (Mobile Application Development)",
+  units: [
+    { name: "Unit-1", file: MADUNIT1, },
+    { name: "Unit-2", file: MADUNIT2, },
+    { name: "Unit-3", file: MADUNIT3, },
+    { name: "Unit-4", file: MADUNIT4, },
+    { name: "Unit-5&6", file: MADUNIT5, },
+    { name: "LabManual", file: MADLAB, displayName:"FILE"},
+    { name: "LabManual", file: MADLAB1, displayName:"Front-page"},
+    { name: "LabManual", file: MADLAB2, displayName:"INDEX" },
+  ]
+},
+{
+  subject: "ML (Machine Learning)",
+  units: [
+    { name: "Topics-1", file: MLUNIT1,   },
+    { name: "Topics-2", file: MLUNIT2,   },
+    { name: "Topics-3", file: MLUNIT3,   },
+    { name: "Topics-4", file: MLUNIT4,   },
+    { name: "Topics-5", file: MLUNIT5,   },
+    { name: "Topics-6", file: MLUNIT6,   },
+    { name: "Topics-7", file: MLUNIT7,   },
+    { name: "Topics-8", file: MLUNIT8,   },
+    { name: "Topics-9", file: MLUNIT9,   },
+    { name: "Topics-10", file: MLUNIT10, },
+    { name: "Topics-11", file: MLUNIT11, },
+    { name: "Topics-12", file: MLUNIT12, },
+    { name: "Topics-13", file: MLUNIT13, },
+    { name: "Topics-14", file: MLUNIT14, },
+  ]
+}
 ]
