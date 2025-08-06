@@ -724,6 +724,34 @@ const WCUNIT2 = "https://drive.google.com/file/d/1QZKS8OWZkpvFeSFpZbc0o2qQpmZ_22
 const WCUNIT3 = "https://drive.google.com/file/d/1Ffba_ZIfWreQaQ069VWd7mjD30qp1B1S/view?usp=sharing";
 const WCUNIT4 = "https://drive.google.com/file/d/1WCzrBVf4Khwaxqho2y5VyjrN-NTgVc8k/view?usp=sharing";
 const WCUNIT5 = "https://drive.google.com/file/d/1desD87np8VuTEPAjQ-RkXvpK8CDWHghZ/view?usp=sharing";
+//AI
+const AIUNIT1 = "https://drive.google.com/file/d/1qa0czrkY-PgWTlsulMT2DtpCb7TLvc4i/view?usp=sharing";
+const AIUNIT1_1 = "https://drive.google.com/file/d/1D9vCmMIDQ8DY1L0ukhzSc23WZvPK9DsA/view?usp=sharing";
+const AIUNIT1_2 = "https://drive.google.com/file/d/1BMCOc9rM_11GEniL8tyMyOZb72GA2IEa/view?usp=sharing";
+const AIUNIT1_3 = "https://drive.google.com/file/d/1x0-_2NZsJxpDogw6fwxAamAvHitChQr-/view?usp=sharing";
+const AIUNIT1_4 = "https://drive.google.com/file/d/16NnSSW21-BnJQsiqa4hXg3EbqBP7qLry/view?usp=sharing";
+const AIUNIT1_5 = "https://drive.google.com/file/d/1AdZkvsAibm4Hola9BYGa7-FcaVCFpMQV/view?usp=sharing";
+const AIUNIT1_6 = "https://drive.google.com/file/d/1R7zN3DpaDqO0aEmZau8cinMIfU4ilT8m/view?usp=sharing";
+const AIUNIT2 = "https://drive.google.com/file/d/1qVpSgvQ8IYpnE_YnrZrtmSNPGogD12kn/view?usp=sharing";
+const AIUNIT2_1 = "https://drive.google.com/file/d/1a2bgf0MXIhxrtkNWlmZIEc5IjKMJ0aM6/view?usp=sharing";
+const AIUNIT2_2 = "https://drive.google.com/file/d/17KtGQdWXyxiPGY7tbAOwrY80iyrDBASn/view?usp=sharing";
+const AIUNIT2_3 = "https://drive.google.com/file/d/1M1yWcPjw1G1-C7PhZ6TE9b9jeoiP5Wm9/view?usp=sharing";
+const AIUNIT2_4 = "https://drive.google.com/file/d/1ECAf7QeMhJ3eq6LLhJdVxJgWQ98VWVfP/view?usp=sharing";
+const AIUNIT2_5 = "https://drive.google.com/file/d/1MdCbDuED7NYIPkl6WhfinckSiCArPcNS/view?usp=sharing";
+const AIUNIT2_6 = "https://drive.google.com/file/d/1lKVpL2xLkpMkykCZIL_WhgHWU7N3i36y/view?usp=sharing";
+const AIUNIT3 = "https://drive.google.com/file/d/1vcKC5sBulGWJRBvvHfGT8SKrdy1rS_Ik/view?usp=sharing";
+const AIUNIT3_1 = "https://drive.google.com/file/d/1Pywky7Uwuubtj_OaenYWgUTah9eQEfEH/view?usp=sharing";
+const AIUNIT3_2 = "https://drive.google.com/file/d/1xufPn8LGYShUg8SH_APOZmaGZeobqvEj/view?usp=sharing";
+const AIUNIT3_3 = "https://drive.google.com/file/d/1jqOB1-08-lvAT2YROUBnExSsNKK7mDqh/view?usp=sharing";
+const AIUNIT3_4 = "https://drive.google.com/file/d/1N3IU3PdjDsBW-WWis7p7nFCBpGB4syGs/view?usp=sharing";
+const AIUNIT4 = "https://drive.google.com/file/d/1TKhya0jw9OlN6My6jjjoTMCuXoJKCoN3/view?usp=sharing";
+const AIUNIT4_1 = "https://drive.google.com/file/d/1W35irpldmfJ1Bn_7iQJZP9_M3H-lF9Im/view?usp=sharing";
+const AIUNIT4_2 = "https://drive.google.com/file/d/163lRg0QojOilcesy7Z4NJsrDXcLxCVFb/view?usp=sharing";
+const AIUNIT5 ="https://drive.google.com/file/d/1waZ8x2gcynJNYzc96JMNxk1vYHiMYxks/view?usp=sharing";
+const AIUNIT5_1 ="https://drive.google.com/file/d/1DMPaqvULyvdlpdPh20GG02cfTyN8xB2H/view?usp=sharing";
+const AIUNIT5_2 ="https://drive.google.com/file/d/1BtlmP_hVhamzHhZeVJXiIfWwv--qCFp4/view?usp=sharing";
+const AIUNIT5_3 ="https://drive.google.com/file/d/1SM1HPdcAVHDHr9tPnagzsdQjSFM1zaaX/view?usp=sharing";
+
 
 export const sem6Subjects = [
   {
@@ -738,5 +766,36 @@ export const sem6Subjects = [
     { name: "Unit-5", file: WCUNIT5,},
 
   ]
+},
+{
+  subject: "AI (Artificial Intelligence)",
+  units: [
+    { name: "Module-1", file: AIUNIT1, displayName: "Introduction to AI" },
+    { name: "Module-1", file: AIUNIT1_1, displayName: "AI Techniques" },
+    { name: "Module-1", file: AIUNIT1_2, displayName: "Foundation Of AI" },
+    { name: "Module-1", file: AIUNIT1_3, displayName: "AI Agents" },
+    { name: "Module-1", file: AIUNIT1_4, displayName: "Problem Solving" },
+    { name: "Module-1", file: AIUNIT1_5, displayName: "Trees and Graph" },
+    { name: "Module-1", file: AIUNIT1_6, displayName: "Agents" },
+    { name: "Module-2", file: AIUNIT2, displayName:"Search Algo" },
+    { name: "Module-2", file: AIUNIT2_1, displayName:"Uninformed Search Strategies" },
+    { name: "Module-2", file: AIUNIT2_2, displayName:"Informed Search Strategies" },
+    { name: "Module-2", file: AIUNIT2_3, displayName:"Adversarial Search" },
+    { name: "Module-2", file: AIUNIT2_4, displayName:"Neural Networks" },
+    { name: "Module-2", file: AIUNIT2_5, displayName:"Deep Learning" },
+    { name: "Module-2", file: AIUNIT2_6, displayName:"Natural Language Processing" },
+    { name: "Module-3", file: AIUNIT3, displayName:"Computer Vision" },
+    { name: "Module-3", file: AIUNIT3_1, displayName:"Image Processing" },
+    { name: "Module-3", file: AIUNIT3_2, displayName:"Object Detection" },
+    { name: "Module-3", file: AIUNIT3_3, displayName:"Face Recognition" },
+    { name: "Module-3", file: AIUNIT3_4, displayName:"AI Ethics and Challenges" },
+    { name: "Module-4", file: AIUNIT4, displayName:"AI"},
+    { name: "Module-4", file: AIUNIT4_1, displayName:"AI in Industry" },
+    { name: "Module-4", file: AIUNIT4_2, displayName: "AI in Healthcare" },
+    { name: "Module-5", file: AIUNIT5, displayName:"AI Applications" },
+    { name: "Module-5", file: AIUNIT5_1, displayName: "AI in Finance" },
+    { name: "Module-5", file: AIUNIT5_2, displayName: "AI in Robotics" },
+    { name: "Module-5", file: AIUNIT5_3, displayName: "AI in Autonomous Systems" },
+     ]
 },
 ]
