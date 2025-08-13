@@ -48,9 +48,9 @@ export default function CSE() {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-all">
       <Navbar />
 
-      <div className="max-w-6xl mx-auto px-6 py-20">
+      <div className="max-w-6xl mx-auto px-6 py-25">
         {/* Back Button */}
-        <div className="hidden md:block mb-6">
+        {/* <div className="hidden md:block mb-6">
           <button
             onClick={() => navigate(-1)}
             className="flex items-center text-gray-700 dark:text-gray-300 relative group"
@@ -58,7 +58,7 @@ export default function CSE() {
             <ArrowLeft className="w-6 h-6 mr-2" />
             <span className="font-medium hover:text-blue-600">Go Back</span>
           </button>
-        </div>
+        </div> */}
 
         {/* Segmented Control */}
         <div className="flex justify-center mb-10 py-8 md:py-0">

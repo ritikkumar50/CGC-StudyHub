@@ -1,6 +1,12 @@
 import Btechanimation from "./src/assets/Lottie/software engineer.json";
 import Pharmaanimation from "./src/assets/Lottie/DOCTOR.json";
 import BOOKSite from "./src/assets/image/Bookztron-HomePage-1.PNG";
+import Coursera from "./src/assets/image/coursera.webp";
+import EdX from "./src/assets/image/Edx.webp"; 
+import GoogleSkillshop from "./src/assets/image/google.webp";
+import HubSpotAcademy from "./src/assets/image/Hubsport.webp";
+import linkedin from "./src/assets/image/linkdin.webp";
+
 export const coursesData = [
   {
     id: "btech",  // Change 1 to "btech"
@@ -103,6 +109,40 @@ export const projectsData = [
   },
   
 ];
+
+export const certificatesData = [
+  {
+    name: "Coursera",
+    description: "Online courses from top universities and companies. Earn professional certificates.",
+    link: "https://www.coursera.org/",
+    image: Coursera,
+  },
+  {
+    name: "edX",
+    description: "University-level courses in a wide range of disciplines, some free and some paid.",
+    link: "https://www.edx.org/",
+    image: EdX,
+  },
+  {
+    name: "Google Skillshop",
+    description: "Free training and certifications for Google Ads, Analytics, and more.",
+    link: "https://skillshop.exceedlms.com/student/catalog",
+    image: GoogleSkillshop,
+  },
+  {
+    name: "HubSpot Academy",
+    description: "Free certifications in marketing, sales, and customer service.",
+    link: "https://academy.hubspot.com/courses",
+    image: HubSpotAcademy,
+  },
+  {
+    name: "LinkedIn Learning",
+    description: "Professional skills and certifications to boost your career.",
+    link: "https://www.linkedin.com/learning/",
+    image: linkedin,
+  },
+];
+
 
 
 // first semester notes

@@ -35,12 +35,11 @@ export default function ProjectsPage() {
           Explore projects built by your seniors and developers. Learn, adapt,
           and innovate.
         </p>
-        <button className="mt-4 px-4 py-2 sm:px-5 sm:py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition text-sm sm:text-base">
+        <button className="mt-4 px-4 py-2 sm:px-5 sm:py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 shadow-md  transition text-sm sm:text-base">
           <a
             href="https://forms.gle/jLXbDvNVRd7piMLNA"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition"
           >
             Share Your Project
           </a>

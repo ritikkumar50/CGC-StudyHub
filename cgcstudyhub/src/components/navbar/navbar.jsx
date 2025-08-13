@@ -44,7 +44,7 @@ export default function Navbar() {
       ],
     },
     { name: "Projects", link: "/projects", icon: <Briefcase size={20} /> },
-    { name: "Certificates", href: "#Certificates", icon: <Award size={20} /> },
+    { name: "Certificates", href: "/certificates", icon: <Award size={20} /> },
     { name: "Contacts", href: "#Contacts", icon: <Phone size={20} /> },
   ];
 
