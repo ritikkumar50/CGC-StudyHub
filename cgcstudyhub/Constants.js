@@ -143,7 +143,7 @@ export const certificatesData = [
   },
 ];
 
-
+//Cse
 
 // first semester notes
 
@@ -448,6 +448,8 @@ export const sem3Subjects = [
 
 ]
 //4th semester
+//book
+const Book = "https://drive.google.com/file/d/1nPkuMQFy2VMdeAiNcm_iPQJN2xEjtAiQ/view?usp=sharing";
 //LORDS
 const LORDS = "https://drive.google.com/file/d/1b2g0d3j4k5l6m7n8o9p0q1r2s3t4u5v6/view?usp=drive_link";
 //Handwritten module1
@@ -558,6 +560,7 @@ export const sem4Subjects = [
       { name: "Question Bank-4", file: QuestionBank4 , displayName: "Question Bank unit-4" },
       { name: "Question Bank-5", file: QuestionBank5, displayName: "Question Bank unit-5" },
       { name: "LORDS", file: LORDS },
+      { name: "BOOK", file: Book },
     ],
   },
   {
@@ -676,8 +679,9 @@ const DBMSLAB2 = "https://drive.google.com/file/d/174VrEXKt4nWbc5-5qiW8D1Rycr5Ke
 const CNUNIT1 = "https://drive.google.com/file/d/1vDqiNAZHNDnE2qY7eP6dloH8tDeM9qO1/view?usp=sharing";
 const CNUNIT2 = "https://drive.google.com/file/d/1r4unW_UL2DO5QFsqROcTKPMvQThcyFS9/view?usp=sharing";
 const CNUNIT3 = "https://drive.google.com/file/d/194EEyYoV6cJUbd87ROXBIMM5E4DALi4g/view?usp=sharing";
-const CNUNIT4 = "https://drive.google.com/file/d/1CyDhdNAHTvWd0YZc2eHOF0aVcIEonqxP/view?usp=sharing";
-const CNLAB = "https://drive.google.com/file/d/1mtfq0J_ixHS3cgTOgiNChQffsmRBy7dh/view?usp=sharing";
+const CNUNIT4 = "https://drive.google.com/file/d/1QYoTgaq1agc8DEPH8BHmOSH0ff9KO7mb/view?usp=sharing";
+const CNUNIT5 = "https://drive.google.com/file/d/1kvlIyyr-BAGTECBxDgYiX_ZsDgZh-Ilp/view?usp=sharing";
+const CNLAB = "https://drive.google.com/file/d/1EG7ulG_l2ofqxnRkKzU8YoaK1KYkYzfV/view?usp=sharing";
 //ERP
 const ERPUNIT1 = "https://drive.google.com/file/d/1yXY1IhJ8PmvYwpMiKUG2xZAAUSMMHlu3/view?usp=sharing";
 const ERPUNIT2 = "https://drive.google.com/file/d/1gCO05nSb_zLtUbWhxtCPOTTQ9GB6kNro/view?usp=sharing";
@@ -759,6 +763,7 @@ export const sem5Subjects = [
         { name: "Unit-2", file: CNUNIT2, },
         { name: "Unit-3", file: CNUNIT3,  },
         { name: "Unit-4", file: CNUNIT4,},
+        { name: "Unit-5", file: CNUNIT5,  },
         { name: "LabManual", file: CNLAB, displayName:"FILE"},
       ],
     },
@@ -987,3 +992,6 @@ export const sem6Subjects = [
   ]
 }
 ]
+//ECE
+//math-1
+

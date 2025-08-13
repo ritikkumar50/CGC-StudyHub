@@ -18,9 +18,12 @@ export default function CertificatesPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 px-6 py-12 mt-20">
-      <h1 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-8">
+      <h1 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-3">
         Certificates & <span className="text-red-700 dark:text-blue-600">Learning Platforms </span> 
       </h1>
+      <h3 className="text-lg text-center text-gray-600 dark:text-gray-300 mb-4"> 
+        Explore various platforms to earn certificates and enhance your skills.
+        </h3>
 
       {/* Search Bar */}
       <div className="max-w-lg mx-auto mb-10">
