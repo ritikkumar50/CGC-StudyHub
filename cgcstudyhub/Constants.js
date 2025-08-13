@@ -1,6 +1,6 @@
 import Btechanimation from "./src/assets/Lottie/software engineer.json";
 import Pharmaanimation from "./src/assets/Lottie/DOCTOR.json";
-
+import BOOKSite from "./src/assets/image/Bookztron-HomePage-1.PNG";
 export const coursesData = [
   {
     id: "btech",  // Change 1 to "btech"
@@ -24,6 +24,7 @@ import AIMLAnimation from "./src/assets/Lottie/Artificial intelligence Lottie An
 import AIDSAnimation from "./src/assets/Lottie/AI intelligence.json";
 import ITAnimation from "./src/assets/Lottie/networking.json";
 import ECEAnimation from "./src/assets/Lottie/Laptop.json";
+import { Code } from "lucide-react";
 
 export const btechCourses = [
   {
@@ -57,6 +58,52 @@ export const btechCourses = [
     animation: ECEAnimation,
   },
 ];
+
+
+
+export const projectsData = [
+  {
+    id: 1,
+    title: "Blockchain Voting System",
+    description: "A secure online voting platform using Ethereum blockchain.",
+    domain: "Blockchain",
+    level: "Advanced",
+    tech: ["Solidity", "React", "Web3.js"],
+    image: "https://picsum.photos/400/250?random=1",
+  },
+  {
+    id: 2,
+    title: "AI Chatbot for Students",
+    description: "A chatbot to answer common student queries.",
+    domain: "AI/ML",
+    level: "Intermediate",
+    tech: ["Python", "TensorFlow", "Flask"],
+    image: "https://picsum.photos/400/250?random=2",
+  },
+  {
+    id: 3,
+    title: "College Event Website",
+    description: "A responsive event site for managing college fests.",
+    domain: "Web Development",
+    level: "Beginner",
+    tech: ["React", "Node.js", "MongoDB"],
+    image: "https://picsum.photos/400/250?random=3",
+  },
+  
+    {
+    id: 3,
+    title: "Online Book Store",
+    description: "A responsive event site for Buying and selling books.",
+    domain: "Web Development",
+    level: "Beginner",
+    tech: ["React", "Node.js", "MongoDB", "Express"],
+    image: BOOKSite,
+    codeLink: "https://github.com/ritikkumar50/Web-Bookstore-.git",
+    liveLink: "https://bookztron-dev-branch.netlify.app/",
+  },
+  
+];
+
 
 // first semester notes
 

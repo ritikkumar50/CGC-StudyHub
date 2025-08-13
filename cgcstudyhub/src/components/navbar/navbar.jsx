@@ -9,8 +9,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
     // Check for saved preference or system preference
-    return localStorage.getItem("darkMode") === "true" || 
-           (!localStorage.getItem("darkMode") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+    return localStorage.getItem("darkMode") === "true" ||
+      (!localStorage.getItem("darkMode") && window.matchMedia("(prefers-color-scheme: dark)").matches);
   });
   const [openMenu, setOpenMenu] = useState(null);
   const [openSubmenu, setOpenSubmenu] = useState(null);
@@ -43,7 +43,7 @@ export default function Navbar() {
         { name: "BBA", href: "#BBA" },
       ],
     },
-    { name: "Projects", href: "#Projects", icon: <Briefcase size={20} /> },
+    { name: "Projects", link: "/projects", icon: <Briefcase size={20} /> },
     { name: "Certificates", href: "#Certificates", icon: <Award size={20} /> },
     { name: "Contacts", href: "#Contacts", icon: <Phone size={20} /> },
   ];
@@ -51,14 +51,14 @@ export default function Navbar() {
   // Animation variants
   const dropdownVariants = {
     hidden: { opacity: 0, y: -10, transition: { duration: 0.15 } },
-    visible: { 
-      opacity: 1, 
-      y: 0, 
-      transition: { 
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
         duration: 0.2,
         staggerChildren: 0.05,
         when: "beforeChildren"
-      } 
+      }
     },
     exit: { opacity: 0, y: -10, transition: { duration: 0.1 } }
   };
@@ -120,14 +120,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a 
-              onClick={(e) => handleNavigation(e, "#Home")} 
+            <a
+              onClick={(e) => handleNavigation(e, "#Home")}
               className="flex items-center gap-2 cursor-pointer"
             >
-              <img 
-                src={Logo} 
-                alt="Logo" 
-                className="w-12 h-12 mt-2  sm:w-16 sm:h-16 object-contain" 
+              <img
+                src={Logo}
+                alt="Logo"
+                className="w-12 h-12 mt-2  sm:w-16 sm:h-16 object-contain"
               />
               <span className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">
                 CGCStudyHub
@@ -157,8 +157,8 @@ export default function Navbar() {
                       {item.name}
                     </a>
                     {item.submenu && (
-                      <ChevronDown 
-                        className={`w-4 h-4 text-gray-500 dark:text-gray-400 transition-transform ${openMenu === idx ? "rotate-180" : ""}`} 
+                      <ChevronDown
+                        className={`w-4 h-4 text-gray-500 dark:text-gray-400 transition-transform ${openMenu === idx ? "rotate-180" : ""}`}
                       />
                     )}
                   </div>
@@ -176,7 +176,7 @@ export default function Navbar() {
                         >
                           <div className="py-1">
                             {item.submenu.map((sub, subIdx) => (
-                              <motion.div 
+                              <motion.div
                                 key={subIdx}
                                 variants={itemVariants}
                                 className="relative"
@@ -197,8 +197,8 @@ export default function Navbar() {
                                     </span>
                                   )}
                                   {sub.submenu && (
-                                    <ChevronDown 
-                                      className={`w-4 h-4 mr-3 text-gray-500 dark:text-gray-400 transition-transform ${openSubmenu === subIdx ? "rotate-180" : ""}`} 
+                                    <ChevronDown
+                                      className={`w-4 h-4 mr-3 text-gray-500 dark:text-gray-400 transition-transform ${openSubmenu === subIdx ? "rotate-180" : ""}`}
                                     />
                                   )}
                                 </div>
@@ -215,7 +215,7 @@ export default function Navbar() {
                                         className="absolute font-bold left-full top-0 ml-1 w-56 rounded-md bg-white dark:bg-gray-800 shadow-lg ring-opacity-5 z-50"
                                       >
                                         {sub.submenu.map((nested, nIdx) => (
-                                          <motion.div 
+                                          <motion.div
                                             key={nIdx}
                                             variants={itemVariants}
                                           >
@@ -257,7 +257,7 @@ export default function Navbar() {
                 <FiMoon className="w-5 h-5 text-gray-700" />
               )}
             </button>
-            
+
             {/* Mobile menu button */}
             <div className="md:hidden">
               <button
@@ -286,7 +286,7 @@ export default function Navbar() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {menuItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col">
-                  <div 
+                  <div
                     className="flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
                     onClick={(e) => {
                       if (!item.submenu) {
@@ -301,7 +301,7 @@ export default function Navbar() {
                       {item.name}
                     </div>
                     {item.submenu && (
-                      <ChevronDown 
+                      <ChevronDown
                         className={`w-5 h-5 transition-transform ${mobileOpenMenu === idx ? "rotate-180" : ""}`}
                       />
                     )}
@@ -318,7 +318,7 @@ export default function Navbar() {
                     >
                       {item.submenu.map((sub, subIdx) => (
                         <div key={subIdx} className="flex flex-col">
-                          <div 
+                          <div
                             className="flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
                             onClick={(e) => {
                               if (!sub.submenu) {
@@ -330,7 +330,7 @@ export default function Navbar() {
                           >
                             {sub.name}
                             {sub.submenu && (
-                              <ChevronDown 
+                              <ChevronDown
                                 className={`w-5 h-5 transition-transform ${mobileOpenSubmenu === subIdx ? "rotate-180" : ""}`}
                               />
                             )}

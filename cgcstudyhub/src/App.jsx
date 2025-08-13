@@ -43,7 +43,6 @@ export default function App() {
           <Route path="/btech/cse/fourthsemester" element={<FourthSemester />} />
           <Route path="/btech/cse/fifthsemester" element={<FifthSemester />} />
           <Route path="/btech/cse/sixthsemester" element={<SixthSemester />} />
-
         </Routes>
         <Footer />
       </div>

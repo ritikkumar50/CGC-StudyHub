@@ -81,7 +81,7 @@ export default function BtechCourses() {
 
       {/* Courses Grid */}
       <div className="px-4 py-8">
-        <h2 className="text-3xl font-bold text-center text-gray-200 mb-10">
+        <h2 className="text-3xl font-bold text-center text-gray-700 mb-10">
           Explore B.Tech <span className="text-blue-600">Branches</span>
         </h2>
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
