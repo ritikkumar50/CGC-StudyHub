@@ -3,18 +3,27 @@ import Navbar from "../../navbar/navbar";
 import { ArrowLeft, FileText, ChevronUp, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { sem4Subjects, sem5Subjects, sem3Subjects } from "../../../../Constants";
+import { sem6Subjects, sem5Subjects } from "../../../../Constants";
 
-const FourthSemester = () => {
+const SixthSemester = () => {
     const navigate = useNavigate();
     const excludedSubjects = [
-        "COA",
-        "UHV",
+        "AI (Artificial Intelligence)",
+        "CD (Compiler Design)",
+        "MAD (Mobile Application Development)"
     ];
 
-    const sem4WithWT = [
-        ...sem4Subjects,
-        sem5Subjects.find(sub => sub.subject === "CN")
+    // {
+    //     [...sem6Subjects, ...sem5Subjects.filter(sub => sub.subject === "WT (Elective)")]
+    //         .filter(subject => !excludedSubjects.includes(subject.subject.toLowerCase().trim()))
+    //         .map((subject, index) => (
+    //             <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
+    //         ))
+    // }
+
+    const sem6WithWT = [
+        ...sem6Subjects,
+        sem5Subjects.find(sub => sub.subject === "WT (Elective)")
     ];
 
 
@@ -43,19 +52,21 @@ const FourthSemester = () => {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                 >
                     <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
-                        Semester 4 Notes
+                        Semester 6 Notes
                     </h1>
 
                     <div className="w-full max-w-4xl space-y-8">
                         <Suspense fallback={<div className="text-white">Loading Notes...</div>}>
-                            {[...sem4Subjects, ...sem5Subjects.filter(sub => sub.subject === "CN"), ...sem3Subjects.filter(sub => sub.subject === "DOS")]
+                            {[...sem6Subjects, ...sem5Subjects.filter(sub => sub.subject === "WT (Elective)")]
                                 .filter(subject => !excludedSubjects.includes(subject.subject.trim()))
 
-
+                                
                                 .map((subject, index) => (
                                     <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
                                 ))}
                         </Suspense>
+
+
                     </div>
                 </motion.div>
             </div>
@@ -70,7 +81,7 @@ const SubjectBlock = ({ subject, delay }) => {
     const [isLetOpen, setIsLetOpen] = useState(false);
     const [isModuleOpen, setIsModuleOpen] = useState(false);
     const [openModuleUnits, setOpenModuleUnits] = useState({});
-    const [isTOpen, setIsTOpen] = useState(false);
+    const [isTopicsOpen, setIsTopicsOpen] = useState(false);
 
     const notes = subject?.units?.filter((unit) =>
         unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
@@ -86,9 +97,12 @@ const SubjectBlock = ({ subject, delay }) => {
         acc[name].push(unit);
         return acc;
     }, {});
-    const topic = subject.units.filter((unit) =>
-        unit.name.toLowerCase().includes("topic")
-    );
+
+    const Topics = subject?.units?.filter((unit) =>
+        unit.name.toLowerCase().includes("topics")
+    ) || [];
+
+
 
     const questionBank = subject?.units?.filter((unit) =>
         unit.name.toLowerCase().includes("theories") ||
@@ -115,7 +129,7 @@ const SubjectBlock = ({ subject, delay }) => {
             !unit.name.toLowerCase().includes("labmanual") &&
             !unit.name.toLowerCase().includes("letter") &&
             !unit.name.toLowerCase().includes("module") &&
-            !unit.name.toLowerCase().includes("topic")
+            !unit.name.toLowerCase().includes("topics")
     ) || [];
 
 
@@ -194,28 +208,6 @@ const SubjectBlock = ({ subject, delay }) => {
                 </div>
             )}
 
-            {topic.length > 0 && (
-                <div className="mt-6">
-                    <button
-                        onClick={() => setIsTOpen(!isTOpen)}
-                        className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
-                    >
-                        <span className="text-lg font-semibold text-black dark:text-white">TOPICS</span>
-                        {isTOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
-                    </button>
-
-                    {isTOpen && (
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 ml-2">
-                            {topic.map((unit, unitIndex) => (
-                                <UnitLink key={unitIndex} unit={unit} delay={unitIndex * 0.05} />
-                            ))}
-                        </div>
-                    )}
-                </div>
-            )}
-
-
-
 
             {/* Notes Section */}
             {notes.length > 0 && (
@@ -237,6 +229,27 @@ const SubjectBlock = ({ subject, delay }) => {
                     )}
                 </div>
             )}
+            {Topics.length > 0 && (
+                <div className="mt-6">
+                    <button
+                        onClick={() => setIsTopicsOpen((prev) => !prev)}
+                        className="flex items-center justify-between text-left text-black dark:text-white px-2 py-2 rounded-md hover:bg-white/20 transition"
+                    >
+                        <span className="text-lg font-semibold">IMP-Topics</span>
+                        {isTopicsOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+                    </button>
+
+                    {isTopicsOpen && (
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-2 ml-4">
+                            {Topics.map((unit, i) => (
+                                <UnitLink key={i} unit={unit} delay={i * 0.05} />
+                            ))}
+                        </div>
+                    )}
+                </div>
+            )}
+
+
 
             {questionBank.length > 0 && (
                 <div className="mt-6">
@@ -307,13 +320,15 @@ const UnitLink = ({ unit, delay }) => {
 
     const getBadgeColor = () => {
         if (label.includes("pyq")) return "bg-yellow-600";
+        if (label.includes("syllabus")) return "bg-blue-600"; // Move syllabus before lab
         if (label.includes("book")) return "bg-purple-600";
         if (label.includes("notes") || label.includes("unit")) return "bg-green-600";
-        if (label.includes("syllabus")) return "bg-blue-600";
         if (label.includes("lords")) return "bg-purple-400";
         if (label.includes("imp")) return "bg-red-600";
+        if (label.includes("lab")) return "bg-orange-600";
         return "bg-gray-600";
     };
+
 
 
     return (
@@ -338,30 +353,23 @@ const UnitLink = ({ unit, delay }) => {
                             ? "PYQ"
                             : label.includes("imp")
                                 ? "IMP"
-                                : label.includes("book")
-                                    ? "Book"
-                                    : label.includes("lords")
-                                        ? "Lords"
-                                        : label.includes("theories") || label.includes("short-ans")
-                                            ? "Theory"
-                                            : label.includes("notes") || label.includes("unit")
-                                                ? "Notes"
-                                                : label.includes("syllabus")
-                                                    ? "Syllabus"
-                                                    : label.includes("PPT")
-                                                        ? "PPT"
-                                                        : label.includes("book")
-                                                            ? "Book"
-                                                            : label.includes("lords")
-                                                                ? "Lords"
-                                                                : label.includes("theories") || label.includes("short-ans")
-                                                                    ? "Theory"
-                                                                    : label.includes("notes") || label.includes("unit")
-                                                                        ? "Notes"
-                                                                        : label.includes("syllabus")
-                                                                            ? "Syllabus"
-                                                                            : "PDF"}
+                                : label.includes("syllabus") // Move syllabus before lab here too
+                                    ? "Syllabus"
+                                    : label.includes("lab")
+                                        ? "Lab"
+                                        : label.includes("book")
+                                            ? "Book"
+                                            : label.includes("lords")
+                                                ? "Lords"
+                                                : label.includes("theories") || label.includes("short-ans")
+                                                    ? "Theory"
+                                                    : label.includes("notes") || label.includes("unit")
+                                                        ? "Notes"
+                                                        : isPPT
+                                                            ? "PPT"
+                                                            : "PDF"}
                     </span>
+
                 </a>
             </div>
 
@@ -379,4 +387,4 @@ const UnitLink = ({ unit, delay }) => {
         </motion.div>
     );
 };
-export default FourthSemester;
+export default SixthSemester;
