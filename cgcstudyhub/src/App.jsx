@@ -21,6 +21,7 @@ import ECESecondSemester from "./components/All-Semester/ECE/SecondSem";
 import IT from "./components/sub-subCourses/IT";
 import ITFirstsemester from "./components/All-Semester/IT/FirstSem";
 import ITSecondsemester from "./components/All-Semester/IT/SecondSem";
+import ITThirdsemester from "./components/All-Semester/IT/ThirdSem";
 function Home() {
   return (  
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
@@ -59,6 +60,7 @@ export default function App() {
           <Route path="/btech/it" element={<IT />} />
           <Route path="/btech/it/firstsemester" element={<ITFirstsemester />} />
           <Route path="/btech/it/secondsemester" element={<ITSecondsemester />} />
+          <Route path="/btech/it/thirdsemester" element={<ITThirdsemester />} />
 
           
         </Routes>

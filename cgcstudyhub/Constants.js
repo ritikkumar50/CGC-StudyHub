@@ -542,7 +542,7 @@ const UHVBOOK = "https://drive.google.com/file/d/1EuT6MrSgA2x-sEgTna7dMlWYlwYlCg
 const UHVUnit2 = "https://drive.google.com/file/d/1udZS-fF4tnXKkbicc-pzmcSrFd2wdJ9-/view?usp=sharing";
 export const sem4Subjects = [
   {
-    subject: "M-4",
+    subject: "Discrete Mathematics",
     units: [
       { name: "Module-1", file: MModule1_1, displayName: "Functions" },
       { name: "Module-1", file: MModule1_2, displayName: "Principle of Mathematical Induction" },
