@@ -539,6 +539,7 @@ const EVSUnit4 = "https://drive.google.com/file/d/1HRuJ5saCgE6TosfzLbbHchfGmbkVO
 //uhv
 const UHVUnit1 = "https://drive.google.com/file/d/14fbo1AmeUbUXhbJU5X-DOZWZOsd3Ywfi/view?usp=sharing";
 const UHVBOOK = "https://drive.google.com/file/d/1EuT6MrSgA2x-sEgTna7dMlWYlwYlCgjI/view?usp=sharing";
+const UHVUnit2 = "https://drive.google.com/file/d/1udZS-fF4tnXKkbicc-pzmcSrFd2wdJ9-/view?usp=sharing";
 export const sem4Subjects = [
   {
     subject: "M-4",
@@ -640,6 +641,7 @@ export const sem4Subjects = [
   subject : "UHV",
   units: [
     { name: "Unit-1", file: UHVUnit1, displayName: "Understanding Human Values" },
+    { name: "Unit-2", file: UHVUnit2, displayName: "All-Unit" },
     { name: "BOOK", file: UHVBOOK, displayName: "UHV Book" },
   ],
 },
