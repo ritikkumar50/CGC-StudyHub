@@ -195,6 +195,7 @@ const UnitLink = ({ unit, delay }) => {
     if (label.includes("notes") || label.includes("unit")) return "bg-green-600";
     if (label.includes("syllabus")) return "bg-blue-600";
     if (label.includes("imp")) return "bg-red-600";
+    if (label.includes("mst")) return "bg-orange-600";
     return "bg-gray-600";
   };
 
@@ -215,7 +216,7 @@ const UnitLink = ({ unit, delay }) => {
           rel="noopener noreferrer"
           className="text-blue-400 hover:text-blue-600 text-lg transition-colors flex items-center space-x-2"
         >
-          <span>{unit.name}</span>
+          <span>{unit.displayName || unit.name}</span>
           <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
             {label.includes("pyq")
               ? "PYQ"
@@ -227,6 +228,8 @@ const UnitLink = ({ unit, delay }) => {
                   ? "Book"
                   : label.includes("notes") || label.includes("unit")
                     ? "Notes"
+                    : label.includes("mst")
+                      ? "MST"
                     : label.includes("syllabus")
                       ? "Syllabus"
                       : "PDF"}

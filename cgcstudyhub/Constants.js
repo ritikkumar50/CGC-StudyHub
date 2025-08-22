@@ -169,8 +169,16 @@ const BEEPYQ = "https://drive.google.com/file/d/1kO2fQTsr2NYxofyaPaLHnDFYgVUfNye
 // const EGDPYQ = "./src/assets/btech-cse/sem-1/EGD/EGD-2022.pdf";
 const EGDBOOK = "https://drive.google.com/file/d/1FyYMKOWy4YQ39az4mKYigVuzpJ6uIJve/view?usp=sharing";
 const EGDPYQ = "https://drive.google.com/file/d/1WDZcenY3hAy3gck2A1-0JPyFHN3JUx-z/view?usp=sharing";
+//PTu or exam papers
+const MST1 = "https://drive.google.com/file/d/1YdUgNKnj6RRkS59h00lhUpCca5gspRNP/view?usp=sharing";
 
 export const semester1Subjects = [
+  {
+    subject : "EXAM PAPERS",
+    units : [
+      {name : "MST", file : MST1, displayName : "MST-1" },
+    ]
+  },
   {
     subject: "PTU-Examination",
     units: [
@@ -264,7 +272,16 @@ const PPSUNIT8 = "https://drive.google.com/file/d/1hRvLNd8Zq9AZAJCsHVHLPa5s8nXFA
 const PPSUNIT9 = "https://drive.google.com/file/d/1I3qzICJq3zqioq1xaNpppg7VR7g7KS3Z/view?usp=drive_link";
 const BOOK = "https://drive.google.com/file/d/1ALVxiWqzHT0ePIUHRWljwxo9cr_42s5J/view?usp=drive_link";
 const LabManual = "https://drive.google.com/file/d/1dwKDVxjTZ6R5tKG5_fJgjifm5PWEZl5_/view?usp=drive_link";
+
+//PTU or exam papers
+const MSTT = "https://drive.google.com/file/d/1qATynZiopF2DI4dldQLtuM2sLqz2QH1y/view?usp=sharing";
 export const sem2Subjects = [
+  {
+    subject: "EXAM PAPERS",
+    units: [
+      { name: "MST", file: MSTT, displayName: "MST-1" },
+    ]
+  },
 
   {
     subject: "CHEMISTRY",
@@ -381,8 +398,18 @@ const Module5 = "https://drive.google.com/file/d/1P7Onz5poFvAZEesR5_pUpEj9EvW6fV
 const Question = "https://drive.google.com/file/d/1BRkiK8IrMiP9M3kyaqp-r3JFUdRuuknh/view?usp=drive_link";
 const Question2 = "https://drive.google.com/file/d/1Ir6XRbw6q9pt6vT4gHsFUr7Eiunn8_se/view?usp=drive_link";
 const DSALab = "https://drive.google.com/file/d/17ofBdo-49VNCiYvr_kFfzCZnjfDZEDxI/view?usp=drive_link";
+//PTU and MST
+const MST = "https://drive.google.com/file/d/1pOHuZaAAtV2hUG6yTs1FyAfbqdZy6_be/view?usp=sharing";
 
 export const sem3Subjects = [
+
+
+  {
+   subject : "EXAM PAPERS",
+    units : [
+      {name : "MST", file : MST, displayName : "MST-1" },
+    ]
+  },
 
   {
     subject: "OOPS",
@@ -444,6 +471,7 @@ export const sem3Subjects = [
       { name: "LabManual", file: DSALab }
     ],
   },
+
 
 
 ]

@@ -54,7 +54,7 @@ const SubjectBlock = ({ subject, delay }) => {
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isQBOpen, setIsQBOpen] = useState(false);
   const [islabOpen, setIslabOpen] = useState(false);
-  const [isLetOpen , setIsLetOpen] = useState(false);
+  const [isLetOpen, setIsLetOpen] = useState(false);
 
   const notes = subject.units.filter((unit) =>
     unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
@@ -81,7 +81,7 @@ const SubjectBlock = ({ subject, delay }) => {
       !unit.name.toLowerCase().includes("question") &&
       !unit.name.toLowerCase().includes("short-ans") &&
       !unit.name.toLowerCase().includes("labmanual") &&
-      !unit.name.toLowerCase().includes("letter") 
+      !unit.name.toLowerCase().includes("letter")
   );
 
   return (
@@ -196,6 +196,8 @@ const UnitLink = ({ unit, delay }) => {
     if (label.includes("book")) return "bg-purple-600";
     if (label.includes("notes") || label.includes("unit")) return "bg-green-600";
     if (label.includes("syllabus")) return "bg-blue-600";
+    if (label.includes("imp")) return "bg-red-600";
+    if (label.includes("mst")) return "bg-orange-600";
     return "bg-gray-600";
   };
 
@@ -216,8 +218,8 @@ const UnitLink = ({ unit, delay }) => {
           rel="noopener noreferrer"
           className="text-blue-400 hover:text-blue-600 text-lg transition-colors flex items-center space-x-2"
         >
-          <span>{unit.name}</span>
-          <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
+          <span>{unit.displayName || unit.name}</span> 
+           <span className={`text-xs text-white px-2 py-0.5 rounded-full ${getBadgeColor()}`}>
             {label.includes("pyq")
               ? "PYQ"
               : label.includes("PPT")
@@ -228,6 +230,10 @@ const UnitLink = ({ unit, delay }) => {
                     ? "Notes"
                     : label.includes("syllabus")
                       ? "Syllabus"
+                      : label.includes("imp")
+                        ? "IMP"
+                        : label.includes("mst")
+                          ? "MST"
                       : "PDF"}
           </span>
         </a>
