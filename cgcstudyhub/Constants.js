@@ -568,6 +568,8 @@ const EVSUnit4 = "https://drive.google.com/file/d/1HRuJ5saCgE6TosfzLbbHchfGmbkVO
 const UHVUnit1 = "https://drive.google.com/file/d/14fbo1AmeUbUXhbJU5X-DOZWZOsd3Ywfi/view?usp=sharing";
 const UHVBOOK = "https://drive.google.com/file/d/1EuT6MrSgA2x-sEgTna7dMlWYlwYlCgjI/view?usp=sharing";
 const UHVUnit2 = "https://drive.google.com/file/d/1udZS-fF4tnXKkbicc-pzmcSrFd2wdJ9-/view?usp=sharing";
+//PTU and MST
+const MST12 = "https://drive.google.com/file/d/1f0J0sW8slmYYo72BwDQMQn9ZQFzlI6gY/view?usp=sharing";
 export const sem4Subjects = [
   {
     subject: "Discrete Mathematics",
@@ -742,8 +744,16 @@ const COIUNIT11 = "https://drive.google.com/file/d/1Qj5Ve-zEiZoDOZc5AMQ-qxst6iCu
 const COIUNIT12= "https://drive.google.com/file/d/1ou4n0SOfCwAvuQvZmCO9L1nfkI3s-4Po/view?usp=sharing";
 const COIUNIT13 = "https://drive.google.com/file/d/1Wtka0lt7X6QBdrcLK6M-QCriDOvE5gi6/view?usp=sharing";
 const COIUNIT14= "https://drive.google.com/file/d/1GPP5eG7J9UlOSCIISJnnrkFp8aUMblUx/view?usp=sharing";
+//PTU Papers
 
+const MST11 = "https://drive.google.com/file/d/1SPjzZdOLS6GncYqjyBIhRTrhpaWq-TeX/view?usp=sharing";
 export const sem5Subjects = [
+  {
+    subject: "EXAM PAPERS",
+    units: [
+      { name: "MST-2011", file: MST11, displayName: "MST-1" },
+    ],
+  },
   {
    subject: "FLAT",
     units: [
@@ -1022,6 +1032,41 @@ export const sem6Subjects = [
   ]
 }
 ]
-//ECE
-//math-1
+// 6th sem
+//AGile
+const AGILEUNIT1 = "https://drive.google.com/file/d/1BYV-lQ3bhr_mKpIMvufw6ZD28-JxALTP/view?usp=sharing";
+//AWSN
+const AWSNUNIT1 = "https://drive.google.com/file/d/1gQShcWV3plMFfh08rQxuqBAQlmoJF6nn/view?usp=sharing";
+const AWSNSYLLABUS = "https://drive.google.com/file/d/1-dFeTH0mGnGNDCAgUhuj3abu3cMBJm-p/view?usp=sharing";
+//R&S
+const RSUNIT1 = "https://drive.google.com/file/d/1JxrsYH7AXOVHODlNWKvISlEAQxJueci9/view?usp=sharing";
+//DMDW
+const DMDWUNIT1 = "https://drive.google.com/file/d/1mX3KOp4Hoxz_pYYKNzC0pV_5nsH67PKt/view?usp=sharing";
 
+export const sem7Subjects = [
+{
+  subject: "AGILE (Agile Methodologies)",
+  units: [
+    { name: "Unit-1", file: AGILEUNIT1, },
+  ]
+},
+{
+  subject: "AWSN (Amazon Web Services)",
+  units: [
+    { name: "Unit-1", file: AWSNUNIT1, },
+    { name: "Syllabus", file: AWSNSYLLABUS, displayName: "Syllabus" },
+  ]
+},
+{
+  subject: "R&S (Robotics and Sensors)",
+  units: [
+    { name: "Unit-1", file: RSUNIT1, },
+  ]
+},
+{
+  subject: "DMDW (Data Mining and Data Warehousing)",
+  units: [
+    { name: "Unit-1", file: DMDWUNIT1, },
+  ]
+}
+];

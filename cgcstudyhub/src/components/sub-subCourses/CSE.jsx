@@ -112,6 +112,7 @@ const SemesterCard = React.memo(({ sem, navigate }) => {
         else if (sem.id === 4) navigate("/btech/cse/fourthsemester");
         else if (sem.id === 5) navigate("/btech/cse/fifthsemester");  
          else if (sem.id === 6) navigate("/btech/cse/sixthsemester");      
+          else if (sem.id === 7) navigate("/btech/cse/seventhsemester");
       }}
       className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg text-center hover:scale-105 transition-all duration-300"
     >

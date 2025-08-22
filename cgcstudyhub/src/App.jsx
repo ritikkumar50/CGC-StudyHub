@@ -13,6 +13,7 @@ import CSEThirdSemester from "./components/All-Semester/Btech-CSE/ThirdSemester"
 import CSEFourthSemester from "./components/All-Semester/Btech-CSE/FourthSem";
 import CSEFifthSemester from "./components/All-Semester/Btech-CSE/FifthSem";
 import CSESixthSemester from "./components/All-Semester/Btech-CSE/SixthSem";
+import CSESeventhSemester from "./components/All-Semester/Btech-CSE/SeveenthSem";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import CertificatesPage from "./components/CertificatePage/CertificatePage";
 import ECE from "./components/sub-subCourses/ECE";
@@ -55,6 +56,7 @@ export default function App() {
           <Route path="/btech/cse/fourthsemester" element={<CSEFourthSemester />} />
           <Route path="/btech/cse/fifthsemester" element={<CSEFifthSemester />} />
           <Route path="/btech/cse/sixthsemester" element={<CSESixthSemester />} />
+          <Route path="/btech/cse/seventhsemester" element={<CSESeventhSemester />} />
           
           <Route path="/btech/ece" element={<ECE />} />
           <Route path="/btech/ece/firstsemester" element={<ECEFirstsemester />} />
