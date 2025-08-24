@@ -8,24 +8,18 @@ import { motion } from "framer-motion";
 import { sem2Subjects, semester1Subjects } from "../../../../Constants";
 
 
-// Helper function to swap Math subjects
-function swapMath(subjects, oldMathName, newMathName) {
-  return subjects.map((sub) => {
-    if (sub.subject === oldMathName) {
-      return { ...sub, subject: newMathName };
-    }
-    return sub;
-  });
-}
-
-// ECE semester data
-
-export const eceSemester1Subjects = swapMath(sem2Subjects, "M-1", "M-2"); 
-
-export const eceSemester2Subjects = swapMath(semester1Subjects, "Mathematics-I", "M-2");
- 
-const SecondSemester = () => {
+const FirstSemester = () => {
   const navigate = useNavigate();
+  const excludedSubjects = [
+    "M-2",
+
+  ];
+
+  const sem2withMathematics1 = [
+    ...sem2Subjects,
+    semester1Subjects.find(sub => sub.subject === "CN")
+  ];
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -59,9 +53,13 @@ const SecondSemester = () => {
 
           <div className="w-full max-w-4xl space-y-8">
             <Suspense fallback={<div className="text-white">Loading Notes...</div>}>
-              {eceSemester1Subjects.map((subject, index) => (
-                <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
-              ))}
+              {[...sem2Subjects, ...semester1Subjects.filter(sub => sub.subject === "Mathematics-I")]
+                .filter(subject => !excludedSubjects.includes(subject.subject.trim()))
+
+
+                .map((subject, index) => (
+                  <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
+                ))}
             </Suspense>
           </div>
         </motion.div>
@@ -74,7 +72,7 @@ const SubjectBlock = ({ subject, delay }) => {
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isQBOpen, setIsQBOpen] = useState(false);
   const [islabOpen, setIslabOpen] = useState(false);
-  const [isLetOpen , setIsLetOpen] = useState(false);
+  const [isLetOpen, setIsLetOpen] = useState(false);
 
   const notes = subject.units.filter((unit) =>
     unit.name.toLowerCase().includes("unit") || unit.name.toLowerCase().includes("notes")
@@ -101,7 +99,7 @@ const SubjectBlock = ({ subject, delay }) => {
       !unit.name.toLowerCase().includes("question") &&
       !unit.name.toLowerCase().includes("short-ans") &&
       !unit.name.toLowerCase().includes("labmanual") &&
-      !unit.name.toLowerCase().includes("letter") 
+      !unit.name.toLowerCase().includes("letter")
   );
 
   return (
@@ -267,4 +265,4 @@ const UnitLink = ({ unit, delay }) => {
     </motion.div>
   );
 };
-export default SecondSemester;
+export default FirstSemester;

@@ -30,7 +30,6 @@ import AIMLAnimation from "./src/assets/Lottie/Artificial intelligence Lottie An
 import AIDSAnimation from "./src/assets/Lottie/AI intelligence.json";
 import ITAnimation from "./src/assets/Lottie/networking.json";
 import ECEAnimation from "./src/assets/Lottie/Laptop.json";
-import { Code } from "lucide-react";
 
 export const btechCourses = [
   {
@@ -148,10 +147,6 @@ export const certificatesData = [
 // first semester notes
 
 const math1 = "https://drive.google.com/file/d/1HqcfI6nsrG2qSzsMsZdNeLoZIHzGMu_k/view?usp=sharing";
-const CSE = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech ai ml syllabus.pdf";
-const AIML = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech cse syllabus.pdf";
-const AIDS = "./src/assets/btech-cse/sem-1/PTU-Examination/5th sem btech it syllabus.pdf";
-const CD = "./src/assets/btech-cse/sem-1/PTU-Examination/2024 CD EXAM.pdf";
 const pyq = "https://drive.google.com/file/d/1m20ru7TXOWdkoVvhw6EEwu3vee7gw-qU/view?usp=sharing";
 const PYQ = "https://drive.google.com/file/d/14Ng-lHIemC5QX3g4lGDlElq5sIs4paIU/view?usp=sharing";
 // PHYSICS
@@ -179,15 +174,7 @@ export const semester1Subjects = [
       {name : "MST", file : MST1, displayName : "MST-1" },
     ]
   },
-  {
-    subject: "PTU-Examination",
-    units: [
-      { name: "2022 Paper ", file: CD },
-      { name: "syllabus ", file: CSE },
-      { name: "Syllabus 2", file: AIML },
-      { name: "Syllabus 3", file: AIDS },
-    ]
-  },
+ 
   {
     subject: "Mathematics-I",
     units: [
@@ -1045,13 +1032,13 @@ const DMDWUNIT1 = "https://drive.google.com/file/d/1mX3KOp4Hoxz_pYYKNzC0pV_5nsH6
 
 export const sem7Subjects = [
 {
-  subject: "AGILE (Agile Methodologies)",
+  subject: "ASD (Agile Software Development )",
   units: [
     { name: "Unit-1", file: AGILEUNIT1, },
   ]
 },
 {
-  subject: "AWSN (Amazon Web Services)",
+  subject: "AWSN (Adhoc and Wireless Sensor Networks )",
   units: [
     { name: "Unit-1", file: AWSNUNIT1, },
     { name: "Syllabus", file: AWSNSYLLABUS, displayName: "Syllabus" },
@@ -1068,5 +1055,67 @@ export const sem7Subjects = [
   units: [
     { name: "Unit-1", file: DMDWUNIT1, },
   ]
+},
+{
+  subject: "NSC (Network Security and Cryptography)" ,
+  units:[
+
+  ]
 }
 ];
+
+
+import Bpharma from "./src/assets/Lottie/medicines.json"
+
+export const pharmacourses = [
+  {
+    id: "bpharma",
+    name: "B-Pharma",
+    description: "Pharmaceutical sciences and healthcare innovation.",
+    animation: Bpharma,
+  }
+];
+
+  
+ 
+//Pharma 1st sem
+//communication skills
+const COMMUNIT1 = "https://drive.google.com/file/d/1aBdqNS-ZXq-9cWpQeVX-tFSeAgGaRwz9/view?usp=sharing";
+//Human Anatomy and Physiology
+const HAPUNIT11 = "https://drive.google.com/file/d/1pg9dxG2rAvzAodfhUHCZdnY2Qo58xAYq/view?usp=sharing";
+const HAPUNIT12 = "https://drive.google.com/file/d/120A2TDX1U4ZyILDlrYV00t-qNE7G1t2M/view?usp=sharing";
+const HAPUNIT13 = "https://drive.google.com/file/d/1s6k6WP8X6lmURaj0SVwDWDexaw84l9Ey/view?usp=sharing";
+//unit2
+const HAPUNIT21 = "https://drive.google.com/file/d/16_opIYjnXkvDSpzahYpKxyw_dmD-CZr_/view?usp=sharing";
+const HAPUNIT22 = "https://drive.google.com/file/d/1S9Ipu6G3QxVaio75a3MP9c3kYRe9-Y2f/view?usp=sharing";
+const HAPUNIT23 = "https://drive.google.com/file/d/1ezGYCKbf2MrnfCMp7MxI5BsNpd42vQ1-/view?usp=sharing";
+//unit3
+const HAPUNIT31 = "https://drive.google.com/file/d/1Dmmafii5bgbqSUBcnIQ2fXYyrAt7WWu4/view?usp=sharing";
+//unit4
+const HAPUNIT41 = "https://drive.google.com/file/d/1y7yeXN2hus5dUxpxKPEtaX7gLeDnSzWJ/view?usp=sharing";
+//unit5
+const HAPUNIT51 = "https://drive.google.com/file/d/1h2nXE4OWbcc1XIqEkgz-L3rPD9ilBBTr/view?usp=sharing";
+
+export const PSem1Subjects = [
+{
+
+  subject : " communication skills",
+  units :[
+    {name:"unit-1", file:COMMUNIT1},
+  ] 
+},
+{
+  subject :"Human Anatomy and Physiology 1",
+  units :[
+    {name:"unit-1", file:HAPUNIT11 , displayName:"Unit-1"},
+    {name:"unit-12", file:HAPUNIT12, displayName:"Unit-12"},
+    {name:"unit-13", file:HAPUNIT13, displayName:"Unit-13"},
+    {name:"unit-21", file:HAPUNIT21, displayName:"Unit-21"},
+    {name:"unit-22", file:HAPUNIT22, displayName:"Unit-22"},
+    {name:"unit-23", file:HAPUNIT23, displayName:"Unit-23"},
+    {name:"unit-31", file:HAPUNIT31, displayName:"Unit-31"},
+    {name:"unit-41", file:HAPUNIT41, displayName:"Unit-41"},
+    {name:"unit-51", file:HAPUNIT51, displayName:"Unit-51"},
+  ]
+}
+]

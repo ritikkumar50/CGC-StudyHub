@@ -42,6 +42,11 @@ export default function CoursesSection() {
               key={course.id}
               className="block"
             >
+              <Link
+              to={course.id === "pharma" ? "/pharma" : "#"}
+              key={course.id}
+              className="block"
+            >
               <motion.div
                 whileHover={{ scale: 1.03 }}
                 className="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transform transition-transform duration-300 ease-in-out overflow-hidden flex flex-col items-center p-4 cursor-pointer hover:bg-gradient-to-r hover:from-blue-600/20 hover:to-purple-600/20"
@@ -66,6 +71,7 @@ export default function CoursesSection() {
                   </h3>
                 </div>
               </motion.div>
+            </Link>
             </Link>
           ))}
         </div>

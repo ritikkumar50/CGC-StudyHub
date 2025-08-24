@@ -5,21 +5,23 @@ import Navbar from "../../navbar/navbar";
 import { ArrowLeft, FileText, ChevronUp, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { sem2Subjects, semester1Subjects } from "../../../../Constants";
+import { sem4Subjects, sem3Subjects } from "../../../../Constants";
 
 
-const SecondSemester = () => {
+const FourthSemester = () => {
   const navigate = useNavigate();
-  
   const excludedSubjects = [
-    "Mathematics-I",
-
+    "COA",
+    "DAA",
+    "OS",
+    "Discrete Mathematics",
   ];
 
-  const semester1withM2 = [
-    ...semester1Subjects,
-    sem2Subjects.find(sub => sub.subject === "M-2")
+  const sem4withDSA = [
+    ...sem4Subjects,
+    sem3Subjects.find(sub => sub.subject === "DSA")
   ];
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -48,14 +50,13 @@ const SecondSemester = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <h1 className="text-5xl font-bold text-center text-black dark:text-white mb-16">
-            Semester 2 Notes
+            Semester 4 Notes
           </h1>
 
           <div className="w-full max-w-4xl space-y-8">
             <Suspense fallback={<div className="text-white">Loading Notes...</div>}>
-              {[...semester1Subjects, ...sem2Subjects.filter(sub => sub.subject === "M-2")]
+              {[...sem4Subjects, ...sem3Subjects.filter(sub => sub.subject === "DSA")]
                 .filter(subject => !excludedSubjects.includes(subject.subject.trim()))
-
 
                 .map((subject, index) => (
                   <SubjectBlock key={index} subject={subject} delay={index * 0.1} />
@@ -265,4 +266,4 @@ const UnitLink = ({ unit, delay }) => {
     </motion.div>
   );
 };
-export default SecondSemester;
+export default FourthSemester;

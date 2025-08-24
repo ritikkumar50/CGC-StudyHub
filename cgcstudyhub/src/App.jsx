@@ -17,8 +17,10 @@ import CSESeventhSemester from "./components/All-Semester/Btech-CSE/SeveenthSem"
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import CertificatesPage from "./components/CertificatePage/CertificatePage";
 import ECE from "./components/sub-subCourses/ECE";
-import ECEFirstsemester from "./components/All-Semester/ECE/FirstSem"; 
+import ECEFirstsemester from "./components/All-Semester/ECE/FirstSem";
 import ECESecondSemester from "./components/All-Semester/ECE/SecondSem";
+import ECEFourthSemester from "./components/All-Semester/ECE/FourthSem";
+import ECESixthSemester from "./components/All-Semester/ECE/SixthSem";
 import IT from "./components/sub-subCourses/IT";
 import ITFirstsemester from "./components/All-Semester/IT/FirstSem";
 import ITSecondsemester from "./components/All-Semester/IT/SecondSem";
@@ -26,8 +28,13 @@ import ITThirdsemester from "./components/All-Semester/IT/ThirdSem";
 import ITFourthsemester from "./components/All-Semester/IT/FourthSem";
 import ITFifthsemester from "./components/All-Semester/IT/FifthSem";
 import ITSixthSemester from "./components/All-Semester/IT/SixthSem";
+
+
+import Pharma from "./components/SubCourse/Pharma";
+import BPharma from "./components/sub-subCourses/BPharma";
+import BFirstSemester from "./components/All-Semester/BPharma/FirstSem";
 function Home() {
-  return (  
+  return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
       <Navbar />
       <HeroSection />
@@ -57,10 +64,12 @@ export default function App() {
           <Route path="/btech/cse/fifthsemester" element={<CSEFifthSemester />} />
           <Route path="/btech/cse/sixthsemester" element={<CSESixthSemester />} />
           <Route path="/btech/cse/seventhsemester" element={<CSESeventhSemester />} />
-          
+
           <Route path="/btech/ece" element={<ECE />} />
           <Route path="/btech/ece/firstsemester" element={<ECEFirstsemester />} />
           <Route path="/btech/ece/secondsemester" element={<ECESecondSemester />} />
+          <Route path="/btech/ece/fourthsemester" element={<ECEFourthSemester />} />
+          <Route path="/btech/ece/sixthsemester" element={<ECESixthSemester />} />
 
           <Route path="/btech/it" element={<IT />} />
           <Route path="/btech/it/firstsemester" element={<ITFirstsemester />} />
@@ -70,7 +79,9 @@ export default function App() {
           <Route path="/btech/it/fifthsemester" element={<ITFifthsemester />} />
           <Route path="/btech/it/sixthsemester" element={<ITSixthSemester />} />
 
-          
+          <Route path="/pharma" element={<Pharma />} />
+          <Route path="/pharma/bpharma" element={<BPharma />} />
+          <Route path="/pharma/bpharma/firstsemester" element={<BFirstSemester />} />
         </Routes>
         <Footer />
       </div>
