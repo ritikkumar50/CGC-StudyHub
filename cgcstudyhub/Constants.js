@@ -1095,27 +1095,115 @@ const HAPUNIT31 = "https://drive.google.com/file/d/1Dmmafii5bgbqSUBcnIQ2fXYyrAt7
 const HAPUNIT41 = "https://drive.google.com/file/d/1y7yeXN2hus5dUxpxKPEtaX7gLeDnSzWJ/view?usp=sharing";
 //unit5
 const HAPUNIT51 = "https://drive.google.com/file/d/1h2nXE4OWbcc1XIqEkgz-L3rPD9ilBBTr/view?usp=sharing";
+//Pharmaceutical analysis
+//unit 1
+const PAUNIT1 = "https://drive.google.com/file/d/1rPeuzfiE2szLU8nu9_B6AuVjFP-xAMR5/view?usp=sharing";
+//unit 2
+const PAUNIT21 = "https://drive.google.com/file/d/1yIT-j-6se4veTXf19tfGBlKNopIHSGFa/view?usp=sharing";
+const PAUNIT22 = "https://drive.google.com/file/d/1EDed7ITB8Roj3vjw_F2CH1_TN8MWegW9/view?usp=sharing";
+//unit3
+const PAUNIT31 = "https://drive.google.com/file/d/1c_W_jrLzJ4Pzy9mcMq1QRHfuWebkj96L/view?usp=sharing";
+const PAUNIT32 = "https://drive.google.com/file/d/1ckKV_CO3GwHDuZ4hQ9vyYQijehbhJ3cl/view?usp=sharing";
+const PAUNIT33 = "https://drive.google.com/file/d/1_qkHbhzoxjJayYIwLsZoBh22dvSof7_p/view?usp=sharing";
+const PAUNIT34 = "https://drive.google.com/file/d/1VhqTWKjtUqQ6F7cYEO5M_iPtjPHCPKMv/view?usp=sharing";
+//unit4
+const PAUNIT4 = "https://drive.google.com/file/d/1LQGmn5Fsiu7XSAzGFSzPG8VGrZn5wlwf/view?usp=sharing";
+//unit5
+const PAUNIT51 = "https://drive.google.com/file/d/1BIl7u_h1kE9icwG-e1w2-v9kkKKStawc/view?usp=sharing";
+const PAUNIT52 = "https://drive.google.com/file/d/11zCneXK0stBLh4NVfokNWTueJoH9jrOk/view?usp=sharing";
+const PAUNIT53 = "https://drive.google.com/file/d/11-GqLUoNsbzDqQLQmHu7mk8kOcI0ZISQ/view?usp=sharing";
+//Pharmaceutical inorganic
+//unit1
+const  PIUNIT1 ="https://drive.google.com/file/d/1OZ7GmB3g2fy8RhXC6HYuRG0FOwl5ahcX/view?usp=sharing";
+//unit2
+const  PIUNIT21 ="https://drive.google.com/file/d/1cyW3RGShrKKDCw_NPOaZ2i7Voe-8KJSa/view?usp=sharing";
+const  PIUNIT22 ="https://drive.google.com/file/d/1qJmUHSgjLQsXd2LSWgkDPx14SMKcUAsO/view?usp=sharing";
+const  PIUNIT23 ="https://drive.google.com/file/d/1gBteyaalgBRie3rCXAFZ5xKaQAWwB1__/view?usp=sharing";
+//unit 3 
+const  PIUNIT3 ="https://drive.google.com/file/d/1DRWIXshhKDAzIPVgCJOgs0BtTtFIgJ_9/view?usp=sharing";
+//unit 4 
+const  PIUNIT4 ="https://drive.google.com/file/d/1iKMQBhZUDXhNYXRAWHNFKQfGZvvLrCFP/view?usp=sharing";
+//unit 5 
+const  PIUNIT5 ="https://drive.google.com/file/d/1dF5tmB2s_Zv8p9C6mgMkwYBNGhVVPoO-/view?usp=sharing";
+//pharmaceutics
+//unit1
+const PUNIT1 ="https://drive.google.com/file/d/1H9pUH34lhPaYZ8XZL_5eeD-WFEwZgdyX/view?usp=sharing";
+const PUNIT12 ="https://drive.google.com/file/d/1DcbsaPaGn-lrmLC2szjtkAUDH8U1mKyQ/view?usp=sharing";
+const PUNIT13 ="https://drive.google.com/file/d/1tPH_vib4PnPqqlsppzeukARzRxUcraVP/view?usp=sharing";
+const PUNIT14 ="https://drive.google.com/file/d/10Dxo2MG_4_JhLLgbuvGxjTMgOuBNqbW-/view?usp=sharing";
+//unit2
+const PUNIT21 ="https://drive.google.com/file/d/1I0K67yVSbRY2Gm9wfpDbYleMZaiPJBQx/view?usp=sharing";
+const PUNIT22 ="https://drive.google.com/file/d/1DWKIJgjs0-ruaC8uzFaCctWz8v7hCYWS/view?usp=sharing";
+const PUNIT23 ="https://drive.google.com/file/d/1VCK0XEjCx1c53KgErPh_0BGHQbCvKUE1/view?usp=sharing";
+//unit3
+const PUNIT3 ="https://drive.google.com/file/d/1NtP5Fws21BBZyZxG6b2QotnXy40ID6Lr/view?usp=sharing";
+//unit4
+const PUNIT4 ="https://drive.google.com/file/d/1CF3W9Nr4UuT-Bq1UuT770uOkivYS-9UZ/view?usp=sharing";
+
 
 export const PSem1Subjects = [
 {
 
   subject : " communication skills",
   units :[
-    {name:"unit-1", file:COMMUNIT1},
+    {name:"IMP Notes", file:COMMUNIT1},
   ] 
 },
 {
   subject :"Human Anatomy and Physiology 1",
   units :[
-    {name:"unit-1", file:HAPUNIT11 , displayName:"Unit-1"},
-    {name:"unit-12", file:HAPUNIT12, displayName:"Unit-12"},
-    {name:"unit-13", file:HAPUNIT13, displayName:"Unit-13"},
-    {name:"unit-21", file:HAPUNIT21, displayName:"Unit-21"},
-    {name:"unit-22", file:HAPUNIT22, displayName:"Unit-22"},
-    {name:"unit-23", file:HAPUNIT23, displayName:"Unit-23"},
-    {name:"unit-31", file:HAPUNIT31, displayName:"Unit-31"},
-    {name:"unit-41", file:HAPUNIT41, displayName:"Unit-41"},
-    {name:"unit-51", file:HAPUNIT51, displayName:"Unit-51"},
+    {name:"Module-1", file:HAPUNIT11 , displayName:"Chapter-1"},
+    {name:"Module-1", file:HAPUNIT12, displayName:"Chapter-2"},
+    {name:"Module-1", file:HAPUNIT13, displayName:"Chapter-3"},
+    {name:"Module-2", file:HAPUNIT21, displayName:"Chapter-1"},
+    {name:"Module-2", file:HAPUNIT22, displayName:"Chapter-2"},
+    {name:"Module-2", file:HAPUNIT23, displayName:"Chapter-3"},
+    {name:"Module-3", file:HAPUNIT31, displayName:"Chapter-1"},
+    {name:"Module-4", file:HAPUNIT41, displayName:"Chapter-1"},
+    {name:"Module-5", file:HAPUNIT51, displayName:"Chapter-1"},
+  ] 
+},
+{
+  subject :"Pharmaceutical Analysis",
+  units :[
+    {name:"Module-1", file:PAUNIT1 , displayName:"Chapter-1"},
+    {name:"Module-2", file:PAUNIT21, displayName:"Chapter-1"},
+    {name:"Module-2", file:PAUNIT22, displayName:"Chapter-2"},
+    {name:"Module-3", file:PAUNIT31, displayName:"Chapter-1"},
+    {name:"Module-3", file:PAUNIT32, displayName:"Chapter-2"},
+    {name:"Module-3", file:PAUNIT33, displayName:"Chapter-3"},
+    {name:"Module-3", file:PAUNIT34, displayName:"Chapter-4"},
+    {name:"Module-4", file:PAUNIT4, displayName:"Chapter-1"},
+    {name:"Module-5", file:PAUNIT51, displayName:"Chapter-1"},
+    {name:"Module-5", file:PAUNIT52, displayName:"Chapter-2"},
+    {name:"Module-5", file:PAUNIT53, displayName:"Chapter-3"},
+  ]
+},
+
+{
+  subject :"Pharmaceutical Inorganic Chemistry",
+  units:[
+    {name:"Module-1", file:PIUNIT1 , displayName:"Chapter-1"},
+    {name:"Module-2", file:PIUNIT21, displayName:"Chapter-1"},
+    {name:"Module-2", file:PIUNIT22, displayName:"Chapter-2"},
+    {name:"Module-2", file:PIUNIT23, displayName:"Chapter-3"},
+    {name:"Module-3", file:PIUNIT3, displayName:"Chapter-1"},
+    {name:"Module-4", file:PIUNIT4, displayName:"Chapter-1"},
+    {name:"Module-5", file:PIUNIT5, displayName:"Chapter-1"},
+  ]
+},
+{
+  subject :"Pharmaceutics",
+  units:[
+    {name:"Module-1", file:PUNIT1 , displayName:"Chapter-1"},
+    {name:"Module-1", file:PUNIT12 , displayName:"Chapter-2"},
+    {name:"Module-1", file:PUNIT13 , displayName:"Chapter-3"},
+    {name:"Module-1", file:PUNIT14 , displayName:"Chapter-4"},
+    {name:"Module-2", file:PUNIT21, displayName:"Chapter-1"},
+    {name:"Module-2", file:PUNIT22, displayName:"Chapter-2"},
+    {name:"Module-2", file:PUNIT23, displayName:"Chapter-3"},
+    {name:"Module-3", file:PUNIT3, displayName:"Chapter-1"},
+    {name:"Module-4", file:PUNIT4, displayName:"Chapter-1"},
   ]
 }
-]
+];
