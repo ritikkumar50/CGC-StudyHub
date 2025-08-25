@@ -4,23 +4,24 @@ import { motion, useInView } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 // Import Pharma Images (replace with actual pharma images later)
-// import pharma1 from "../../assets/pharma/pharma1.png";
-// import pharma2 from "../../assets/pharma/pharma2.png";
-// import pharma3 from "../../assets/pharma/pharma3.png";
-// import pharma4 from "../../assets/pharma/pharma4.png";
-// import pharma5 from "../../assets/pharma/pharma5.png";
-// import pharma6 from "../../assets/pharma/pharma6.png";
-// import pharma7 from "../../assets/pharma/pharma7.png";
+import pharma1 from "../../assets/image/1.png";
+import pharma2 from "../../assets/image/2.png";
+import pharma3 from "../../assets/image/3.png";
+import pharma4 from "../../assets/image/4.png";
+import pharma5 from "../../assets/image/5.png";
+import pharma6 from "../../assets/image/6.png";
+import pharma7 from "../../assets/image/7.png";
+import pharma8 from "../../assets/image/8.png";
 
 const semesterData = [
-  { id: 1, title: "Semester 1" },
-  { id: 2, title: "Semester 2" },
-  { id: 3, title: "Semester 3" },
-  { id: 4, title: "Semester 4" },
-  { id: 5, title: "Semester 5" },
-  { id: 6, title: "Semester 6" },
-  { id: 7, title: "Semester 7" },
-  { id: 8, title: "Semester 8" },
+  { id: 1, title: "Semester 1", image: pharma1 },
+  { id: 2, title: "Semester 2", image: pharma2 },
+  { id: 3, title: "Semester 3", image: pharma3 },
+  { id: 4, title: "Semester 4", image: pharma4 },
+  { id: 5, title: "Semester 5", image: pharma5 },
+  { id: 6, title: "Semester 6", image: pharma6 },
+  { id: 7, title: "Semester 7", image: pharma7 },
+  { id: 8, title: "Semester 8", image: pharma8 },
 ];
 
 export default function BPharma() {

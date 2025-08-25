@@ -3,11 +3,12 @@ import { coursesData } from "../../../Constants";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-// Lazy load Lottie to reduce main bundle size
+// ✅ Lazy load Lottie Player once, not per course
 const Player = React.lazy(() =>
   import("@lottiefiles/react-lottie-player").then((mod) => ({ default: mod.Player }))
 );
 
+// ✅ Keep card animation variants stable to avoid re-creation
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: (i) => ({
@@ -23,7 +24,10 @@ const cardVariants = {
 
 export default function CoursesSection() {
   return (
-    <section id="Courses" className="bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-8">
+    <section
+      id="Courses"
+      className="bg-gray-50 dark:bg-gray-900 py-12 px-4 sm:px-8"
+    >
       <div className="container mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -36,44 +40,45 @@ export default function CoursesSection() {
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {coursesData.map((course, index) => (
-            <Link
-              to={course.id === "btech" ? "/btech" : "#"}
-              key={course.id}
-              className="block"
-            >
-              <Link
-              to={course.id === "pharma" ? "/pharma" : "#"}
-              key={course.id}
-              className="block"
-            >
-              <motion.div
-                whileHover={{ scale: 1.03 }}
-                className="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transform transition-transform duration-300 ease-in-out overflow-hidden flex flex-col items-center p-4 cursor-pointer hover:bg-gradient-to-r hover:from-blue-600/20 hover:to-purple-600/20"
-                variants={cardVariants}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                custom={index}
-              >
-                <Suspense fallback={<div className="h-[200px] w-[200px] bg-gray-100 dark:bg-gray-700 rounded-md animate-pulse" />}>
-                  <Player
-                    src={course.animation}
-                    loop
-                    autoplay
-                    style={{ height: "200px", width: "200px" }}
-                  />
-                </Suspense>
+          {coursesData.map((course, index) => {
+            // ✅ Resolve route only once (no nested <Link>)
+            let route = "#";
+            if (course.id === "btech") route = "/btech";
+            if (course.id === "pharma") route = "/pharma";
 
-                <div className="p-2 text-center">
-                  <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
-                    {course.title}
-                  </h3>
-                </div>
-              </motion.div>
-            </Link>
-            </Link>
-          ))}
+            return (
+              <Link to={route} key={course.id} className="block">
+                <motion.div
+                  whileHover={{ scale: 1.03 }}
+                  className="bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:shadow-xl transform transition-transform duration-300 ease-in-out overflow-hidden flex flex-col items-center p-4 cursor-pointer hover:bg-gradient-to-r hover:from-blue-600/20 hover:to-purple-600/20"
+                  variants={cardVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  custom={index}
+                >
+                  <Suspense
+                    fallback={
+                      <div className="h-[200px] w-[200px] bg-gray-100 dark:bg-gray-700 rounded-md animate-pulse" />
+                    }
+                  >
+                    <Player
+                      src={course.animation}
+                      loop
+                      autoplay
+                      style={{ height: "200px", width: "200px" }}
+                    />
+                  </Suspense>
+
+                  <div className="p-2 text-center">
+                    <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
+                      {course.title}
+                    </h3>
+                  </div>
+                </motion.div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

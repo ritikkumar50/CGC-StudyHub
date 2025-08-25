@@ -1568,3 +1568,202 @@ export const PSem5Subjects =[
   }
 
 ]
+//6th sem
+//Herbal Drug Technology
+const HDT1 = "https://drive.google.com/file/d/1Cc18xkE93RfBJbqMEZ7PnBJDb9VyED8Y/view?usp=sharing";
+const HDT2 = "https://drive.google.com/file/d/1DiBmaIyEgpE3LAm8cJg8Kmm-0sx-JQ7G/view?usp=sharing";
+const HDT3 = "https://drive.google.com/file/d/1UfBdOuYv-hAikyC0yuMZSqhP48GO5IEe/view?usp=sharing";
+//Medicinal Chemistry 3
+const MecA1 = "https://drive.google.com/file/d/16M25VmI971bqMBXwtQ6cEINf0Dt3ULGH/view?usp=sharing";
+const MecA2 = "https://drive.google.com/file/d/1csSTY3KXFf3jAh_qitWkOEWp2_tLs-sG/view?usp=sharing";
+const MecA31 = "https://drive.google.com/file/d/1nS3zTxOIqafKcGH_aK7AjzlkBFCd4Qt3/view?usp=sharing";
+const MecA32 = "https://drive.google.com/file/d/1KuptVbV50syte8lBLnJaJwrwNsYJUhKa/view?usp=sharing";
+const MecA33 = "https://drive.google.com/file/d/1iyDuil_0DjqDsM73D090qtZOVn4QqABw/view?usp=sharing";
+//Pharmaceutical Quality Assurance
+const PQA1 ="https://drive.google.com/file/d/1l7lUqV-AjGURWBca8eHC8f40MsLXZwTb/view?usp=sharing";
+const PQA2 = "https://drive.google.com/file/d/1pTuB-56R_zGw3v4sKP-syV5KFEt14D4O/view?usp=sharing";
+const PQA3 = "https://drive.google.com/file/d/17f4Siq1UmbSQYytTuL5mnPfd72b5KxK3/view?usp=sharing";
+//Pharmacology 3
+const PHA11 ="https://drive.google.com/file/d/1HbNRVYwNgTolozM-qlP_3Yn2erFXyyp7/view?usp=sharing";
+const PHA12 = "https://drive.google.com/file/d/1MQG7qnM9gSaccwPnRi8UFF0vA9qThswh/view?usp=sharing";
+const PHA2  = "https://drive.google.com/file/d/1QAlaF6b_DNqDzHgmjd3-rexujYiHXhc4/view?usp=sharing";
+const PHA3  ="https://drive.google.com/file/d/1TjhLFtObcTVk4IbXwe2K8d78Yhw97KS1/view?usp=sharing";
+const PHA4  ="https://drive.google.com/file/d/1FIJ3GmTljyW_5HSBectmLP_R1Nf1FoTy/view?usp=sharing";
+
+export const PSem6Subjects = [
+
+  {
+    subject : "Herbal Drug Technology",
+    units :[
+      {name:"Unit-1", file:HDT1 , displayName:"Unit-1"},
+      {name:"Unit-2", file:HDT2, displayName:"Unit-2"},
+      {name:"Unit-3", file:HDT3, displayName:"Unit-3"},
+    ]
+  },
+  {
+    subject : "Medicinal Chemistry 3",
+    units :[
+      {name:"Module-1", file:MecA1 , displayName:"Unit-1"},
+      {name:"Module-2", file:MecA2, displayName:"Unit-2"},
+      {name:"Module-3", file:MecA31, displayName:"Chapter-1"},
+      {name:"Module-3", file:MecA32, displayName:"Chapter-2"},
+      {name:"Module-3", file:MecA33, displayName:"Chapter-3"},
+    ]
+  },
+  {
+    subject : "Pharmaceutical Quality Assurance",
+    units :[
+      {name:"Unit-1", file:PQA1 , displayName:"Unit-1"},
+      {name:"Unit-2", file:PQA2, displayName:"Unit-2"},
+      {name:"Unit-3", file:PQA3, displayName:"Unit-3"},
+    ]
+  },
+  {
+    subject : "Pharmacology 3",
+    units :[
+      {name:"Module-1", file:PHA11 , displayName:" Chapter-1"},
+      {name:"Module-1", file:PHA12, displayName:"Chapter-2"},
+      {name:"Module-2", file:PHA2, displayName:"Unit-2 "},
+      {name:"Module-3", file:PHA3, displayName:"Unit-3 "},
+      {name:"Module-4", file:PHA4, displayName:"Unit-4 "},
+    ]
+  },
+
+]
+
+
+//6th sem
+//Industrial Pharmacy
+const IPP1 ="https://drive.google.com/file/d/1r13XLZrrOXuEGroSpK6skgzZDJsELCn6/view?usp=sharing";
+const IPP2 ="https://drive.google.com/file/d/1a44TFc35J49dPNZuE-lrBzSJYQoqA-5z/view?usp=sharing";
+const IPP3 ="https://drive.google.com/file/d/1n3pHcCO7LRp20Xy6NxOrq64onNt1ntkJ/view?usp=sharing";
+const IPP4 ="https://drive.google.com/file/d/1Iz3P0WXp1zqqFMVaYhsBauFBr5UJhI5j/view?usp=sharing";
+const IPP5 ="https://drive.google.com/file/d/1DqUGa71wXrOnuybLxavGnwtbD0PRgQPr/view?usp=sharing";
+//Instrumental Methods Of Analysis
+const IMOA11 = "https://drive.google.com/file/d/1D9gwf7WAPF659ER7nb_KqJhrPfvYLyqb/view?usp=sharing";
+const IMOA12 = "https://drive.google.com/file/d/12BY0uRmSQ6RRDxJlqNcGS5yaSf5GWDOy/view?usp=sharing";
+const IMOA13 = "https://drive.google.com/file/d/1ui88aLsw1PCjywaOC5JJkewRWHF4Xc8h/view?usp=sharing";
+const IMOA21 = "https://drive.google.com/file/d/1K8gfscrZrRYNuyeEmCrXSSlWWwjmVaDq/view?usp=sharing";
+const IMOA22 = "https://drive.google.com/file/d/1734O2r-xAkSKzkowvbzjz7l2XbuaaVNn/view?usp=sharing";
+const IMOA23 = "https://drive.google.com/file/d/1K4aV-eYYrzwkKfzPbvf3GzXGkqjq0gAG/view?usp=sharing";
+const IMOA24 = "https://drive.google.com/file/d/1VNgqBTssQGQxAm5wgPf7BSm9Hz5LjKit/view?usp=sharing";
+const IMOA3  = "https://drive.google.com/file/d/1L4XBvbU_DEb1OTHizDQaKDxVlHU9XsFv/view?usp=sharing";
+const IMOA4  = "https://drive.google.com/file/d/1XZgsSoQPs8Hg1Bd0Ch1jLTmWEE75E6pV/view?usp=sharing";
+const IMOA5  = "https://drive.google.com/file/d/1GXRQzhpaWcov8RfvoW9ndteYUPmuSC9m/view?usp=sharing";
+//Novel Drug Delivery Systems
+const NDD11 ="https://drive.google.com/file/d/11BUJEhwN7ypkcakbpJ8BMMuYJCLvwoQ8/view?usp=sharing";
+const NDD12 ="https://drive.google.com/file/d/1uBtXKkVV0POEbh430Ea5NSEupSTxYYLg/view?usp=sharing";
+const NDD2 ="https://drive.google.com/file/d/1jFmQGjFUxchKVS9x6zzy_d5kt1NDZBAt/view?usp=sharing";
+const NDD3 ="https://drive.google.com/file/d/13sNMDJS8DtoaKWXmYjuNLeAesPe3gNsr/view?usp=sharing";
+const NDD4 ="https://drive.google.com/file/d/1mnVCppQHYaT3EzRPgD6imBjI6e4dxk9X/view?usp=sharing";
+const NDD5 ="https://drive.google.com/file/d/15SLCKH_FU163UQdrziLYXLl9BWHp8_Ip/view?usp=sharing";
+//Pharmacy Practice
+const PPP11 = "https://drive.google.com/file/d/11nvpPNGaWdNcnYwPrf5gRVB-Z9AmAP1y/view?usp=sharing";
+const PPP12 = "https://drive.google.com/file/d/1ud3cFDEngwaO1YKv6Bc36-GJ5wXpu5z6/view?usp=sharing";
+const PPP13 = "https://drive.google.com/file/d/1snrzyOQFxHfoXReLk24FK0QvD5zlphYs/view?usp=sharing";
+const PPP2 = "https://drive.google.com/file/d/1nMbROv0Z8Zl2S0XpFL8nhMH9jKutqVvk/view?usp=sharing";
+const PPP3 = "https://drive.google.com/file/d/14Q88wpTNerj-EEi_0VbKYR1VOWF-YF7n/view?usp=sharing";
+const PPP4 = "https://drive.google.com/file/d/1yMbCsSljlSsETB9NclulfoxAlmDYawdg/view?usp=sharing";
+const PPP5 = "https://drive.google.com/file/d/1cSce0IRBqW6EBNCy7Beb-yC--IlMqimu/view?usp=sharing";
+
+export const PSem7Subjects = [
+
+  {
+    subject : "Industrial Pharmacy",
+    units :[
+      {name:"unit-1", file:IPP1 , displayName:"Unit-1"},
+      {name:"unit-2", file:IPP2, displayName:"Unit-2"},
+      {name:"unit-3", file:IPP3, displayName:"Unit-3"},
+      {name:"unit-4", file:IPP4, displayName:"Unit-4"},
+      {name:"unit-5", file:IPP5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Instrumental Methods Of Analysis",
+    units :[
+      {name:"Module-1", file:IMOA11 , displayName:"Chapter-1"},
+      {name:"Module-1", file:IMOA12, displayName:" Chapter-2"},
+      {name:"Module-1", file:IMOA13, displayName:" Chapter-3"},
+      {name:"Module-2", file:IMOA21, displayName:" Chapter-1"},
+      {name:"Module-2", file:IMOA22, displayName:" Chapter-2"},
+      {name:"Module-2", file:IMOA23, displayName:" Chapter-3"},
+      {name:"Module-2", file:IMOA24, displayName:" Chapter-4"},
+      {name:"Module-3", file:IMOA3, displayName:"Unit-3"},
+      {name:"Module-4", file:IMOA4, displayName:"Unit-4"},
+      {name:"Module-5", file:IMOA5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Novel Drug Delivery Systems",
+    units :[
+      {name:"Module-1", file:NDD11 , displayName:"Chapter-1"},
+      {name:"Module-1", file:NDD12, displayName:" Chapter-2"},
+      {name:"Module-2", file:NDD2, displayName:"Unit-2"},
+      {name:"Module-3", file:NDD3, displayName:"Unit-3"},
+      {name:"Module-4", file:NDD4, displayName:"Unit-4"},
+      {name:"Module-5", file:NDD5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmacy Practice",
+    units :[
+      {name:"Module-1", file:PPP11 , displayName:"Chapter-1"},
+      {name:"Module-1", file:PPP12, displayName:" Chapter-2"},
+      {name:"Module-1", file:PPP13, displayName:" Chapter-3"},
+      {name:"Module-2", file:PPP2, displayName:"Unit-2"},
+      {name:"Module-3", file:PPP3, displayName:"Unit-3"},
+      {name:"Module-4", file:PPP4, displayName:"Unit-4"},
+      {name:"Module-5", file:PPP5, displayName:"Unit-5"},
+    ]
+  }
+
+]
+
+
+//8th sem 
+//Biostatistics And Research Methodology
+const BARM1 ="https://drive.google.com/file/d/18dIPW6C0IyuqLPT-F_GDyM3LYAfkcK7m/view?usp=sharing";
+const BARM21 ="https://drive.google.com/file/d/1CxwLCPChAHIc2D8ct8QdRKwuJVQHQReK/view?usp=sharing";
+const BARM22 ="https://drive.google.com/file/d/1qZJZ9ibNijdVNk4OOVMRbM0uCMPxLfqC/view?usp=sharing";
+const BARM23 ="https://drive.google.com/file/d/1Prfd17RsWb-vd1p4LWipTcqDxzHx0vgQ/view?usp=sharing";
+const BARM32="https://drive.google.com/file/d/15jFHWKtnySzgWN0-OFeaK61H8ZpvtB2R/view?usp=sharing";
+const BARM34="https://drive.google.com/file/d/1_RLUAq-ZJsKgq_1iGHPXPoW24WCXOBeZ/view?usp=sharing";
+const BARM4="https://drive.google.com/file/d/1F5xXxlhOpaKbbVmyZ9nkSBu7-7nwUZCH/view?usp=sharing";
+const BARM5="https://drive.google.com/file/d/10o5r6x2JJhTKNAXdKWHW294dgPpsUwq5/view?usp=sharing";
+//Social And Preventive Pharmacy
+const SAPP1 ="https://drive.google.com/file/d/13liLvArPp7F0yfKz5Lo9KKI_ghy9bou1/view?usp=sharing";
+const SAPP12 ="https://drive.google.com/file/d/1H0aJuYOKg2FMsIN7WTmg5pAMwpCJ7E2x/view?usp=sharing";
+const SAPP13 ="https://drive.google.com/file/d/1UZF_Q5i29Nvx7Ym_D05FwkHuglDkXfe4/view?usp=sharing";
+const SAPP14 ="https://drive.google.com/file/d/1c8jyDETQf90tXDtNiSMm2GkB1jeXdG8T/view?usp=sharing";
+const SAPP2 ="https://drive.google.com/file/d/11-3bRU-Empd1_U4IU768jLDFFvruwWH5/view?usp=sharing";
+const SAPP3 ="https://drive.google.com/file/d/1pA-w72TTDnynmrXPKLLjG5dwGYj_q88V/view?usp=sharing";
+const SAPP4 ="https://drive.google.com/file/d/1-WgikD9pCrCPjOLk-vutdWyMo9QmOVgM/view?usp=sharing";
+
+export const PSem8Subjects = [
+
+  {
+    subject : "Biostatistics And Research Methodology",
+    units :[
+      {name:"Module-1", file:BARM1 , displayName:"Unit-1"},
+      {name:"Module-2", file:BARM21, displayName:"Chapter-1"},
+      {name:"Module-2", file:BARM22, displayName:"Chapter-2"},
+      {name:"Module-2", file:BARM23, displayName:"Chapter-3"},
+      {name:"Module-3", file:BARM32, displayName:"Chapter-1"},
+      {name:"Module-3", file:BARM34, displayName:"Chapter-2"},
+      {name:"Module-4", file:BARM4, displayName:"Unit-4"},
+      {name:"Module-5", file:BARM5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Social And Preventive Pharmacy",
+    units :[
+      {name:"Module-1", file:SAPP1 , displayName:"Chapter-1"},
+      {name:"Module-1", file:SAPP12, displayName:"Chapter-2"},
+      {name:"Module-1", file:SAPP13, displayName:"Chapter-3"},
+      {name:"Module-1", file:SAPP14, displayName:"Chapter-4"},
+      {name:"Module-2", file:SAPP2, displayName:"Unit-2"},
+      {name:"Module-3", file:SAPP3, displayName:"Unit-3"},
+      {name:"Module-4", file:SAPP4, displayName:"Unit-4"},
+    ]
+  }
+]
