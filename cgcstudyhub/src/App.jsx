@@ -33,6 +33,10 @@ import ITSixthSemester from "./components/All-Semester/IT/SixthSem";
 import Pharma from "./components/SubCourse/Pharma";
 import BPharma from "./components/sub-subCourses/BPharma";
 import BFirstSemester from "./components/All-Semester/BPharma/FirstSem";
+import BSecondSemester from "./components/All-Semester/BPharma/SecondSem";
+import BThirdSemester from "./components/All-Semester/BPharma/ThirdSem";
+import BForthSemester from "./components/All-Semester/BPharma/FourthSem";
+import BFifthSemester from "./components/All-Semester/BPharma/FifthSem";
 function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
@@ -82,6 +86,11 @@ export default function App() {
           <Route path="/pharma" element={<Pharma />} />
           <Route path="/pharma/bpharma" element={<BPharma />} />
           <Route path="/pharma/bpharma/firstsemester" element={<BFirstSemester />} />
+          <Route path="/pharma/bpharma/secondsemester" element={<BSecondSemester />} />
+          <Route path="/pharma/bpharma/thirdsemester" element={<BThirdSemester />} />
+          <Route path="/pharma/bpharma/fourthsemester" element={<BForthSemester />} />
+          <Route path="/pharma/bpharma/fifthsemester" element={<BFifthSemester />} />
+          
         </Routes>
         <Footer />
       </div>

@@ -29,7 +29,7 @@ export default function Navbar() {
       icon: <BookOpen size={20} />,
       submenu: [
         {
-          name: "BTech",
+          name: "BTech", link :"/btech",
           submenu: [
             { name: "CSE", link: "/btech/cse" },
             { name: "AIML", link: "/btech/aiml" },
@@ -39,7 +39,12 @@ export default function Navbar() {
           ],
         },
         { name: "MBA", href: "#MBA" },
-        { name: "Pharmacy", href: "#Pharmacy" },
+        { name: "Pharmacy", href: "/pharma",
+          submenu :[
+            {name:"B-Pharma", link :"/pharma/bpharma"}
+          ] 
+
+        },
         { name: "BBA", href: "#BBA" },
       ],
     },

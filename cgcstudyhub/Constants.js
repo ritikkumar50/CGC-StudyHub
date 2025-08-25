@@ -1021,7 +1021,12 @@ export const sem6Subjects = [
 ]
 // 6th sem
 //AGile
-const AGILEUNIT1 = "https://drive.google.com/file/d/1BYV-lQ3bhr_mKpIMvufw6ZD28-JxALTP/view?usp=sharing";
+const AGILEUNIT1 = "https://drive.google.com/file/d/1fVK9V3KRLSqtcKSAL44T9x8PPO5RVu41/view?usp=sharing";
+const AGILEUNIT3 ="https://drive.google.com/file/d/1xsgE2-WN1dxtl3rV1EB4DeHskrdLPYdJ/view?usp=sharing";
+const AGILEUNIT4 ="https://drive.google.com/file/d/1zgt13cTfofGH3YZWTNlhpsxJN7j0AkjK/view?usp=sharing";
+const AGILEUNIT5 ="https://drive.google.com/file/d/1KcWhgvWv_3HF1XHZlO6heGSoWoUN5lXL/view?usp=sharing";
+const AGILEUNIT6 ="https://drive.google.com/file/d/1TOMu00LsIm5OU7E6lz5FA7CDWF8sKs1c/view?usp=sharing";
+const AGILEUNIThand1 ="https://drive.google.com/file/d/1y3mVH1qKPxpTnBr88ZI4tAOTFqCgTdKT/view?usp=sharing";
 //AWSN
 const AWSNUNIT1 = "https://drive.google.com/file/d/1gQShcWV3plMFfh08rQxuqBAQlmoJF6nn/view?usp=sharing";
 const AWSNSYLLABUS = "https://drive.google.com/file/d/1-dFeTH0mGnGNDCAgUhuj3abu3cMBJm-p/view?usp=sharing";
@@ -1035,6 +1040,11 @@ export const sem7Subjects = [
   subject: "ASD (Agile Software Development )",
   units: [
     { name: "Unit-1", file: AGILEUNIT1, },
+    { name: "Unit-3", file: AGILEUNIT3, },
+    { name: "Unit-4", file: AGILEUNIT4, },
+    { name: "Unit-5", file: AGILEUNIT5, },
+    { name: "Unit-6", file: AGILEUNIT6, },
+    { name: "Hand-Written", file: AGILEUNIThand1, },
   ]
 },
 {
@@ -1207,3 +1217,354 @@ export const PSem1Subjects = [
   ]
 }
 ];
+//2nd sem 
+// Human Anatomy And Physiology 2
+const HAAP1 ="https://drive.google.com/file/d/1U5qI-vGDMPnwA7FvN-8V9Pb5_Ulxf1sS/view?usp=sharing";
+const HAAP2 ="https://drive.google.com/file/d/1GX2k3LOUDrAu5iow5bHW5jy6ZktVrxBK/view?usp=sharing";
+const HAAP3 ="https://drive.google.com/file/d/1PN7vcVORAw62wZmhEz0ViSKCFAIXuvFY/view?usp=sharing";
+const HAAP4 ="https://drive.google.com/file/d/1jBInpqsLcL8U56a3UqsPcuj5scTDrQXy/view?usp=sharing";
+const HAAP5 ="https://drive.google.com/file/d/1cbnNT6XLHIsYQUHfnwonTxx41aHdXVjP/view?usp=sharing";
+//BIOCHEMISTRY
+const BIOC1 ="https://drive.google.com/file/d/1Il6bofc_rEmEXlxD-R-QOgqBuuYNgN7R/view?usp=sharing";
+const BIOC2 ="https://drive.google.com/file/d/1pn4sET-wtD3qmpF5AD1GRWnQgTbtc9un/view?usp=sharing";
+const BIOC3 ="https://drive.google.com/file/d/1QlNB-9QMEKOTIMWqj98OOBW0ISRdFoET/view?usp=sharing";
+const BIOC4 ="https://drive.google.com/file/d/1TSwt6b8Cgnt9lNUCvHVJiqhHCnDBf7k3/view?usp=sharing";
+const BIOC5 ="https://drive.google.com/file/d/1PXqCDeiQBPMO6KJaCgO0N0YGRf7rZlTD/view?usp=sharing";
+//Pathophysiology
+const Pp1 ="https://drive.google.com/file/d/1fA_ebaoeNr3tbSSsGK1lGJ67rWK--9Js/view?usp=sharing";
+const Pp2 ="https://drive.google.com/file/d/1jk3O1XzV6DDgIbz6d0VooFux9QXHGBDx/view?usp=sharing";
+const Pp3 ="https://drive.google.com/file/d/1M4KIJeYLzSvNcyokiF02qtU5DQ5KlL1r/view?usp=sharing";
+const Pp4 ="https://drive.google.com/file/d/1ezHItGyWWzCaPJhMWtzWaiOiIpLWMk3Z/view?usp=sharing";
+const Pp5 ="https://drive.google.com/file/d/1AxRT0wL3zwWBmi1P20-St2jw6_t6AsCw/view?usp=sharing";
+const Ppc1 ="https://drive.google.com/file/d/1DassEVuKrC8jV-KIiOFC0IVCSdb9taqR/view?usp=sharing";
+const Ppc2 ="https://drive.google.com/file/d/1O0Sf2tKCKlFoSEYTCvd0H2KXehkKTmmq/view?usp=sharing";
+//Pharmaceutical Organic Chemistry 1
+const PO1 ="https://drive.google.com/file/d/1EZQ9U2QdbmMAUTUAKFMNopxQIfue5ifp/view?usp=sharing";
+const PO2 ="https://drive.google.com/file/d/15bsfSWZ81DX-whyGhvXlSJ_V5YVXNpdy/view?usp=sharing";
+const PO3 ="https://drive.google.com/file/d/1dObJhCBzojk_mLdIiHRHojKSv3lo28Sa/view?usp=sharing";
+const PO4 ="https://drive.google.com/file/d/1rqS6ZPL-KZxLbUFBo_gg21IQG9-L4bo0/view?usp=sharing";
+const PO5 ="https://drive.google.com/file/d/1D3pEo70Fyfs8Mtx3tOOYocl-ZPvkvgst/view?usp=sharing";
+//computer application
+const CA1 ="https://drive.google.com/file/d/1Vqz-2WFb9BDPIvmCKFkyLHBYitF2LuWa/view?usp=sharing";
+
+export const PSem2Subjects = [
+{
+  subject : "Human Anatomy and Physiology 2",
+  units :[
+    {name:"unit-1", file:HAAP1 , displayName:"Unit-1"},
+    {name:"unit-2", file:HAAP2, displayName:"Unit-2"},
+    {name:"unit-3", file:HAAP3, displayName:"Unit-3"},
+    {name:"unit-4", file:HAAP4, displayName:"Unit-4"},
+    {name:"unit-5", file:HAAP5, displayName:"Unit-5"},
+  ]
+},
+
+{
+  subject : "Biochemistry",
+  units :[
+    {name:"unit-1", file:BIOC1 , displayName:"Unit-1"},
+    {name:"unit-2", file:BIOC2, displayName:"Unit-2"},
+    {name:"unit-3", file:BIOC3, displayName:"Unit-3"},
+    {name:"unit-4", file:BIOC4, displayName:"Unit-4"},
+    {name:"unit-5", file:BIOC5, displayName:"Unit-5"},
+  ]
+},
+
+{
+  subject : "Pathophysiology",
+  units :[
+    {name:"unit-1", file:Pp1 , displayName:"Unit-1"},
+    {name:"unit-2", file:Pp2, displayName:"Unit-2"},
+    {name:"unit-3", file:Pp3, displayName:"Unit-3"},
+    {name:"unit-4", file:Pp4, displayName:"Unit-4"},
+    {name:"unit-5", file:Pp5, displayName:"Unit-5"},
+    {name:"Complete", file:Ppc1, displayName:"Complete Notes 1"},
+    {name:"Complete", file:Ppc2, displayName:"Complete Notes 2"},
+  ]
+},
+
+{
+  subject : "Pharmaceutical Organic Chemistry 1",
+  units :[
+    {name:"unit-1", file:PO1 , displayName:"Unit-1"},
+    {name:"unit-2", file:PO2, displayName:"Unit-2"},
+    {name:"unit-3", file:PO3, displayName:"Unit-3"},
+    {name:"unit-4", file:PO4, displayName:"Unit-4"},
+    {name:"unit-5", file:PO5, displayName:"Unit-5"},
+  ]
+},
+
+{
+  subject : "Computer Application",
+  units :[
+    {name:"Complete Notes", file:CA1 , displayName:"Complete Notes"},
+  ]
+}
+
+]
+//3rd sem
+//Pharmaceutical Organic Chemistry 2
+const POC1 ="https://drive.google.com/file/d/1cx__X4vKhI6aoTbiYQY2Ai-zwbSpKSwT/view?usp=sharing";
+const POC2 ="https://drive.google.com/file/d/1IAl_2TbkDHkOQuRwohK3DuKlRcXbnRJ4/view?usp=sharing";
+const POC3 ="https://drive.google.com/file/d/1y13hm2yvjM-I5BbEeRMsLE4BGa3Ts1G9/view?usp=sharing";
+const POC4 ="https://drive.google.com/file/d/1OkgLfpejvavNfyydWZaAYmMPPbncpc0N/view?usp=sharing";
+const POC5 ="https://drive.google.com/file/d/1h3W3ooJtwtc_9glIawtBMcBgB2yuZCnL/view?usp=sharing";
+//Physical Pharmaceutics 1
+const P1 ="https://drive.google.com/file/d/1dHEN_I-srQr9dhdbCfiYjWyEETKh6lTL/view?usp=sharing";
+const P2 ="https://drive.google.com/file/d/1VJExMKmOSjUfNXOt7pX06Tt9wx1Z76uV/view?usp=sharing";
+const P3 ="https://drive.google.com/file/d/1YinkuaBpLr7tU2KnyextjzUWqYO7UpCW/view?usp=sharing";
+const P4 ="https://drive.google.com/file/d/1FiWkOEDHhAx-E_HmcwaGxjs_DHUu13SR/view?usp=sharing";
+const P5 ="https://drive.google.com/file/d/1oJaQtn7BlgDX82xvQa8d2P_XVcbo_hde/view?usp=sharing";
+//Pharmaceutical Microbiology
+const PM1 ="https://drive.google.com/file/d/1wA1Zqelghfe5i-nkcGvrJM21eXME3LQ4/view?usp=sharing";
+const PM2 ="https://drive.google.com/file/d/1ZsYknQF1X_Gin1yjhsQB4d0X6qXPtdo4/view?usp=sharing";
+const PM3 ="https://drive.google.com/file/d/1JrHUqnI3fMxuDA-wWXAJyzQAWnOYWqcP/view?usp=sharing";
+const PM4 ="https://drive.google.com/file/d/17VQd20XQYN0ncTiytEKjDE4ehwzeG8zz/view?usp=sharing";
+const PM5 ="https://drive.google.com/file/d/1ZJzGjHExGaSMF03rc1kKi1_tcgBe_Vso/view?usp=sharing";
+//Pharmaceutical Engineering
+const PE1 ="https://drive.google.com/file/d/1HyYAo9jY6c4i1daP9Fc8UzCRX1enuFji/view?usp=sharing";
+const PE2 ="https://drive.google.com/file/d/1PqaJWadzjf2fDlxJGz4y9mx-91DBruQ0/view?usp=sharing";
+const PE3 ="https://drive.google.com/file/d/154CW1p6Lpq4tZQIMkEBXk-mg9J1EmWFG/view?usp=sharing";
+const PE4 ="https://drive.google.com/file/d/1gW2sDiMSgeoGCHQ_a9OMgDn8L6Pv8eq3/view?usp=sharing";
+const PE5 ="https://drive.google.com/file/d/1sgVQ8PxeUpfpc2oeH9NxN9Va6Rq4aHxD/view?usp=sharing";
+//Human values and ethics
+const HVE1 ="https://drive.google.com/file/d/1FkbEadGREDMiWNzXPzmPMhdcj9gFygnu/view?usp=sharing";
+
+export const PSem3Subjects = [
+
+  {
+    subject : "Pharmaceutical Organic Chemistry 2",
+    units :[
+      {name:"unit-1", file:POC1 , displayName:"Unit-1"},
+      {name:"unit-2", file:POC2, displayName:"Unit-2"},
+      {name:"unit-3", file:POC3, displayName:"Unit-3"},
+      {name:"unit-4", file:POC4, displayName:"Unit-4"},
+      {name:"unit-5", file:POC5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Physical Pharmaceutics 1",
+    units :[
+      {name:"unit-1", file:P1 , displayName:"Unit-1"},
+      {name:"unit-2", file:P2, displayName:"Unit-2"},
+      {name:"unit-3", file:P3, displayName:"Unit-3"},
+      {name:"unit-4", file:P4, displayName:"Unit-4"},
+      {name:"unit-5", file:P5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmaceutical Microbiology",
+    units :[
+      {name:"unit-1", file:PM1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PM2, displayName:"Unit-2"},
+      {name:"unit-3", file:PM3, displayName:"Unit-3"},
+      {name:"unit-4", file:PM4, displayName:"Unit-4"},
+      {name:"unit-5", file:PM5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmaceutical Engineering",
+    units :[
+      {name:"unit-1", file:PE1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PE2, displayName:"Unit-2"},
+      {name:"unit-3", file:PE3, displayName:"Unit-3"},
+      {name:"unit-4", file:PE4, displayName:"Unit-4"},
+      {name:"unit-5", file:PE5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Human values and ethics",
+    units :[
+      {name:"Complete Notes", file:HVE1 , displayName:"Complete Notes"},
+    ]
+  }
+];
+//4th sem
+//Medicinal Chemistry 1
+const MC1 = "https://drive.google.com/file/d/1a0M6EFsh3kcZAPpOeqe2HUD2h0PNR-WI/view?usp=sharing";
+const MC2 = "https://drive.google.com/file/d/1ZBXgOTO6m6D17etFvDDuE5SQKDbMKGKM/view?usp=sharing";
+const MC3 = "https://drive.google.com/file/d/1ly8Fc1Xd6eIgk27d2iGDs-l7eDMfhW8x/view?usp=sharing";
+const MC4 = "https://drive.google.com/file/d/1zPjPR1zxcgLKSDYP3xHF-f2z5rQW5zsv/view?usp=sharing";
+const MC5 = "https://drive.google.com/file/d/1b78Fg9HxM6pPBImGHns0QDudOTyr8aSu/view?usp=sharing";
+//Pharmaceutical Organic Chemistry 3
+const POC31 = "https://drive.google.com/file/d/13VE69KosFyRfTNtvkRPda8X52RaScPBo/view?usp=sharing";
+const POC32 = "https://drive.google.com/file/d/1rd-YAlbb9h2OETsDoA2PmKp4NQJGaxGn/view?usp=sharing";
+const POC33 = "https://drive.google.com/file/d/1Qb4Nl40hcFxigLUzSQe4hOQ6txEmiSRX/view?usp=sharing";
+const POC34 = "https://drive.google.com/file/d/1Uc6O2Tl-WmmrpvcnnBLBNYgMFc8VdYN6/view?usp=sharing";
+const POC35 = "https://drive.google.com/file/d/162zQDjTiaDa7ZYsiqzzd3h8CXiHXP9Vi/view?usp=sharing";
+//Pharmacognosy 1
+const PG1 = "https://drive.google.com/file/d/13mmEqGhFrqX_eygDXvtReDST6G5hK2mD/view?usp=sharing";
+const PG2 = "https://drive.google.com/file/d/1w890U7ukud-OCIv_DvE6rLD5owcRoTvM/view?usp=sharing";
+const PG3 = "https://drive.google.com/file/d/1RRL54VqnfffL9z1Ug5xdCqGnL4txee10/view?usp=sharing";
+const PG4 = "https://drive.google.com/file/d/1bc3gUdcxuHZ1itWZ-kahoIXit4pzbA_k/view?usp=sharing";
+const PG5 = "https://drive.google.com/file/d/1ME4lK07aDk3yEr0VUzS7uNDGWlYvSBgZ/view?usp=sharing";
+//Pharmacology 1
+const Ph1 = "https://drive.google.com/file/d/1f5e9XuUf0wV5ffiSJoAGVY1YA6udMO3t/view?usp=sharing";
+const Ph2 = "https://drive.google.com/file/d/1Uxjwr_rdq5XLRgOTgSALgqmHvQ-mfqFY/view?usp=sharing";
+const Ph3 = "https://drive.google.com/file/d/14lKUviNZ62qQE1-uw_mmcIfkRE36sTqk/view?usp=sharing";
+const Ph4 = "https://drive.google.com/file/d/1jkQrlnimZmCiLaro7dAYtj28F6JKfDk_/view?usp=sharing";
+
+//Physical Pharmaceutics 2
+const PP1 ="https://drive.google.com/file/d/1SWhk4MrtGxQCOTH8XOoAhuNy9G_Jtijj/view?usp=sharing";
+const PP2 ="https://drive.google.com/file/d/17IFnOG7aDVhVioRmcqHSxBcRz2f5vAen/view?usp=sharing";
+const PP3 ="https://drive.google.com/file/d/1Y4NBoYxYbptYV1rdGdkRrUtKd_Sgz6Zj/view?usp=sharing";
+const PP4 ="https://drive.google.com/file/d/1bz3NbniBttDTaK10khd5rsrADVQJYQF0/view?usp=sharing";
+const PP5 ="https://drive.google.com/file/d/1RPo3jFa_cndlr0NdiY7PwzIrIqDnU8yn/view?usp=sharing";
+
+export const PSem4Subjects = [
+  
+  {
+    subject : "Medicinal Chemistry 1",
+    units :[
+      {name:"unit-1", file:MC1 , displayName:"Unit-1"},
+      {name:"unit-2", file:MC2, displayName:"Unit-2"},
+      {name:"unit-3", file:MC3, displayName:"Unit-3"},
+      {name:"unit-4", file:MC4, displayName:"Unit-4"},
+      {name:"unit-5", file:MC5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmaceutical Organic Chemistry 3",
+    units :[
+      {name:"unit-1", file:POC31 , displayName:"Unit-1"},
+      {name:"unit-2", file:POC32, displayName:"Unit-2"},
+      {name:"unit-3", file:POC33, displayName:"Unit-3"},
+      {name:"unit-4", file:POC34, displayName:"Unit-4"},
+      {name:"unit-5", file:POC35, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmacognosy 1",
+    units :[
+      {name:"unit-1", file:PG1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PG2, displayName:"Unit-2"},
+      {name:"unit-3", file:PG3, displayName:"Unit-3"},
+      {name:"unit-4", file:PG4, displayName:"Unit-4"},
+      {name:"unit-5", file:PG5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmacology 1",
+    units :[
+      {name:"unit-1", file:Ph1 , displayName:"Unit-1"},
+      {name:"unit-2", file:Ph2, displayName:"Unit-2"},
+      {name:"unit-3", file:Ph3, displayName:"Unit-3"},
+      {name:"unit-4", file:Ph4, displayName:"Unit-4"},
+    ]
+  },
+  {
+    subject : "Physical Pharmaceutics 2",
+    units :[
+      {name:"unit-1", file:PP1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PP2, displayName:"Unit-2"},
+      {name:"unit-3", file:PP3, displayName:"Unit-3"},
+      {name:"unit-4", file:PP4, displayName:"Unit-4"},
+      {name:"unit-5", file:PP5, displayName:"Unit-5"},
+    ]
+  }
+];
+
+//5th sem
+//Industrial Pharmacy 1
+const IP1 ="https://drive.google.com/file/d/10j3NcIGG3E2g8CPPYAMCYfmoXKoHOGRM/view?usp=sharing";
+const IP2 ="https://drive.google.com/file/d/1DwP9von2p7u3Qaav4qAKLVkKQeuLfgEc/view?usp=sharing";
+const IP3 ="https://drive.google.com/file/d/1yRbfQ4koB09hTR_1d2oAkUFb-dOaimgq/view?usp=sharing";
+//Medicinal Chemistry 2
+const Mec1= "https://drive.google.com/file/d/1dkySHq8PGTgJOHQYV5o6_3ae-GFk3MXA/view?usp=sharing";
+const Mec21= "https://drive.google.com/file/d/1Sz_yjisWd_fWRV1Q2YvCE0QPU94xksTr/view?usp=sharing";
+const Mec22= "https://drive.google.com/file/d/10ZH9E06sUV9skZ7CZ6J2mfM65R4ik70t/view?usp=sharing";
+const Mec23= "https://drive.google.com/file/d/1mqXek1mHhVgpGi-j0WMWUoX9b_1yHIoq/view?usp=sharing";
+const Mec3= "https://drive.google.com/file/d/16rh3RkuXoZy-j-rTYKxfpM1jDUyw-Rdh/view?usp=sharing";
+const Mec4= "https://drive.google.com/file/d/1EIOWL6NvWA1SfaoaQG06RvLQYm0p6d-9/view?usp=sharing";
+const Mec5= "https://drive.google.com/file/d/1An6BAgsmRDmd_bPl-h6A7xJ_gLlqircq/view?usp=sharing";
+//Pharmaceutical Jurisprudence
+const PJ1 ="https://drive.google.com/file/d/1u10P9txoovAkwszBtNBRr9zwZDGcXkIm/view?usp=sharing";
+const PJ2 ="https://drive.google.com/file/d/1NRAIXCgU8FmQ0Z3CVWaqPtyLmiFMyyBG/view?usp=sharing";
+const PJ3 ="https://drive.google.com/file/d/1YoqNgFxvLK4_MyLcDxWPMOqExezFZl8f/view?usp=sharing";
+const PJ4 ="https://drive.google.com/file/d/1LYdbgmN1aNYvRbxR-MJpu1sQuuvF-GaM/view?usp=sharing";
+const PJ5 ="https://drive.google.com/file/d/1grb9xpxIJhft7JmPxr_LCf50OIhsqyXA/view?usp=sharing";
+//Pharmacognosy 2
+const PC1 ="https://drive.google.com/file/d/1zFyjSVV8DUI_ijBNiikvchmH9SEMi1HT/view?usp=sharing";
+const PC2 ="https://drive.google.com/file/d/1hGxLOixaFnfAWd6W0YEFK5opkjSaFzCs/view?usp=sharing";
+const PC3 ="https://drive.google.com/file/d/1jb3PX45UflSG-JBXrm9UrAGGBvbgpQZU/view?usp=sharing";
+const PC4 ="https://drive.google.com/file/d/1XxMTZgBYo3Trm_LGU8wxGZ7Gmffo-Sln/view?usp=sharing";
+const PC5 ="https://drive.google.com/file/d/14wFCexacVFuN4JPSybi-DomKEcPdsboU/view?usp=sharing";
+//Pharmacology 2
+const PY11 = "https://drive.google.com/file/d/1zKA96xHWo1beD1yGpywharQpRVD0QfAE/view?usp=sharing";
+const PY12 = "https://drive.google.com/file/d/1QXtSbyHTkLyX6Kh_OQvXQGAxhZDcHQ6-/view?usp=sharing";
+const PY13 = "https://drive.google.com/file/d/1cpOCR2QgoHmn_UW27ZsgEl0K515zs7KJ/view?usp=sharing";
+const PY14 = "https://drive.google.com/file/d/14HKLNUg_MCnqrH5CeW0TwKIVOHBtgNqk/view?usp=sharing";
+const PY15 = "https://drive.google.com/file/d/14vMixaCWBB8mMCaVRbzl7zH_Rs4A9_8x/view?usp=sharing";
+const PY16 = "https://drive.google.com/file/d/1DX3ComWspP92et0GcfwLuBN31FIQbg0t/view?usp=sharing";
+const PY21 = "https://drive.google.com/file/d/1THqKnqYtuSlIIEO8T2v2XJCbzPmePDGH/view?usp=sharing";
+const PY22 = "https://drive.google.com/file/d/1ypuVkNAUVGznwiPxSYFH6cl5i4lVEDVP/view?usp=sharing";
+const PY23 = "https://drive.google.com/file/d/1urDxZIQpO9ygxygR8vwSLYpZslaLPJaZ/view?usp=sharing";
+const PY24 = "https://drive.google.com/file/d/1OOT6Zr75nKDOytu1DkVz4pocXthLbwUv/view?usp=sharing";
+const PY25 = "https://drive.google.com/file/d/1yQK_g6s1YlwsAhY-Unw-RoqlKS8rvFlQ/view?usp=sharing";
+const PY3 = "https://drive.google.com/file/d/14z0femV-F5-I3q9SmfSyxml0iF03zngJ/view?usp=sharing";
+const PY4 = "https://drive.google.com/file/d/1QfVypNHMuedMKgUcedWPK2CYobwwj1eL/view?usp=sharing";
+const PY5 = "https://drive.google.com/file/d/1bZJvnqgKoiswL2xMyDjHgR0Mq-FvWE4v/view?usp=sharing";
+
+export const PSem5Subjects =[
+   
+  {
+    subject : "Industrial Pharmacy 1",
+    units :[
+      {name:"unit-1", file:IP1 , displayName:"Unit-1"},
+      {name:"unit-2", file:IP2, displayName:"Unit-2"},
+      {name:"unit-3", file:IP3, displayName:"Unit-3"},
+    ]
+  },
+  {
+    subject : "Medicinal Chemistry 2",
+    units :[
+      {name:"Module-1", file:Mec1 , displayName:"Unit-1"},
+      {name:"Module-2", file:Mec21, displayName:"chapter-1"},
+      {name:"Module-2", file:Mec22, displayName:"chapter-2"},
+      {name:"Module-2", file:Mec23, displayName:"chapter-1"},
+      {name:"Module-3", file:Mec3, displayName:"Unit-3"},
+      {name:"Module-4", file:Mec4, displayName:"Unit-4"},
+      {name:"Module-5", file:Mec5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmaceutical Jurisprudence",
+    units :[
+      {name:"unit-1", file:PJ1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PJ2, displayName:"Unit-2"},
+      {name:"unit-2", file:PJ3, displayName:"Unit-3"},
+      {name:"unit-2", file:PJ4, displayName:"Unit-4"},
+      {name:"unit-3", file:PJ5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmacognosy 2",
+    units :[
+      {name:"unit-1", file:PC1 , displayName:"Unit-1"},
+      {name:"unit-2", file:PC2, displayName:"Unit-2"},
+      {name:"unit-2", file:PC3, displayName:"Unit-3"},
+      {name:"unit-2", file:PC4, displayName:"Unit-4"},
+      {name:"unit-3", file:PC5, displayName:"Unit-5"},
+    ]
+  },
+  {
+    subject : "Pharmacology 2",
+    units :[
+      {name:"Module-1", file:PY11 ,displayName:"Chapter-1"},
+      {name:"Module-1", file:PY12, displayName:"Chapter-2"},
+      {name:"Module-1", file:PY13, displayName:"Chapter-3"},
+      {name:"Module-1", file:PY14, displayName:"Chapter-4"},
+      {name:"Module-1", file:PY15, displayName:"Chapter-5"},
+      {name:"Module-1", file:PY16, displayName:"Chapter-6"},
+      {name:"Module-2", file:PY21, displayName:"Chapter-1"},
+      {name:"Module-2", file:PY22, displayName:"Chapter-2"},
+      {name:"Module-2", file:PY23, displayName:"Chapter-3"},
+      {name:"Module-2", file:PY24, displayName:"Chapter-4"},
+      {name:"Module-2", file:PY25, displayName:"Chapter-5"},
+      {name:"Module-3", file:PY3, displayName:"Unit-3"},
+      {name:"Module-4", file:PY4, displayName:"Unit-4"},
+      {name:"Module-5", file:PY5, displayName:"Unit-5"},
+    ]
+  }
+
+]
